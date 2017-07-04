@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_specification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_bc"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_structure"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/imageView_history"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/imageView_position"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <com.dr.rui.sotired.ScrollView.MyScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0">
+
+            <TableRow android:id="@+id/tableRow_structure">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="结构信息："
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView_structure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/gray"
+                        android:text="\n\t\t箫由一根竹管做成，较曲笛长，上端留有竹节，下端和管内去节中空，吹口开在上端边沿，由此处吹气发音。在箫管中部，正面开有五个音孔，背面开有一个音孔。\n"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView_struct"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView_structure"
+                        android:scaleType="centerCrop" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/imageView_struct"></View>
+                </RelativeLayout>
+            </TableRow>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="历史信息："
+                android:textColor="@android:color/white"
+                android:textSize="25dp" />
+
+            <TableRow android:id="@+id/tableRow_history">
+
+                <TextView
+                    android:id="@+id/textView_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gray"
+                    android:text="历史：\n\t\t箫的产生，其历史可以追根溯源到远古时期。中国考古学表明，目前出土文物中发现了有距今七千多年的骨质发生器，考古学家称之为“骨哨”。箫曾在中国音乐史上经历过多年的辉煌时代。周代，曾将我国古代乐器分为“八音”，它们分别是金，石，丝，竹，匏，土，革，木八类乐器，其中“竹”就是指箫和箎。竹就是排箫的前身。"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow_position">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\n\n\n乐队位置："
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView_position_band"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_below="@+id/textView_position"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/imageView_position_band"></View>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </com.dr.rui.sotired.ScrollView.MyScrollView>
+
+</LinearLayout>

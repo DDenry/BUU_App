@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/study_on_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:visibility="gone">
+
+
+    <ImageView
+        android:id="@+id/study_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/xingxing" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/study_img">
+
+        <TextView
+            android:id="@+id/study_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/study_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="2"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/study_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="4"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/study_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="3"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/study_img"
+        android:background="@mipmap/study_kuang" />
+
+
+</RelativeLayout>

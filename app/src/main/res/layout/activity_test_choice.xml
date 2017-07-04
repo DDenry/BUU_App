@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="8"
+    android:background="@color/vpi__bright_foreground_holo_dark"
+    android:orientation="vertical"
+    tools:context="com.dr.rui.sotired.Activity.Activity_Choice">
+
+    <include layout="@layout/top"></include>
+
+    <ImageView
+        android:id="@+id/imageView_choice_zhuanxiang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"></View>
+
+    <ImageView
+        android:id="@+id/imageView_choice_zonghe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:scaleType="fitXY" />
+
+    <include layout="@layout/bottom"></include>
+
+</LinearLayout>

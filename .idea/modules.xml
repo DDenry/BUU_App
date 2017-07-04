@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SoTired.iml" filepath="$PROJECT_DIR$/SoTired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchButton/SwitchButton.iml" filepath="$PROJECT_DIR$/SwitchButton/SwitchButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle_menu/circle_menu.iml" filepath="$PROJECT_DIR$/circle_menu/circle_menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ken_burns_view/ken_burns_view.iml" filepath="$PROJECT_DIR$/ken_burns_view/ken_burns_view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muco_test/muco_test.iml" filepath="$PROJECT_DIR$/muco_test/muco_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tab_page_indicator/tab_page_indicator.iml" filepath="$PROJECT_DIR$/tab_page_indicator/tab_page_indicator.iml" />
+    </modules>
+  </component>
+</project>

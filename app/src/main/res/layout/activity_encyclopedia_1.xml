@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_circle_indicator_stroke_color"
+    android:orientation="vertical">"
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/left_arrow" />
+    </LinearLayout>-->
+    <include layout="@layout/tab"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@color/vpi__bright_foreground_holo_dark"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_yanzoufangshi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/yanzoufangshi_0" />
+
+        <ImageView
+            android:id="@+id/imageView_yueduipeizhi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/yueduipeizhi_0" />
+
+        <ImageView
+            android:id="@+id/imageView_fashengyuanli"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/fashengyuanli_0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_encyclopedia"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <include layout="@layout/bottom"></include>
+</LinearLayout>

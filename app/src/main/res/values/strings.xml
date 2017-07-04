@@ -1,0 +1,27 @@
+<resources>
+    <string name="server_version_url">http://ddeny4app.applinzi.com/BUU/version.xml</string>
+    <string name="server_apk_url">http://7xkqzu.com1.z0.glb.clouddn.com/MusicalInstrument.apk</string>
+    <string name="app_name">乐器百科</string>
+    <string name="title_activity_activity__indicator">Activity_Indicator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity__welcome">乐器百科</string>
+    <string name="title_activity_activity__main_page">Activity_MainPage</string>
+    <string name="title_activity_activity__blow">Activity_Blow</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_instrument">Activity_instrument</string>
+    <string name="title_activity_activity__wooden_pipe">Activity_WoodenPipe</string>
+    <string name="title_activity_activity_blow_1">activity_blow_1</string>
+    <string name="title_activity_activity__first__page">Activity_First_Page</string>
+    <string name="title_activity_activity__encyclopedia">Activity_Encyclopedia</string>
+    <string name="title_activity_activity__tan">Activity_Tan</string>
+    <string name="title_activity_activity__choice">Activity_Choice</string>
+    <string name="title_activity_activity_bolw_nation">Activity_bolw_nation</string>
+    <string name="title_activity_activity_blow_occidant">Activity_blow_occidant</string>
+    <string name="title_activity_activity_tan_nation">Activity_tan_nation</string>
+    <string name="title_activity_activity_da_nation">Activity_da_nation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_blow_xianming">Activity_blow_xianming</string>
+</resources>

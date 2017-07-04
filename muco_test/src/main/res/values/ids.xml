@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="w1" type="id" />
+    <item name="w2" type="id" />
+    <item name="w3" type="id" />
+    <item name="w4" type="id" />
+    <item name="w5" type="id" />
+    <item name="w6" type="id" />
+    <item name="w7" type="id" />
+    <item name="w8" type="id" />
+    <item name="w9" type="id" />
+    <item name="w10" type="id" />
+
+    <item name="w11" type="id" />
+    <item name="w12" type="id" />
+    <item name="w13" type="id" />
+    <item name="w14" type="id" />
+    <item name="w15" type="id" />
+    <item name="w16" type="id" />
+    <item name="w17" type="id" />
+    <item name="w18" type="id" />
+    <item name="w19" type="id" />
+    <item name="w20" type="id" />
+
+    <item name="w21" type="id" />
+    <item name="w22" type="id" />
+    <item name="w23" type="id" />
+    <item name="w24" type="id" />
+    <item name="w25" type="id" />
+    <item name="w26" type="id" />
+    <item name="w27" type="id" />
+    <item name="w28" type="id" />
+    <item name="w29" type="id" />
+    <item name="w30" type="id" />
+
+    <item name="w31" type="id" />
+    <item name="w32" type="id" />
+    <item name="w33" type="id" />
+    <item name="w34" type="id" />
+    <item name="w35" type="id" />
+    <item name="w36" type="id" />
+    <item name="w37" type="id" />
+    <item name="w38" type="id" />
+    <item name="w39" type="id" />
+    <item name="w40" type="id" />
+
+    <item name="w41" type="id" />
+    <item name="w42" type="id" />
+    <item name="w43" type="id" />
+    <item name="w44" type="id" />
+    <item name="w45" type="id" />
+    <item name="w46" type="id" />
+    <item name="w47" type="id" />
+    <item name="w48" type="id" />
+    <item name="w49" type="id" />
+    <item name="w50" type="id" />
+
+    <item name="w51" type="id" />
+    <item name="w52" type="id" />
+
+
+    <item name="b1" type="id" />
+    <item name="b2" type="id" />
+    <item name="b3" type="id" />
+    <item name="b4" type="id" />
+    <item name="b5" type="id" />
+    <item name="b6" type="id" />
+    <item name="b7" type="id" />
+    <item name="b8" type="id" />
+    <item name="b9" type="id" />
+    <item name="b10" type="id" />
+
+    <item name="b11" type="id" />
+    <item name="b12" type="id" />
+    <item name="b13" type="id" />
+    <item name="b14" type="id" />
+    <item name="b15" type="id" />
+    <item name="b16" type="id" />
+    <item name="b17" type="id" />
+    <item name="b18" type="id" />
+    <item name="b19" type="id" />
+    <item name="b20" type="id" />
+
+    <item name="b21" type="id" />
+    <item name="b22" type="id" />
+    <item name="b23" type="id" />
+    <item name="b24" type="id" />
+    <item name="b25" type="id" />
+    <item name="b26" type="id" />
+    <item name="b27" type="id" />
+    <item name="b28" type="id" />
+    <item name="b29" type="id" />
+    <item name="b30" type="id" />
+
+    <item name="b31" type="id" />
+    <item name="b32" type="id" />
+    <item name="b33" type="id" />
+    <item name="b34" type="id" />
+    <item name="b35" type="id" />
+    <item name="b36" type="id" />
+
+
+    <item name="t1" type="id" />
+    <item name="t2" type="id" />
+    <item name="t3" type="id" />
+    <item name="t4" type="id" />
+    <item name="t5" type="id" />
+    <item name="t6" type="id" />
+    <item name="t7" type="id" />
+    <item name="t8" type="id" />
+    <item name="t9" type="id" />
+    <item name="t10" type="id" />
+
+    <item name="t11" type="id" />
+    <item name="t12" type="id" />
+    <item name="t13" type="id" />
+    <item name="t14" type="id" />
+    <item name="t15" type="id" />
+    <item name="t16" type="id" />
+    <item name="t17" type="id" />
+    <item name="t18" type="id" />
+    <item name="t19" type="id" />
+    <item name="t20" type="id" />
+
+    <item name="t21" type="id" />
+    <item name="t22" type="id" />
+    <item name="t23" type="id" />
+    <item name="t24" type="id" />
+    <item name="t25" type="id" />
+    <item name="t26" type="id" />
+    <item name="t27" type="id" />
+    <item name="t28" type="id" />
+    <item name="t29" type="id" />
+    <item name="t30" type="id" />
+
+    <item name="t31" type="id" />
+    <item name="t32" type="id" />
+    <item name="t33" type="id" />
+    <item name="t34" type="id" />
+    <item name="t35" type="id" />
+    <item name="t36" type="id" />
+    <item name="t37" type="id" />
+    <item name="t38" type="id" />
+    <item name="t39" type="id" />
+    <item name="t40" type="id" />
+
+    <item name="t41" type="id" />
+    <item name="t42" type="id" />
+    <item name="t43" type="id" />
+    <item name="t44" type="id" />
+    <item name="t45" type="id" />
+    <item name="t46" type="id" />
+    <item name="t47" type="id" />
+    <item name="t48" type="id" />
+    <item name="t49" type="id" />
+    <item name="t50" type="id" />
+
+    <item name="t51" type="id" />
+    <item name="t52" type="id" />
+
+    <!-- 古琴ids -->
+    <item name="g1" type="id" />
+    <item name="g2" type="id" />
+    <item name="g3" type="id" />
+    <item name="g4" type="id" />
+    <item name="g5" type="id" />
+    <item name="g6" type="id" />
+    <item name="g7" type="id" />
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/textView_test_content_question"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="\t\t\t\t “民族拨弦乐器，中国最古老的弹拨乐器之一。又称瑶琴、玉琴、丝桐和七弦琴，有三千年以上历史，属于八音中的丝。”描述的是下列哪种乐器？"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_A"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/unselected"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="古琴"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_B"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/unselected"
+                    android:gravity="center"
+                    android:text="B"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="三弦"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_C"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/unselected"
+                    android:gravity="center"
+                    android:text="C"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="阮"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_D"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/unselected"
+                    android:gravity="center"
+                    android:text="D"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView_test_content_choice_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="长号"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>-->
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

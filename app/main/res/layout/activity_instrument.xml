@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tab"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_spe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <ImageView
+            android:id="@+id/imageView_struct_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:src="@drawable/jianjie1"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imageView_history_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:src="@drawable/yinyue" />
+
+        <ImageView
+            android:id="@+id/imageView_position_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:src="@drawable/jiqiao" />
+
+    </LinearLayout>
+</LinearLayout>

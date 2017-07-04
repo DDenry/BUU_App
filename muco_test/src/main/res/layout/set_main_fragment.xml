@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ScrollView 里只能装1个容器或组件 -->
+    <com.zain.buu.muco_test.view.MyScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/set_background2" />
+
+    </com.zain.buu.muco_test.view.MyScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/img_Logo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@mipmap/logo_top"
+            android:orientation="horizontal"></LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/myfirstlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_Logo"
+            android:background="#affe"
+            android:orientation="vertical">
+
+            <!-- 西洋乐器 -->
+            <com.zain.buu.muco_test.view.SettingItemView
+                android:id="@+id/xiyangPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.zain.buu.muco_test.view.SettingItemView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#b2b2b2"></LinearLayout>
+
+
+            <!-- 钢琴乐器 -->
+            <com.zain.buu.muco_test.view.SettingItemView
+                android:id="@+id/pianoPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></com.zain.buu.muco_test.view.SettingItemView>
+
+            <LinearLayout
+                android:id="@+id/pianoPage_outline"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#b2b2b2"
+                android:orientation="horizontal"
+                android:visibility="gone"></LinearLayout>
+
+
+            <!-- 民族乐器 -->
+            <com.zain.buu.muco_test.view.SettingItemView
+                android:id="@+id/minzuPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.zain.buu.muco_test.view.SettingItemView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#b2b2b2"></LinearLayout>
+
+            <!-- 古琴乐器 -->
+            <com.zain.buu.muco_test.view.SettingItemView
+                android:id="@+id/guqinPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></com.zain.buu.muco_test.view.SettingItemView>
+
+            <LinearLayout
+                android:id="@+id/guqinPage_outline"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#b2b2b2"
+                android:orientation="horizontal"
+                android:visibility="gone"></LinearLayout>
+
+            <!-- 快乐学习 -->
+            <com.zain.buu.muco_test.view.SettingItemView
+                android:id="@+id/happyPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.zain.buu.muco_test.view.SettingItemView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#b2b2b2"></LinearLayout>
+
+
+            <!-- 录音管理 -->
+            <com.zain.buu.muco_test.view.SettingItemView
+                android:id="@+id/luyinPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.zain.buu.muco_test.view.SettingItemView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#b2b2b2"></LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

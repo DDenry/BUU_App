@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dr.rui.sotired.Activity.Activity_Blow_Nation">
+
+    <include layout="@layout/tab"></include>
+
+    <ListView
+        android:id="@+id/listView_blow_nation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+    <include layout="@layout/bottom"></include>
+</LinearLayout>

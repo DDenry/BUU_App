@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dr.rui.sotired.Activity.Activity_About_Us">
+
+    <include layout="@layout/title"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/logo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="《关于我们》"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t本软件是一款能够在Android手机上运行的多媒体互动教育类APP，名称为“乐器百科”。《乐器百科》的团队人员均来自北京联合大学的老师和学生作品，项目起初源于学校“启明星”项目，经过长时间的坚持和努力渐渐成熟。\n\t\t\t\t参与人员：\n\t\t\t\t指导老师：吴帆、张慧姝；\n\t\t\t\t参与学生：田丽、邓锐、顾然、莫清宇、刘畅、郭红力、赵海帆、董子文"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设计目的："
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t为了满足广大乐器爱好者在移动设备上方便、快捷的学习乐器知识的需求,提升学习乐器的兴趣，帮助其快速了解乐器知识。"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="基本设计思路："
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t软件包括乐器百科、自我测试和虚拟弹奏三个模块。\n\t\t\t\t乐器百科模块可对乐器知识进行分类浏览，包括常见的西洋和民族乐器共计60种，以文字、图片、音频、视频多种媒体形式呈现，且具有搜索功能。乐器知识测试模块是对乐器百科部分的知识进行综合测试，以检测学习者对乐器的了解程度。虚拟弹奏模块可对个别乐器进行虚拟弹奏，以帮助学习者进一步加深乐器音色和乐器结构的认识，提高学习兴趣。"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="创新点："
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 所有功能和UI界面均为原创设计，功能多样，界面美观。\n2. 乐器介绍内容为独立整理，部分音频和视频为原创录制。\n3. 乐器种类丰富，涵盖多种中国民族乐器，突出民族特色。"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="主要技术指标："
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.可安装在Android手机上运行。\n2.60种乐器的知识以多种媒体形式呈现，图片资料达240张，音频文件180个，视频文件60个。\n3.包括分类浏览、乐器搜索、音视频在线播放、测试与反馈和虚拟弹奏多种功能。"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="本作品的科学性和先进性体现在以下几个方面："
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.本作品对乐器介绍的种类丰富，共计介绍了西洋，民族乐器60种，基本覆盖到常见的各类乐器，虚拟弹奏部分也增加了民族乐器，弥补了国外同类软件对中国民族乐器关注不足的缺陷。\n2.乐器知识全面准确，涵盖了乐器历史、构造、发声原理、音色、乐队位置、独奏和合奏音乐范例、演奏技巧视频等，在同类软件中并不多见。所有文字基于专业书籍和专业网站整理，图片进行了精心的制作和处理，音频素材音质良好，视频素材部分为原创拍摄。\n3.软件功能多样，有利用激发使用者对乐器的学习兴趣。不但包括乐器知识的介绍，还包括自我测试和虚拟弹奏，增加了互动性和趣味性，从多个角度帮助用户了解乐器。\n4.内容呈现方式多媒体化，UI设计美观大方，较同类APP有较大进步，体现了艺术与技术的结合。\n5.音频和视频素材能够在线播放，缩小了APP的占用空间，便于传播和及时更新。"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="本软件不同于同其他软件技术性分析："
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.国内外全面介绍乐器知识教育软件较少，尤其缺乏对中国民族乐器的介绍。且国外软件界面为全英文，不适合中国用户。本软件对民族乐器的介绍达30种。\n2.国内介绍乐器知识的APP大多界面粗糙，内容单一，不足以引起用户的兴趣，本APP对乐器的介绍详细且全面，内容呈现多媒体化，界面美观大方。\n3.本作品将百科知识、测试和虚拟弹奏三项功能综合于一体，使用户全方位对乐器进行学习。"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

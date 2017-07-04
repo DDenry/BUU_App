@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 自定义底栏布局 -->
+    <com.zain.buu.muco_test.view.BottomLayout
+        android:id="@+id/BottomLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eee">
+
+    </com.zain.buu.muco_test.view.BottomLayout>
+
+    <!-- 自定义碎片布局 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myViewPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/BottomLayout_main">
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

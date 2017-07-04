@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.dr.rui.sotired.Activity.Activity_MainPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton_encyclopeadia"
+            android:layout_width="0dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="5"
+            android:background="@android:color/transparent"
+            android:padding="3dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/imageButton_test"
+            android:layout_width="0dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:padding="3dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageButton_perform"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:padding="3dp"
+            android:scaleType="fitXY" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton_about"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:padding="3dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+</RelativeLayout>

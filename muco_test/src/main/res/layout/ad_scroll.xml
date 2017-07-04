@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myViewPage_ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#9000"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@mipmap/point_normal" />
+
+        <ImageView
+            android:id="@+id/imgTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@mipmap/point_normal" />
+
+        <ImageView
+            android:id="@+id/imgThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@mipmap/point_normal" />
+
+        <ImageView
+            android:id="@+id/imgFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@mipmap/point_normal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

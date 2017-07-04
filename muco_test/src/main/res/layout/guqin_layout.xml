@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 操作头 start -->
+    <RelativeLayout
+        android:id="@+id/caozuotop_piano_part"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <!-- 活动名称 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="古琴"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <!-- 返回主页按钮 -->
+        <Button
+            android:id="@+id/main_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+
+
+        <!-- 录音按钮 -->
+        <ImageView
+            android:id="@+id/luyin_buttom"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/muco_piano_top1_go" />
+        <!-- 录音时间 -->
+        <Chronometer
+            android:id="@+id/ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/luyin_buttom"
+            android:textSize="20dp" />
+        <!-- 录音提示 -->
+        <TextView
+            android:id="@+id/luyin_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/ch"
+            android:text="" />
+
+        <!-- 学习模式-头 start -->
+        <ImageView
+            android:id="@+id/study_on"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/main_back"
+            android:background="@mipmap/study_on" />
+
+        <include
+            layout="@layout/study_top_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true" />
+
+        <!-- 学习模式-头 end -->
+
+    </RelativeLayout>
+    <!-- 操作头 end -->
+
+
+    <!-- 琴键操作 start -->
+    <LinearLayout
+        android:id="@+id/key_guqin_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caozuotop_piano_part"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/long_split" />
+
+        <!-- 琴键操作p1 start -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <!-- 向左按钮 -->
+            <LinearLayout
+                android:id="@+id/oneLeft"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@mipmap/one_left" />
+            </LinearLayout>
+
+            <!-- 向左最大按钮 -->
+            <LinearLayout
+                android:id="@+id/topLeft"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@mipmap/top_left" />
+            </LinearLayout>
+
+
+            <!-- 全部琴键部分 start -->
+            <RelativeLayout
+                android:id="@+id/key_guqin_all_select_view"
+                android:layout_width="400dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/all_key_kuang_max">
+
+                <!-- 全部琴键图片 -->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@mipmap/muco_guqin_longkey" />
+
+                <!-- 小滑块图片 -->
+                <com.zain.buu.muco_test.view.DrawSelectView
+                    android:id="@+id/key_guqin_all_select_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2.5dp" />
+
+
+            </RelativeLayout>
+            <!-- 全部琴键部分 end -->
+
+            <!-- 向右最大按钮 -->
+            <LinearLayout
+                android:id="@+id/topRight"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@mipmap/top_right" />
+            </LinearLayout>
+
+            <!-- 向右按钮 -->
+            <LinearLayout
+                android:id="@+id/oneRight"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@mipmap/one_right" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- 琴键操作p1 end -->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/long_split" />
+
+    </LinearLayout>
+    <!-- 琴键操作 end -->
+
+
+    <!-- 琴键部分 start -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/key_guqin_part"
+        android:background="#050505"
+        android:orientation="vertical">
+
+        <com.zain.buu.muco_test.view.PianoKeyScrollView
+            android:id="@+id/myhsv1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:scrollbars="none">
+
+            <include layout="@layout/guqin_key_layout" />
+
+
+        </com.zain.buu.muco_test.view.PianoKeyScrollView>
+
+    </LinearLayout>
+    <!-- 琴键部分 end -->
+
+
+    <!-- 录音界面 start -->
+    <RelativeLayout
+        android:id="@+id/medio_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"></RelativeLayout>
+    <!-- 录音界面 end -->
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dr.rui.sotired">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Util.ContextUtil"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+        <activity
+            android:name=".Activity.Activity_Indicator"
+            android:label="@string/title_activity_activity__indicator"
+            android:theme="@style/Theme.PageIndicatorDefaults" />
+        <activity
+            android:name=".Activity.Activity_Welcome"
+            android:label="@string/title_activity_activity__welcome"></activity>
+        <activity
+            android:name=".Activity.Activity_MainPage"
+            android:label="@string/title_activity_activity__main_page" />
+        <activity
+            android:name=".Activity.Activity_Blow"
+            android:label="@string/title_activity_activity__blow" />
+        <activity
+            android:name=".Activity.Activity_Instrument"
+            android:label="@string/title_activity_activity_instrument" />
+        <activity
+            android:name=".Activity.Activity_WoodenPipe"
+            android:label="@string/title_activity_activity__wooden_pipe" />
+        <activity
+            android:name=".Activity.activity_blow_1"
+            android:label="@string/title_activity_activity_blow_1" />
+        <activity
+            android:name=".Activity.Activity_La_Nation"
+            android:label="Activity_La" />
+        <activity
+            android:name=".Activity.Activity_First_Page"
+            android:label="@string/title_activity_activity__first__page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Activity_Encyclopedia"
+            android:label="@string/title_activity_activity__encyclopedia"></activity>
+        <activity
+            android:name=".Activity.Activity_Tan"
+            android:label="@string/title_activity_activity__tan"></activity>
+        <activity android:name=".Activity.Activity_Instrument_1"></activity>
+        <activity
+            android:name=".Activity.Activity_Choice"
+            android:label="@string/title_activity_activity__choice"></activity>
+        <activity
+            android:name=".Activity.Activity_Blow_Nation"
+            android:label="@string/title_activity_activity_bolw_nation"></activity>
+        <activity
+            android:name=".Activity.Activity_Blow_Occident"
+            android:label="@string/title_activity_activity_blow_occidant"></activity>
+        <activity
+            android:name=".Activity.Activity_Tan_Nation"
+            android:label="@string/title_activity_activity_tan_nation"></activity>
+        <activity
+            android:name=".Activity.Activity_Da_Nation"
+            android:label="@string/title_activity_activity_da_nation"></activity>
+    </application>
+
+</manifest>
