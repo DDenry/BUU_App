@@ -81,6 +81,7 @@ public class Activity_Instrument_1 extends Activity {
     private ViewPager viewPager_spe;
     private PagerAdapter pagerAdapter;
     private List<View> view = new ArrayList<>();
+    private ImageView imageView_search;
     private ImageView imageView_struct_1;
     private ImageView imageView_history_1;
     private ImageView imageView_position_1;
@@ -1106,6 +1107,9 @@ public class Activity_Instrument_1 extends Activity {
     }
 
     private void init() {
+        //
+        imageView_search = (ImageView) findViewById(R.id.imageView_search);
+        imageView_search.setOnClickListener(new onClickListener());
 
         ImageLoaderConfiguration config = new ImageLoaderConfiguration
                 .Builder(this)
@@ -1363,6 +1367,11 @@ public class Activity_Instrument_1 extends Activity {
         public void onClick(View v) {
             switch (v.getId()) {
                 //
+                case R.id.imageView_search:
+                    Intent intent = new Intent(Activity_Instrument_1.this, Activity_Search.class);
+                    startActivity(intent);
+                    break;
+                //
                 case R.id.imageView_instrument_like:
                     //如果已经登录
                     if (Activity_Main.LoginState) {
@@ -1464,8 +1473,10 @@ public class Activity_Instrument_1 extends Activity {
                     break;
                 //
                 case R.id.textView_guide:
-                    Intent intent = new Intent(Activity_Instrument_1.this, Activity_First_Page.class);
-                    startActivity(intent);
+                    Intent intent0 = new Intent(Activity_Instrument_1.this, Activity_First_Page.class);
+                    startActivity(intent0);
+                    //
+                    Activity_Instrument_1.this.finish();
                     break;
                 //
                 case R.id.textView_guide1:
