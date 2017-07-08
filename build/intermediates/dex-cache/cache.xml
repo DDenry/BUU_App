@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="466d44949cf8f696c5705c8fa341ba82f3d965d8">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_67edd198752b3acd8ec9bc0e3905d14fd159688a\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="D:\My Code\Android\SoTired\muco_test\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
@@ -20,6 +29,24 @@
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_713ebef7da296d35b75db7b179d75b0a06e1e7a6.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.3_a01777f996dad04aa2981868dd24e4250816092c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.8.3_2ac80b96d1b63ce227597ae65c883095b4c762d0\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
         jumboMode="false"
@@ -36,6 +63,24 @@
         revision="25.0.0"
         sha1="1fa180148e422c0e7410219fc1f2a772f94abdc4">
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_01886593ed89fbd789c6d421d1f04726b949cc35.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.8.3_b23ccb58f44fbba64ed26c268be42a720c0f1506\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-SinaWeibo-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23b18b312360535b71c0702b842da81fbadcdba3">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.8.3_228b74f297670e2678a5ac72d3e37138efd061ef\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -65,6 +110,24 @@
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0412.1554_124310fafa7f2cc0daaaf66d8520a56da32cb4fc.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.8.3_83e52a0623108e38ecd47b8bf075bd5527f72a2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\MobTools-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0412.1554_e183f576cbcce50c77bd24688c58c695e7f4b757\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Core-2.8.3.jar"
         jumboMode="false"
@@ -72,6 +135,24 @@
         revision="25.0.0"
         sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.8.3_b23ccb58f44fbba64ed26c268be42a720c0f1506.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0412.1554_124310fafa7f2cc0daaaf66d8520a56da32cb4fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_33eb52309977e27ee2d1eaa80e3ea4fa07240862\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -99,6 +180,15 @@
         revision="25.0.0"
         sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.8.3_51d14dd3a45b4b565391df8a2cb9464e78c2364c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.8.3_51d14dd3a45b4b565391df8a2cb9464e78c2364c\classes.dex" />
     </item>
     <item
         is-multidex="false"
