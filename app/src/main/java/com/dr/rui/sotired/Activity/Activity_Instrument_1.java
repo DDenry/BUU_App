@@ -139,7 +139,6 @@ public class Activity_Instrument_1 extends Activity {
                     imageView_music_pic.setAnimation(animationSet);
                     imageView_music_pic.startAnimation(animationSet);
                     imageView_music_play.setImageBitmap(Image.readBitMap(Activity_Instrument_1.this, R.drawable.circle_pause_big));
-
                     break;
 
                 case 4:

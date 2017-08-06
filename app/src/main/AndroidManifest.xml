@@ -47,11 +47,13 @@
         <activity
             android:name=".Activity.Activity_La_Nation"
             android:label="Activity_La"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_First_Page"
             android:label="@string/app_name"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Encyclopedia"
             android:label="@string/title_activity_activity__encyclopedia"
@@ -59,10 +61,12 @@
         <activity
             android:name=".Activity.Activity_Tan"
             android:label="@string/title_activity_activity__tan"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Instrument_1"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Choice"
             android:label="@string/title_activity_activity__choice"
@@ -74,59 +78,73 @@
         <activity
             android:name=".Activity.Activity_Blow_Occident"
             android:label="@string/title_activity_activity_blow_occidant"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Tan_Nation"
             android:label="@string/title_activity_activity_tan_nation"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Da_Nation"
             android:label="@string/title_activity_activity_da_nation"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Test_Single"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Test_Choice"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Test_Content"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity android:name=".Activity.Activity_Test_Tutti" />
         <activity android:name=".Activity.Activity_Test_Recognition" />
         <activity android:name=".Activity.Activity_Test_Position" />
         <activity
             android:name=".Activity.Activity_Search"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Browse_News"
             android:launchMode="singleTask" />
         <activity android:name=".Activity.Activity_Test_Special" />
         <activity
             android:name=".Activity.Activity_About_Us"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Test_Question"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_La_Occident"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Tan_Occident"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Da_Occident"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity android:name=".Activity.Activity_Self_Check" />
 
         <service android:name=".Update.UpdateService" />
 
         <activity
             android:name=".Activity.Activity_Xianming_Nation"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activity.Activity_Xianming_Occident"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity android:name=".Activity.Activity_Qiming_Nation" />
         <activity android:name=".Activity.Activity_Qiming_Occident" />
         <activity android:name=".Activity.Activity_Timing_Nation" />
@@ -140,7 +158,8 @@
         <activity
             android:name=".Activity.Activity_Main"
             android:label="@string/app_name"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
