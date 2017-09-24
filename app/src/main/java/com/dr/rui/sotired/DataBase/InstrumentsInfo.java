@@ -103,9 +103,9 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%BA%A2%E6%A5%BC%E6%A2%A6%20-%20%E8%91%AC%E8%8A%B1%E5%90%9F%20-%20%E8%90%A7%20%E7%94%B5%E8%A7%86%E5%89%A7.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%BA%A2%E6%A5%BC%E6%A2%A6%20-%20%E5%8F%B9%E9%A6%99%E8%8F%B1%20-%20A%20Sigh%20Of%20The%20Maid%20Xiangl%20%E8%90%A7.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《平湖秋月》");
-                instrument.setMusic_name2("《红楼梦 - 葬花吟》");
-                instrument.setMusic_name3("《红楼梦 - 叹香菱》");
+                instrument.setMusic_name1("平湖秋月");
+                instrument.setMusic_name2("红楼梦 - 葬花吟");
+                instrument.setMusic_name3("红楼梦 - 叹香菱");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t箫的音色柔和，典雅，低音区，深沉而有共鸣，弱奏时很有特色，但发音比较困难。中音区，圆润而纤美，是常用音区。高音区，稍紧张，窄而明亮，较少用。超高音区，尖锐，干涩，极少用。箫的音量很弱，力度幅度变化不大，大约在最弱（ppp）~ 中强（mf）之间。箫的定调不一，常见的为G调，还有F调、C调等。6个音孔全闭时，筒音为（d1），通过超吹，音域由（d1～e3），有两个八度另一个大二度。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/video_xiao.mp4");
@@ -123,7 +123,7 @@ public class InstrumentsInfo {
                 instrument.setPic_spe(R.drawable.sheng);
                 instrument.setPic_struct(R.drawable.struct_sheng);
                 instrument.setBrief1("\t\t\t\t笙，吹孔簧鸣乐器，起源于中国，是世界上最早使用自由簧的乐器。发音清越、高雅、音质柔和、歌唱性强，具有中国民间色彩。");
-                instrument.setBrief0("\t\t\t\t笙是由笙苗中簧片发声，吹气及吸气皆能发声，能奏和声。可分成高音笙、中音笙、低音笙、传统笙。\n    笙的构造比较复杂。它是由笙斗、吹嘴、笙苗（又称笙管）、笙角、簧片和腰箍等部件组成。 笙斗圆形，笙斗和吹嘴铜制，焊接后合为一体。笙管上端有长方形或亚铃形出音孔，下开圆形按音孔，下端与笙角相接。\\n\"");
+                instrument.setBrief0("\t\t\t\t笙是由笙苗中簧片发声，吹气及吸气皆能发声，能奏和声。可分成高音笙、中音笙、低音笙、传统笙。笙的构造比较复杂，它是由笙斗、吹嘴、笙苗（又称笙管）、笙角、簧片和腰箍等部件组成。笙斗圆形，笙斗和吹嘴铜制，焊接后合为一体。笙管上端有长方形或亚铃形出音孔，下开圆形按音孔，下端与笙角相接。\n");
                 instrument.setContent("\t\t\t\t笙在中国已经有几千年的历史，传说笙可以模仿凤凰的哭声，形状也很像收起翅膀的神鸟。在唐朝（公元618-907年）时，笙才逐渐转变为现在的形式。  笙是从十三簧到十七簧、十九、二十三簧，由簧少到簧多而发展。在传统器乐和昆曲里，笙常常被用作其它管乐器如笛子、唢呐的伴奏，为旋律加上纯四度或纯五度和音。在现代国乐团，笙可以担当旋律或伴奏的作用。");
                 instrument.setPic_position(R.drawable.position_sheng);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%99%8F%E6%99%AF%E6%99%9F%20-%20%E6%99%8B%E8%B0%83%20-%20%E7%AC%99.mp3");
@@ -131,8 +131,8 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%BB%A3%E8%8D%B7%E5%8C%85.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("晏景晟 - 晋调 - 笙");
-                instrument.setMusic_name2("《双鹤听泉》");
-                instrument.setMusic_name3("《绣荷包》");
+                instrument.setMusic_name2("双鹤听泉");
+                instrument.setMusic_name3("绣荷包");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t笙的音色明亮甜美，高音清脆透明，中音柔和丰满，低音浑厚低沉，音量较大。而且在中国传统吹管乐器中，也是唯一能够吹出和声的乐器。\n" +
                         "笙的音色与箫、笛、管比起来，缺乏个性，音质也较为浮泛，穿透力较差，深度和力度不够，但它却是一个很好的伴奏乐器和合奏乐器。传统笙则有分调性，技巧华丽，表现力强，较适合独奏，笙独奏曲多半也是为传统笙而写。\n");
@@ -150,16 +150,16 @@ public class InstrumentsInfo {
                 instrument.setBrief1("\t\t\t\t埙，亦称“陶埙”，是汉族特有的闭口吹奏乐器，在世界原始艺术史中占有重要的地位。");
                 instrument.setBrief0("\t\t\t\t十孔埙的结构为一个类似空心球式的主体，有一个吹孔、九个发音孔。主体上端的是吹孔，正面设有七个发音孔，反面设有两个发音孔，底部呈平面。以陶制最为普通，也有石制和骨制等。");
                 instrument.setContent("\t\t\t\t埙是中国最古老的吹奏乐器之一，大约有七千年的历史，起源与汉族先民的劳动生产活动有关，最初可能是先民们模仿鸟兽叫声而制作，用以诱捕猎物。后随社会进步而演化为单纯的乐器，并逐渐增加音孔，发展成可以吹奏曲调的旋律乐器。最初埙大多是用石头和骨头制作的，后来发展成为陶制的，形状也有多种，如扁圆形、椭圆形、球形、鱼形和梨形等，其中以梨形最为普遍。");
-                instrument.setPic_position(R.drawable.position_xiao);
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%9F%99%E6%9B%B2%20%E5%AF%92%E6%B1%9F%E6%AE%8B%E9%9B%AA.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%9F%99%20-%20%E6%B0%B4%E9%BE%99%E5%90%9F.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《寒江残雪》");
-                instrument.setMusic_name2("《埙 - 水龙吟》");
+                instrument.setMusic_name1("寒江残雪");
+                instrument.setMusic_name2("埙 - 水龙吟");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
-                instrument.setMusic_content("\t\t\t\t埙，扁形的比圆形的容易吹奏发音，发音音量也有明显提高。不过同时越扁的埙的声音越有干涩的感觉,腔体越接近圆形的埙音色越柔润缓和，牛头埙底部圆，上部圆尖，容易吹奏，音色比扁埙柔润，比圆埙易吹，音量也大一些 。 ");
+                instrument.setMusic_content("\t\t\t\t埙，扁形的比圆形的容易吹奏发音，发音音量也有明显提高。不过同时越扁的埙的声音越有干涩的感觉,腔体越接近圆形的埙音色越柔润缓和，牛头埙底部圆，上部圆尖，容易吹奏，音色比扁埙柔润，比圆埙易吹，音量也大一些。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/21.%E5%A1%A4Xun.mp4");
                 instrument.setSkill("\t\t\t\t演奏技巧：埙的吹奏技巧可分为气吹和舌吹两类，然后和指法技巧构成了它的演奏技巧。\n" +
                         "气类吹奏技巧 \n" +
@@ -189,7 +189,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("疏石兰兮(竹笛独奏版) - 魏小涵");
-                instrument.setMusic_name2("《太湖春》");
+                instrument.setMusic_name2("太湖春");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t竹笛有18个音（不包括变化音），用全按低音5的指法可以从低音5到超高音1。 中国笛子具有强烈的民族特色，发音动人婉回。笛子的表现力非常丰富，它既能演奏悠长、高亢的旋律，又能表现辽阔、宽广的情调，同时也可以奏出欢快华丽的舞曲和婉转优美的小调。可演奏出连音断音、颤音和滑音等色彩性音符，还可以表达不同的情绪。无论演奏舒缓、平和的旋律，还是演奏急促、跳跃的旋律，其独到之处都可从中领略。此外，笛子还擅长模仿大自然中的各种声音，把听众带入鸟语花香或高山流水的意境之中。");
@@ -207,18 +207,18 @@ public class InstrumentsInfo {
                 instrument.setName("唢呐");
                 instrument.setPic_spe(R.drawable.suona);
                 instrument.setPic_struct(R.drawable.struct_suona);
-                instrument.setBrief1("\t\t唢呐，双簧片木管乐器。唢呐，又名喇叭，小唢呐称海笛。音色明亮，音量大，管身木制，成圆椎形，上端装有带哨子的铜管，下端套着一个铜制的喇叭口（称作碗）。在台湾民间称为鼓吹，广东地区亦将之称为“八音”。");
-                instrument.setBrief0("\t\t唢呐由哨、气牌、芯子、杆和碗五部分构成，大约51cm长。在木制的锥形管上开八孔（前七后一），管的上端装有细铜管，铜管上端套有双簧的苇哨，木管上端有一铜质的碗状扩音器。唢呐虽有八孔，但第七孔音与筒音超吹音相同，第八孔音与第一孔音超吹音相同。\n" +
-                        "唢呐活芯，其内管连有气牌和气嘴，并有螺栓槽，套上一弹簧，插在外管中，外管侧面有螺纹孔，再套上一个微调套管用螺栓螺母，从套管长孔穿过拧入螺纹孔，再进入内管的螺栓槽，用螺丝螺母调正内管之伸缩距离，嘴唇压缩气嘴以后，使内管缩短其音程，于是每个音孔可吹出半音，增加唢呐之音量范围，可吹奏各种变调乐曲。\n" +
-                        "芯子是唢呐的重要部件之一，其上装哨片，下接主体管。传统的芯子为单管式，而活芯为活动套式，可以伸缩改变长度，复位靠弹簧的作用。\n");
-                instrument.setContent("\t\t公元3世纪，唢呐由波斯、阿拉伯一带传入中国。西晋时期，新疆拜城克孜尔石窟第38窟中的伎乐壁画已有吹奏唢呐形象。在金、元时期，传到中国中原地区。曾译作“锁呐”“销呐”“苏尔奈”“锁奈”“唆哪”等名。明代后期，唢呐已在戏曲音乐中占有重要地位，用以伴奏唱腔、吹奏过场曲牌。而在以戏曲音乐为基础的民间器乐中，唢呐也成为离不开的乐器。到了近现代，唢呐成为中国各族人民使用颇广的乐器之一。2006年5月20日，唢呐艺术经国务院批准列入第一批国家级非物质文化遗产名录。 ");
-                instrument.setPic_position(R.drawable.position_suona);
+                instrument.setBrief1("\t\t\t\t唢呐，双簧片木管乐器。唢呐，又名喇叭，小唢呐称海笛。音色明亮，音量大，管身木制，成圆椎形，上端装有带哨子的铜管，下端套着一个铜制的喇叭口（称作碗）。在台湾民间称为鼓吹，广东地区亦将之称为“八音”。");
+                instrument.setBrief0("\t\t\t\t唢呐由哨、气牌、芯子、杆和碗五部分构成，大约51cm长。在木制的锥形管上开八孔（前七后一），管的上端装有细铜管，铜管上端套有双簧的苇哨，木管上端有一铜质的碗状扩音器。唢呐虽有八孔，但第七孔音与筒音超吹音相同，第八孔音与第一孔音超吹音相同。\n" +
+                        "\t\t\t\t唢呐活芯，其内管连有气牌和气嘴，并有螺栓槽，套上一弹簧，插在外管中，外管侧面有螺纹孔，再套上一个微调套管用螺栓螺母，从套管长孔穿过拧入螺纹孔，再进入内管的螺栓槽，用螺丝螺母调正内管之伸缩距离，嘴唇压缩气嘴以后，使内管缩短其音程，于是每个音孔可吹出半音，增加唢呐之音量范围，可吹奏各种变调乐曲。 芯子是唢呐的重要部件之一，其上装哨片，下接主体管。传统的芯子为单管式，而活芯为活动套式，可以伸缩改变长度，复位靠弹簧的作用。\n");
+                instrument.setContent("\t\t\t\t公元3世纪，唢呐由波斯、阿拉伯一带传入中国。西晋时期，新疆拜城克孜尔石窟第38窟中的伎乐壁画已有吹奏唢呐形象。在金、元时期，传到中国中原地区。曾译作“锁呐”“销呐”“苏尔奈”“锁奈”“唆哪”等名。明代后期，唢呐已在戏曲音乐中占有重要地位，用以伴奏唱腔、吹奏过场曲牌。而在以戏曲音乐为基础的民间器乐中，唢呐也成为离不开的乐器。到了近现代，唢呐成为中国各族人民使用颇广的乐器之一。\n" +
+                        "\t\t\t\t2006年5月20日，唢呐艺术经国务院批准列入第一批国家级非物质文化遗产名录。");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%94%A2%E5%91%90%20%E5%96%9C%E8%BF%8E%E6%98%A5%20Happy%20To%20Greet%20Spring.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%BE%A4%E6%98%9F%20-%20%E7%99%BE%E9%B8%9F%E6%9C%9D%E5%87%A4%20-%20%E5%94%A2%E5%91%90%E7%8B%AC%E5%A5%8F.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《一枝花》");
-                instrument.setMusic_name2("《喜迎春》");
+                instrument.setMusic_name1("一枝花");
+                instrument.setMusic_name2("喜迎春");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t唢呐的中、低音区音色豪放、刚劲，各种技巧都易于发挥，非常富有表现力；高音区紧张而尖锐，在乐队中应用要谨慎。 ");
@@ -232,18 +232,18 @@ public class InstrumentsInfo {
                 instrument.setName("巴乌");
                 instrument.setPic_spe(R.drawable.bawu);
                 instrument.setPic_struct(R.drawable.struct_bawu);
-                instrument.setBrief1("\t\t巴乌，簧管乐器，也叫“把乌”，流行于云南、广西壮族自治区、贵州黔东南和黔南等地。哈尼族称“各比”，彝族称“比鲁”或“乌勒”，侗族称“拜”，常用于独奏或为舞蹈和说唱伴奏。巴乌的品种较多，在哈尼族，有单管、双管之分，由于竹管长短、粗细的不同，还有高音、中音和低音巴乌之分。");
-                instrument.setBrief0("\t\t巴乌全长30-60厘米，外形似箫，竹制，在近封闭端的管壁上，开有一个长方形吹口，管身八孔，前七后一，并与吹口成45 度。 管上端装有铜簧片，横吹上端，簧片振动而发音，音色优美。\n" +
-                        "管身用细毛竹、青竹制，下端（或右端）开口，上端（或左端）留竹节或木塞封闭。上端管壁开长方形吹口，用蜂蜡粘一长方形竹或铜制簧片，簧舌呈三角形，有细蔑编制的活动簧套。管身开八孔（前七后一），与吹口成四十五度角。有的在下端开二至四个尾音孔。\n");
-                instrument.setContent("\t\t传统的巴乌音域窄、音量小，但音色优雅。解放后几十年间，巴乌的研制改革工作一直在进行着，经过改革加键的巴乌，在保持传统巴乌浑厚柔美音色的前提下，扩大了音域、音量，适于演奏宽广、抒情的音调。此外，还能转四个调，能奏出各种滑音、打音、吐音、颤音、飞指、抹音等技巧音。");
-                instrument.setPic_position(R.drawable.position_xiao);
+                instrument.setBrief1("\t\t\t\t巴乌，簧管乐器，也叫“把乌”，流行于云南、广西壮族自治区、贵州黔东南和黔南等地。哈尼族称“各比”，彝族称“比鲁”或“乌勒”，侗族称“拜”，常用于独奏或为舞蹈和说唱伴奏。巴乌的品种较多，在哈尼族，有单管、双管之分，由于竹管长短、粗细的不同，还有高音、中音和低音巴乌之分。");
+                instrument.setBrief0("\t\t\t\t巴乌全长30-60厘米，外形似箫，竹制，在近封闭端的管壁上，开有一个长方形吹口，管身八孔，前七后一，并与吹口成45 度。 管上端装有铜簧片，横吹上端，簧片振动而发音，音色优美。\n" +
+                        "\t\t\t\t管身用细毛竹、青竹制，下端（或右端）开口，上端（或左端）留竹节或木塞封闭。上端管壁开长方形吹口，用蜂蜡粘一长方形竹或铜制簧片，簧舌呈三角形，有细蔑编制的活动簧套。管身开八孔（前七后一），与吹口成四十五度角。有的在下端开二至四个尾音孔。\n");
+                instrument.setContent("\t\t\t\t传统的巴乌音域窄、音量小，但音色优雅。解放后几十年间，巴乌的研制改革工作一直在进行着，经过改革加键的巴乌，在保持传统巴乌浑厚柔美音色的前提下，扩大了音域、音量，适于演奏宽广、抒情的音调。此外，还能转四个调，能奏出各种滑音、打音、吐音、颤音、飞指、抹音等技巧音。");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%EF%BC%88%E7%8B%AC%E5%A5%8F%EF%BC%89%E7%BE%8E%E4%B8%BD%E7%9A%84%E9%87%91%E5%AD%94%E9%9B%80--%E6%9D%9C%E8%81%AA%20.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E8%8A%82%E6%97%A5%E8%88%9E%E6%9B%B2%20-%20%E9%99%86%E6%98%A5%E9%BE%84.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%9D%8E%E5%BC%BA%20-%20%E5%82%A3%E4%B9%A1%E6%83%85%E6%AD%8C%20-%20%E5%B7%B4%E4%B9%8C.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("美丽的金孔雀");
-                instrument.setMusic_name2("《节日舞曲》");
-                instrument.setMusic_name3("《傣乡情歌》");
+                instrument.setMusic_name2("节日舞曲");
+                instrument.setMusic_name3("傣乡情歌");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t巴乌常用演奏抒情的、宽广的音调，亦可演奏技巧性强的华彩乐段。合奏时巴乌音色易和其它乐器融合在一起，因此可以作为高音乐器与低音乐器的桥梁。由于其音色柔美，常用于伴奏舞蹈、独奏等；在民间，巴乌常用于独奏、合奏或为舞蹈和叙事歌等说唱伴奏。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/22Bawu.mp4");
@@ -256,28 +256,24 @@ public class InstrumentsInfo {
                 instrument.setName("葫芦丝");
                 instrument.setPic_spe(R.drawable.hulusi);
                 instrument.setPic_struct(R.drawable.struct_hulusi);
-                instrument.setBrief1("\t\t葫芦丝，又称“葫芦箫”，民族管乐器。是云南少数民族特有的乐器之一。主要流传于云南省滇西傣族地区，在布朗族，德昂族等少数民族中也较为流行。");
-                instrument.setBrief0("\t\t葫芦丝主要有三部分：1、葫芦；2、发音管；3、发音簧片。 由一个完整的天然葫芦、三根竹管和三枚金属簧片做成。整个葫芦做气箱，葫芦低部插进三根粗细不同的竹管，每根插入葫芦中的竹管部分，镶有一枚铜质或银质簧片，中间的竹管最粗，上面开着七个音孔，把它称为主管，两旁是附管，上面只设簧片，不开音孔（指传统葫芦丝），只能发出与主管的共鸣的和音。");
-                instrument.setContent("\t\t葫芦丝的历史较为悠久，其渊源可追溯到先秦时代，它是由葫芦笙演进改造而成的。" +
-                        "新中国成立后，中国民族音乐工作者对葫芦笙进行了不断的改革。1958年，云南省歌舞团首先把音域扩展为14个音。。 ");
-                instrument.setPic_position(R.drawable.position_hulusi);
+                instrument.setBrief1("\t\t\t\t葫芦丝，又称“葫芦箫”，民族管乐器。是云南少数民族特有的乐器之一。主要流传于云南省滇西傣族地区，在布朗族，德昂族等少数民族中也较为流行。");
+                instrument.setBrief0("\t\t\t\t葫芦丝主要有三部分：1、葫芦；2、发音管；3、发音簧片。 由一个完整的天然葫芦、三根竹管和三枚金属簧片做成。整个葫芦做气箱，葫芦低部插进三根粗细不同的竹管，每根插入葫芦中的竹管部分，镶有一枚铜质或银质簧片，中间的竹管最粗，上面开着七个音孔，把它称为主管，两旁是附管，上面只设簧片，不开音孔（指传统葫芦丝），只能发出与主管的共鸣的和音。");
+                instrument.setContent("\t\t\t\t葫芦丝的历史较为悠久，其渊源可追溯到先秦时代，它是由葫芦笙演进改造而成的。 新中国成立后，中国民族音乐工作者对葫芦笙进行了不断的改革。1958年，云南省歌舞团首先把音域扩展为14个音。");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%9D%9C%E8%81%AA%20-%20%E6%9C%88%E5%85%89%E4%B8%8B%E7%9A%84%E5%87%A4%E5%B0%BE%E7%AB%B9%20-%20%E8%91%AB%E8%8A%A6%E4%B8%9D%E7%89%88%E7%BA%AF%E9%9F%B3%E4%B9%90.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%87%91%E8%89%B2%E7%9A%84%E5%AD%94%E9%9B%80.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《月光下的凤尾竹 》");
-                instrument.setMusic_name2("《金色的孔雀》");
+                instrument.setMusic_name1("月光下的凤尾竹");
+                instrument.setMusic_name2("金色的孔雀");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t葫芦丝音色独特优美，外观古朴，柔美，典雅，常用于吹奏山歌等民间曲调，最适于演奏旋律流畅的乐曲或舞曲，曲调中一般长音较多，合音丰富，乐声柔美和谐，能较好抒发演奏者的思想感情。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/Hulusi%20solo%20-%20%E8%91%AB%E8%8A%A6%E4%B8%9D%E7%8B%AC%E5%A5%8F.mp4");
-                instrument.setSkill("\t\t\t\t\t\t\t\t\n" +
-                        "（一）\n" +
-                        "\t\t\t右手无名指、中指、食指用第一节指肚分别开闭第一、二、三个音孔，拇指拖于主管下方。左手无名指、中指、食指用第一节指肚分别开闭，第四、第五、第六音孔，拇指开开位于主管前下方的第七音孔。\n" +
-                        "（二）\n" +
-                        "\t\t\t\t深呼吸、吸入的气尽可能多一些，吸气后、气息下沉，使气流在有控制的情况下有节制的均匀向外呼出，气息要平稳、不可忽强忽弱。" +
-                        "（三）\n" +
-                        "\t\t\t\t吹奏中， 高音时要用缓吹法（气流减小）低音时要用急吹法（气流加强）。\n");
+                instrument.setSkill("演奏技巧：\n" +
+                        "\t\t\t\t（一）右手无名指、中指、食指用第一节指肚分别开闭第一、二、三个音孔，拇指拖于主管下方。左手无名指、中指、食指用第一节指肚分别开闭，第四、第五、第六音孔，拇指开开位于主管前下方的第七音孔。\n" +
+                        "\t\t\t\t（二）深呼吸、吸入的气尽可能多一些，吸气后、气息下沉，使气流在有控制的情况下有节制的均匀向外呼出，气息要平稳、不可忽强忽弱。\n" +
+                        "\t\t\t\t（三）吹奏中， 高音时要用缓吹法（气流减小）低音时要用急吹法（气流加强）。\n");
                 break;
             case "二胡":
                 instrument.setGuide2(">民族乐器");
@@ -286,20 +282,19 @@ public class InstrumentsInfo {
                 instrument.setName("二胡");
                 instrument.setPic_spe(R.drawable.erhu);
                 instrument.setPic_struct(R.drawable.struct_erhu);
-                instrument.setBrief1("\t\t二胡，又名“胡琴”，是我国独具魅力的拉弦乐器。根据琴筒情况分为四类：圆筒二胡、八角二胡、六角二胡、扁筒二胡。 ");
-                instrument.setBrief0("\t\t二胡全长约66cm，木制琴身，中间部分是蛇皮，琴弦是丝绸或者动物的肠子。依靠琴弦的振动发声，琴筒是二胡的共鸣箱，琴杆是支撑琴弦、接指操作的重要支柱。二胡的定弦音高主要是靠琴轴来调节的，即拧转线轴来绷紧或放松弦，紧则音高，松则音低。");
-                instrument.setContent("\t\t二胡，始于唐代，已有一千多年的历史。它最早发源于我国古代北部地区的一个少数民族，那时叫“奚琴”。在过去它主要流行于长江中下游一带，所以又称为南胡。到了近代，胡琴才更名为二胡。半个多世纪以来，二胡演奏水平已进入旺盛时期。由于刘天华先生扩大了二胡的音域范围，丰富了表现力，二胡从民间伴奏中脱颖出来，成为独特的独奏乐器。 ");
+                instrument.setBrief1("\t\t\t\t二胡，又名“胡琴”，是我国独具魅力的拉弦乐器。根据琴筒情况分为四类：圆筒二胡、八角二胡、六角二胡、扁筒二胡。 ");
+                instrument.setBrief0("\t\t\t\t二胡全长约66cm，木制琴身，中间部分是蛇皮，琴弦是丝绸或者动物的肠子。依靠琴弦的振动发声，琴筒是二胡的共鸣箱，琴杆是支撑琴弦、接指操作的重要支柱。二胡的定弦音高主要是靠琴轴来调节的，即拧转线轴来绷紧或放松弦，紧则音高，松则音低。");
+                instrument.setContent("\t\t\t\t二胡，始于唐代，已有一千多年的历史。它最早发源于我国古代北部地区的一个少数民族，那时叫“奚琴”。在过去它主要流行于长江中下游一带，所以又称为南胡。到了近代，胡琴才更名为二胡。半个多世纪以来，二胡演奏水平已进入旺盛时期。由于刘天华先生扩大了二胡的音域范围，丰富了表现力，二胡从民间伴奏中脱颖出来，成为独特的独奏乐器。 ");
                 instrument.setPic_position(R.drawable.position_erhu);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%98%BF%E7%82%B3%20-%20%E4%BA%8C%E6%B3%89%E6%98%A0%E6%9C%88%20-%20%E4%BA%8C%E8%83%A1%E7%8B%AC%E5%A5%8F%20%E8%92%8B%E5%B7%BD%E9%A3%8E%E6%BC%94%E5%A5%8F.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("阿炳 - 二泉映月 - 二胡独奏 蒋巽风演奏");
-                instrument.setMusic_name2("《阳关三叠》\t             作曲 无，古曲\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t            演奏 闵惠芬");
-                instrument.setMusic_name3("二胡独奏曲《赛马》\t\t\t \n" +
-                        "作曲 黄海怀\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t         演奏 宋飞\n");
+                instrument.setMusic_name2("阳关三叠 作曲 无，古曲 演奏 闵惠芬");
+                instrument.setMusic_name3("二胡独奏曲 赛马 作曲 黄海怀 演奏 宋飞");
                 instrument.setMusic_name4("");
-                instrument.setMusic_content("\t\t\t\t：二胡发出的乐音有着丰富的表现力，它接近于人声的音色，既能表现深沉、凄惨的内容，也能描绘气势壮观的意境，成为一种富于歌唱性的乐器 ，有人还因此称它为“中国式小提琴”。由于二胡的音色听起来略带忧伤，因而善于表达深沉的情感。");
+                instrument.setMusic_content("\t\t\t\t二胡发出的乐音有着丰富的表现力，它接近于人声的音色，既能表现深沉、凄惨的内容，也能描绘气势壮观的意境，成为一种富于歌唱性的乐器 ，有人还因此称它为“中国式小提琴”。由于二胡的音色听起来略带忧伤，因而善于表达深沉的情感。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/Erhu-Kongshanniaoyu.mp4");
                 instrument.setSkill("\t\t\t\t演奏技巧：左手持琴，以“虎口”骑在琴杆上，拇指略微弯曲，掌心成悬空状。整个左手应放松，小臂自然下垂，与琴杆大约构成45度左右的角度。二胡的演奏技巧是比较丰富的，主要分为指法和弓法两大类，有滑音、揉弦、颤音、跳弓、顿弓、拨弦等。");
                 break;
@@ -310,21 +305,21 @@ public class InstrumentsInfo {
                 instrument.setName("高胡");
                 instrument.setPic_spe(R.drawable.gaohu);
                 instrument.setPic_struct(R.drawable.struct_gaohu);
-                instrument.setBrief1("\t\t高胡，民族拉弦乐器。高胡是“高音二胡”的简称，其形、构造、演奏弓法与技巧以及所用演奏符号均与二胡相同，只是琴筒（共鸣箱）比二胡略小，常用两腿夹着琴筒的一部分演奏。");
-                instrument.setBrief0("\t\t高胡的构造、制作和用料与二胡基本相同，最大的区别是琴筒较细。由于高胡在二十世纪才刚刚诞生，因此，乐器制作家们在改造高胡的时候便少有顾虑和束缚。有的乐器制作家把早期高胡的圆形琴筒改为扁圆形状，使音量加大；有的乐器制作家还把两根弦的高胡改为三根弦，使乐器的音域向下扩展了五度。\n" +
-                        "高胡是在二胡的基础上改革而成的，因此高胡的构造、制作以及用料都与二胡基本胡同。它的琴筒比二胡小，定音比二胡高四至五度，所以叫它高胡。外弦用钢丝弦，内弦用钢丝缠弦(也有用丝弦的)。拉时两腿夹琴筒，用以控制音量及减少沙音。音色清脆、嘹亮。高胡得到广泛的应用，现已成为民族乐队中的高音拉弦乐器。它用于合奏、伴奏和独奏。 但是，高胡与二胡在形制上还是有所区别是的：高胡琴筒比较细，形状是圆形的，有别于二胡的六边形，琴筒的后口不像二胡那样开有各种式样的音窗。\n");
-                instrument.setContent("\t\t高胡起源于清朝末年的广东粤剧、潮剧过场音乐、民族和曲艺音乐。在二十世纪二十年代前后，\"广东音乐\"作曲家和演奏家吕文成先生对二胡进行了改革，将丝弦改成钢弦，提高了乐器的定弦，同时首创了两腿夹着琴筒的适当部位进行演奏的独特方法。由于高胡产生的时代很晚，因此，吕文成之后的乐器制作家们在改造高胡的时候便少有顾虑和束缚。\n" +
-                        "在二十世纪70年代初期，有的乐器制作家根据椭圆形扬声器的声学原理，又把早期高胡的圆形琴筒改为扁圆形状，使乐器共鸣频率范围加宽、音量加大。另外，这种新型高胡的琴弦也比以前粗了，琴杆也由圆形杆改为椭圆形的扁杆。\n");
-                instrument.setPic_position(R.drawable.position_gaohu);
+                instrument.setBrief1("\t\t\t\t高胡，民族拉弦乐器。高胡是“高音二胡”的简称，其形、构造、演奏弓法与技巧以及所用演奏符号均与二胡相同，只是琴筒（共鸣箱）比二胡略小，常用两腿夹着琴筒的一部分演奏。");
+                instrument.setBrief0("\t\t\t\t高胡的构造、制作和用料与二胡基本相同，最大的区别是琴筒较细。由于高胡在二十世纪才刚刚诞生，因此，乐器制作家们在改造高胡的时候便少有顾虑和束缚。有的乐器制作家把早期高胡的圆形琴筒改为扁圆形状，使音量加大；有的乐器制作家还把两根弦的高胡改为三根弦，使乐器的音域向下扩展了五度。\n" +
+                        "\t\t\t\t高胡是在二胡的基础上改革而成的，因此高胡的构造、制作以及用料都与二胡基本胡同。它的琴筒比二胡小，定音比二胡高四至五度，所以叫它高胡。外弦用钢丝弦，内弦用钢丝缠弦(也有用丝弦的)。拉时两腿夹琴筒，用以控制音量及减少沙音。音色清脆、嘹亮。高胡得到广泛的应用，现已成为民族乐队中的高音拉弦乐器。它用于合奏、伴奏和独奏。 但是，高胡与二胡在形制上还是有所区别是的：高胡琴筒比较细，形状是圆形的，有别于二胡的六边形，琴筒的后口不像二胡那样开有各种式样的音窗。\n");
+                instrument.setContent("\t\t\t\t高胡起源于清朝末年的广东粤剧、潮剧过场音乐、民族和曲艺音乐。在二十世纪二十年代前后，\"广东音乐\"作曲家和演奏家吕文成先生对二胡进行了改革，将丝弦改成钢弦，提高了乐器的定弦，同时首创了两腿夹着琴筒的适当部位进行演奏的独特方法。由于高胡产生的时代很晚，因此，吕文成之后的乐器制作家们在改造高胡的时候便少有顾虑和束缚。\n" +
+                        "\t\t\t\t在二十世纪70年代初期，有的乐器制作家根据椭圆形扬声器的声学原理，又把早期高胡的圆形琴筒改为扁圆形状，使乐器共鸣频率范围加宽、音量加大。另外，这种新型高胡的琴弦也比以前粗了，琴杆也由圆形杆改为椭圆形的扁杆。\n");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%B0%B4%20-%20%E9%99%88%E8%80%80%E6%98%9F.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%9B%A8%E6%89%93%E8%8A%AD%E8%95%89%20-%20%E5%A7%9C%E5%85%8B%E7%BE%8E.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%80%9D%E5%BF%B5%20-%20%E4%BD%99%E5%85%B6%E4%BC%9F.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《平湖秋水》");
-                instrument.setMusic_name2("《雨打芭蕉 - 姜克美》");
-                instrument.setMusic_name3("《思念 - 余其伟》");
+                instrument.setMusic_name1("平湖秋水");
+                instrument.setMusic_name2("雨打芭蕉 - 姜克美");
+                instrument.setMusic_name3("思念 - 余其伟");
                 instrument.setMusic_name4("");
-                instrument.setMusic_content("高胡的音色清脆、嘹亮，原是用来伴奏广东戏剧和演奏广东小曲的，也用于合奏、独奏。在现代大型民乐队中，高胡多作为高音乐器。");
+                instrument.setMusic_content("\t\t\t\t高胡的音色清脆、嘹亮，原是用来伴奏广东戏剧和演奏广东小曲的，也用于合奏、独奏。在现代大型民乐队中，高胡多作为高音乐器。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/09Gaohu.mp4");
                 instrument.setSkill("\t\t\t\t演奏技巧：高胡的主要演奏技巧有：右手多奏分弓，快速弓法，推弓等。左手指法主要有各种滑音和旋律中自由的垫指加花，广东音乐传统奏法，左手不用揉弦，而用压按弦和空弦震音。在演奏高胡时，演奏者两腿加紧琴筒，用以控制音量及减少噪音。\n");
                 break;
@@ -335,17 +330,17 @@ public class InstrumentsInfo {
                 instrument.setName("板胡");
                 instrument.setPic_spe(R.drawable.banhu);
                 instrument.setPic_struct(R.drawable.struct_banhu);
-                instrument.setBrief1("\t\t箫的本义是“一种模拟风吹声的竹乐器”，古代用于宫廷雅乐边棱音气鸣乐器。");
-                instrument.setBrief0("\t\t\t板胡缺少资料！！！！！！！！！！！！");
-                instrument.setContent("\t\t箫相传为舜所造。唐代以前指多 管“箫”，即“排箫”，“八音”的“竹”就是排箫的前身。现今所称“箫”，指单管箫。魏晋南北朝时，箫已用于独奏、合奏，并在伴奏相和歌的乐队中使用。 ");
-                instrument.setPic_position(R.drawable.position_xiao);
+                instrument.setBrief1("\t\t\t\t");
+                instrument.setBrief0("\t\t\t\t");
+                instrument.setContent("\t\t\t\t ");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%B2%B3%E5%8C%97%E8%8A%B1%E6%A2%86%E5%AD%90.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%A7%A6%E5%B7%9D%E8%A1%8C%20%28%E6%9D%BF%E8%83%A1%29%20-%20%E7%BE%A4%E6%98%9F.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%A7%A6%E8%85%94%E7%89%8C%E5%AD%90%E6%9B%B2%20%E6%9D%BF%E8%83%A1.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《河北花棒子》");
-                instrument.setMusic_name2("《秦川行》");
-                instrument.setMusic_name3("《秦腔牌子曲》");
+                instrument.setMusic_name1("河北花棒子");
+                instrument.setMusic_name2("秦川行");
+                instrument.setMusic_name3("秦腔牌子曲");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("");
                 instrument.setVideo_url("");
@@ -358,17 +353,17 @@ public class InstrumentsInfo {
                 instrument.setName("三弦");
                 instrument.setPic_spe(R.drawable.sanxian);
                 instrument.setPic_struct(R.drawable.struct_sanxian);
-                instrument.setBrief1("\t\t三弦，又称弦子，中国传统弹拨乐器，其他少数民族也有类似三弦的乐器。柄很长，音箱方形，两面蒙皮，弦三根，侧抱于怀演奏。音色粗犷、豪放。可以独奏、合奏或伴奏，普遍用于民族器乐、戏曲音乐和说唱音乐。");
-                instrument.setBrief0("\t\t三弦柄很长，音箱方形，两面蒙皮，弦三根，三弦可分为琴头、琴杆和琴鼓三部分,由琴头、弦轴、山口、琴杆、鼓框、皮膜、琴马和琴弦等组成。");
-                instrument.setContent("\t\t秦朝时称为“弦鼗”。清毛其龄《西河词话》：“三弦起于秦时，本三十鼓鼓之制而改形易响，谓之鼓鼓，唐时乐人多习之，世以为胡乐，非也”。 三弦是北方大鼓书、苏州评弹等传统曲艺不可缺少的乐器。在南管音乐中，属于上四管乐器之一，是演出的基本组合。中国的三弦传入琉球后发展成三线；三线传入日本后，发展成三味线。在日本有把“三味线”称为“三弦”的习惯。 现代三弦是在传统三弦基础上改进而来，大三弦分60型、80型大三弦，分别于1960年和1980年研制成功，故而得名。 ");
+                instrument.setBrief1("\t\t\t\t三弦，又称弦子，中国传统弹拨乐器，其他少数民族也有类似三弦的乐器。柄很长，音箱方形，两面蒙皮，弦三根，侧抱于怀演奏。音色粗犷、豪放。可以独奏、合奏或伴奏，普遍用于民族器乐、戏曲音乐和说唱音乐。");
+                instrument.setBrief0("\t\t\t\t三弦柄很长，音箱方形，两面蒙皮，弦三根，三弦可分为琴头、琴杆和琴鼓三部分,由琴头、弦轴、山口、琴杆、鼓框、皮膜、琴马和琴弦等组成。");
+                instrument.setContent("\t\t\t\t秦朝时称为“弦鼗”。清毛其龄《西河词话》：“三弦起于秦时，本三十鼓鼓之制而改形易响，谓之鼓鼓，唐时乐人多习之，世以为胡乐，非也”。 三弦是北方大鼓书、苏州评弹等传统曲艺不可缺少的乐器。在南管音乐中，属于上四管乐器之一，是演出的基本组合。中国的三弦传入琉球后发展成三线；三线传入日本后，发展成三味线。在日本有把“三味线”称为“三弦”的习惯。 现代三弦是在传统三弦基础上改进而来，大三弦分60型、80型大三弦，分别于1960年和1980年研制成功，故而得名。");
                 instrument.setPic_position(R.drawable.position_sanxian);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%A4%A7%E6%B5%AA%E6%B7%98%E6%B2%99%20-%20%E4%B8%89%E5%BC%A6.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%82%B2%E6%AC%A2%E4%BB%A4%20-%20%E5%91%A8%E6%B6%A6%E6%98%8E.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%95%BF%E9%97%A8%E6%80%A8%20-%20%E9%BB%84%E6%A1%82%E8%8A%B3.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《大浪淘沙》");
-                instrument.setMusic_name2("《长门怨 - 黄桂芳》");
-                instrument.setMusic_name3("《悲欢令 - 周润明》");
+                instrument.setMusic_name1("大浪淘沙");
+                instrument.setMusic_name2("长门怨 - 黄桂芳");
+                instrument.setMusic_name3("悲欢令 - 周润明");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t三弦是一种用途很广的弹弦乐器，它不仅可以独奏和参加民族乐队合奏，还多用于说唱和戏曲的伴奏，尤其在说唱音乐的伴奏方面演奏技巧已发展到较高水平。三弦分为大三线和小三弦，大三弦主要用来伴奏京剧等，小三弦用来伴奏一些地方戏种，如吕剧（山东地方戏）等。三弦的音色，高音坚实清脆，中音明亮圆润，低音丰满浑厚，音量较大。");
                 instrument.setVideo_url("");
@@ -381,17 +376,17 @@ public class InstrumentsInfo {
                 instrument.setName("马头琴");
                 instrument.setPic_spe(R.drawable.matouqin);
                 instrument.setPic_struct(R.drawable.struct_matouqin);
-                instrument.setBrief1("\t\t马头琴是中国蒙古族拉弦乐器，是一种两弦的弦乐器，有梯形的琴身和雕刻成马头形状的琴柄。");
-                instrument.setBrief0("\t\t马头琴由共鸣箱、琴头、琴杆、弦轴、琴马、琴弦和琴弓等部分。琴身木制，长约一米；有两根弦；共鸣箱呈梯形。");
-                instrument.setContent("\t\t马头琴的历史悠久，从唐宋时期拉弦乐器奚琴演变而来。成吉思汗时（1155—1227）已流传民间。明清时期用于宫廷乐队。马头琴是蒙古民族的代表性乐器，不但在中国和世界乐器家族中占有一席之地，而且也是民间艺人和牧民们所喜欢的乐器，马头琴所演奏的乐曲，具有深沉粗犷，激昂的特点，体现了蒙古民族的生产、生活和草原风格。2006年5月20日，蒙古族马头琴音乐经国务院批准列入第一批国家级非物质文化遗产名录。2009年4月，蒙古族马头琴经国务院批准列入第一批国家级非物质文化遗产名录。布林为蒙古马头琴继承人。 ");
-                instrument.setPic_position(R.drawable.position_xiao);
+                instrument.setBrief1("\t\t\t\t马头琴是中国蒙古族拉弦乐器，是一种两弦的弦乐器，有梯形的琴身和雕刻成马头形状的琴柄。");
+                instrument.setBrief0("\t\t\t\t马头琴由共鸣箱、琴头、琴杆、弦轴、琴马、琴弦和琴弓等部分。琴身木制，长约一米；有两根弦；共鸣箱呈梯形。");
+                instrument.setContent("\t\t\t\t马头琴的历史悠久，从唐宋时期拉弦乐器奚琴演变而来。成吉思汗时（1155—1227）已流传民间。明清时期用于宫廷乐队。马头琴是蒙古民族的代表性乐器，不但在中国和世界乐器家族中占有一席之地，而且也是民间艺人和牧民们所喜欢的乐器，马头琴所演奏的乐曲，具有深沉粗犷，激昂的特点，体现了蒙古民族的生产、生活和草原风格。2006年5月20日，蒙古族马头琴音乐经国务院批准列入第一批国家级非物质文化遗产名录。2009年4月，蒙古族马头琴经国务院批准列入第一批国家级非物质文化遗产名录。布林为蒙古马头琴继承人。");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%9F%AF%E5%8B%92%E4%BC%A6%E6%B2%B3%E4%B9%8B%E6%99%AF%20-%20%E6%89%8E%E7%99%BB%E5%B7%B4%E5%B7%B4%E5%9B%BE.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%99%BD%E9%A9%AC%20The%20White%20Horse%20-%20%E7%A9%86%E5%B7%B4%E7%89%B9%E5%B0%94.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E4%B9%8C%E5%B0%A4%E4%BB%A3%20Wuyudai%20-%20%E7%A9%86%E5%B7%B4%E7%89%B9%E5%B0%94.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《柯勒伦河之景》");
-                instrument.setMusic_name2("《乌尤代 - 穆巴特尔》");
-                instrument.setMusic_name3("《白马 - 穆巴特尔》");
+                instrument.setMusic_name1("柯勒伦河之景");
+                instrument.setMusic_name2("乌尤代 - 穆巴特尔");
+                instrument.setMusic_name3("白马 - 穆巴特尔");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t马头琴声音圆润，低回宛转，音量较弱。具有独特的音色，柔和、浑厚而深沉，拉奏起来，特别洪阔、低沉而豪放，富有草原风味。");
                 instrument.setVideo_url("");
@@ -404,19 +399,19 @@ public class InstrumentsInfo {
                 instrument.setName("阮");
                 instrument.setPic_spe(R.drawable.ruan);
                 instrument.setPic_struct(R.drawable.struct_ruan);
-                instrument.setBrief1("\t\t阮是一种汉族传统乐器，阮咸的简称。相传西晋竹林七贤之一阮咸善弹此乐器，因而得名。可用于独奏、重奏和歌舞伴奏或参加民族乐队演奏。");
-                instrument.setBrief0("\t\t阮意为长颈琵琶，形似今之月琴。结构是直柄木制圆形共鸣箱，四弦十二柱，竖抱用手弹奏。\n" +
-                        "    琴头和琴颈是用两块硬质木料胶合而成，琴头顶端多饰以民族风格的雕刻，琴颈上粘有指板，指板上嵌有2 4个音品，品按十二平均律装置。琴身是一个呈扁圆形的共鸣箱，由面板、背板和框板胶合而成。在面板上胶有琴品和开有出音孔。弦轴有4个，除用普通弦轴外，也可用齿轮铜轴。琴弦使用丝弦、肠衣弦或金属弦。");
-                instrument.setContent("\t\t阮的起源说法不一，据汉代至魏晋时期的文史资料记载，阮是汉民族自己创造的乐器。也有记载说阮源于中亚，通过龟兹传入我国，在汉时称为秦琵琶，晋代阮咸擅弹此琴。元代时在民间广泛流传，成为人们喜爱的弹拨乐器。\n" +
-                        "20世纪50年代对阮进行了一系列改革，使阮具有高音、中音、次中音和低音4个声部，而自成一族。20世纪80年代研制的无品大阮，在琴箱中的高音区支有一根音柱，由于降低了山口和缚弦的高度，琴弦距指板较近，便于演奏。\n ");
-                instrument.setPic_position(R.drawable.position_ruan);
+                instrument.setBrief1("\t\t\t\t阮是一种汉族传统乐器，阮咸的简称。相传西晋竹林七贤之一阮咸善弹此乐器，因而得名。可用于独奏、重奏和歌舞伴奏或参加民族乐队演奏。");
+                instrument.setBrief0("\t\t\t\t阮意为长颈琵琶，形似今之月琴。结构是直柄木制圆形共鸣箱，四弦十二柱，竖抱用手弹奏。\n" +
+                        "\t\t\t\t琴头和琴颈是用两块硬质木料胶合而成，琴头顶端多饰以民族风格的雕刻，琴颈上粘有指板，指板上嵌有2 4个音品，品按十二平均律装置。琴身是一个呈扁圆形的共鸣箱，由面板、背板和框板胶合而成。在面板上胶有琴品和开有出音孔。弦轴有4个，除用普通弦轴外，也可用齿轮铜轴。琴弦使用丝弦、肠衣弦或金属弦。");
+                instrument.setContent("\t\t\t\t阮的起源说法不一，据汉代至魏晋时期的文史资料记载，阮是汉民族自己创造的乐器。也有记载说阮源于中亚，通过龟兹传入我国，在汉时称为秦琵琶，晋代阮咸擅弹此琴。元代时在民间广泛流传，成为人们喜爱的弹拨乐器。\n" +
+                        "\t\t\t\t20世纪50年代对阮进行了一系列改革，使阮具有高音、中音、次中音和低音4个声部，而自成一族。20世纪80年代研制的无品大阮，在琴箱中的高音区支有一根音柱，由于降低了山口和缚弦的高度，琴弦距指板较近，便于演奏。\n ");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%A4%A9%E5%B1%B1%E4%B9%8B%E6%98%A5%20-%20%E9%98%AE%E4%BB%95%E6%98%A5.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E4%B8%AD%E5%9B%BD%E9%98%AE%E5%92%B8%E4%B9%90%E5%9B%A2%20-%20%E5%A4%A7%E9%98%AE%E4%B8%8E%E9%98%AE%E5%92%B8%EF%BC%9A%E4%B8%9D%E8%B7%AF%E9%A9%BC%E9%93%83.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("独奏");
-                instrument.setMusic_name2("《天山之春 - 阮仕春》");
-                instrument.setMusic_name3("《中国阮咸乐团 - 大阮与阮咸：丝路驼铃》");
+                instrument.setMusic_name2("天山之春 - 阮仕春");
+                instrument.setMusic_name3("中国阮咸乐团 - 大阮与阮咸：丝路驼铃");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/16Daruan.mp4");
@@ -429,17 +424,17 @@ public class InstrumentsInfo {
                 instrument.setName("琵琶");
                 instrument.setPic_spe(R.drawable.pipa);
                 instrument.setPic_struct(R.drawable.struct_pipa);
-                instrument.setBrief1("\t\t琵琶，拨弦类弦鸣乐器，是我国历史悠久的重要民族乐器，被称为“弹拨乐器之王” 。琵琶音域广，演奏技巧为民族器乐之首，表现力更是民乐中最为丰富的乐器。");
-                instrument.setBrief0("\t\t琵琶为木制，音箱呈半梨形，上装四弦，原先是用丝线，现多用钢丝、尼龙制成。颈与面板上设用以确定音位的“相”和“品” 。演奏时拨动琴弦使琴弦振动发声，通过共鸣箱放大音源。");
-                instrument.setContent("\t\t琵琶已经有二千多年的历史，最早被称为“琵琶”的乐器约在中国秦朝出现。历史上的所谓琵琶，并不仅指具有梨形共鸣箱的曲项琵琶，而是多种弹拨乐器的总称。其名“琵”，“琶”是根据演奏这些乐器的右手技法而来的。也就是说琵和琶原是两种弹奏手法的名称，琵是右手向前弹，琶是右手向后挑。\n" +
-                        "    到了南北朝时，从西域传来了一种梨形音箱、曲颈、四条弦的乐器，有人就把它和中国的琵琶结合起来，改制成新式琵琶。到了唐代（公元7-9世纪）琵琶的发展出现了一个高峰。当时上至宫廷乐队, 下至民间演唱都少不了琵琶, 随成为当时非常盛行的乐器, 而且在乐队处于领奏地位。经历代演奏者的改进，至今形制已经趋于统一，成为六相二十四品的四弦琵琶。\n\n ");
+                instrument.setBrief1("\t\t\t\t琵琶，拨弦类弦鸣乐器，是我国历史悠久的重要民族乐器，被称为“弹拨乐器之王” 。琵琶音域广，演奏技巧为民族器乐之首，表现力更是民乐中最为丰富的乐器。");
+                instrument.setBrief0("\t\t\t\t琵琶为木制，音箱呈半梨形，上装四弦，原先是用丝线，现多用钢丝、尼龙制成。颈与面板上设用以确定音位的“相”和“品” 。演奏时拨动琴弦使琴弦振动发声，通过共鸣箱放大音源。");
+                instrument.setContent("\t\t\t\t琵琶已经有二千多年的历史，最早被称为“琵琶”的乐器约在中国秦朝出现。历史上的所谓琵琶，并不仅指具有梨形共鸣箱的曲项琵琶，而是多种弹拨乐器的总称。其名“琵”，“琶”是根据演奏这些乐器的右手技法而来的。也就是说琵和琶原是两种弹奏手法的名称，琵是右手向前弹，琶是右手向后挑。\n" +
+                        "\t\t\t\t到了南北朝时，从西域传来了一种梨形音箱、曲颈、四条弦的乐器，有人就把它和中国的琵琶结合起来，改制成新式琵琶。到了唐代（公元7-9世纪）琵琶的发展出现了一个高峰。当时上至宫廷乐队, 下至民间演唱都少不了琵琶, 随成为当时非常盛行的乐器, 而且在乐队处于领奏地位。经历代演奏者的改进，至今形制已经趋于统一，成为六相二十四品的四弦琵琶。\n\n ");
                 instrument.setPic_position(R.drawable.position_pipa);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F%20-%20%E7%90%B5%E7%90%B6%20-%20%E7%BA%AF%E9%9F%B3%E4%B9%90.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《十面埋伏》");
-                instrument.setMusic_name2("《紫竹调》");
+                instrument.setMusic_name1("十面埋伏");
+                instrument.setMusic_name2("紫竹调");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t琵琶可独奏、伴奏、重奏、合奏。琵琶发声十分特殊，它的泛音在古今中外的各类乐器中居首位，不但音量大，而且音质清脆明亮。琵琶穿透力强，高音区明亮而富有刚性，中音区柔和而有润音，低音区音质淳厚。");
@@ -453,17 +448,17 @@ public class InstrumentsInfo {
                 instrument.setName("月琴");
                 instrument.setPic_spe(R.drawable.yueqin);
                 instrument.setPic_struct(R.drawable.struct_yueqin);
-                instrument.setBrief1("\t\t等待修改。");
-                instrument.setBrief0("\t\t月琴是琴弦振动发声，音箱呈满圆形，琴脖短小。全长62厘米、音箱直径36.3厘米。琴颈和音箱边框用红木、紫檀木制，边框用六块规格一致的木板胶接而成，面板和背板桐木制。琴弦用丝弦、尼龙弦或尼龙缠钢丝弦。以钢丝尼龙弦的效果最好。");
-                instrument.setContent("\t\t月琴起源于汉代，早在汉武帝时(公元前140年—前87年)，我国汉族已经创造发明了阮，但当时这种以“弹”和“挑”为主要演奏手法的乐器，都笼统地称为琵琶。月琴是从阮演变而来的乐器。当时月琴的形制与阮相近，后来逐渐变化。自晋代起就在民间流行，约从唐代起有月琴之名，取其形圆似月、声如琴。\n ");
-                instrument.setPic_position(R.drawable.position_xiao);
+                instrument.setBrief1("\t\t\t\t");
+                instrument.setBrief0("\t\t\t\t月琴是琴弦振动发声，音箱呈满圆形，琴脖短小。全长62厘米、音箱直径36.3厘米。琴颈和音箱边框用红木、紫檀木制，边框用六块规格一致的木板胶接而成，面板和背板桐木制。琴弦用丝弦、尼龙弦或尼龙缠钢丝弦。以钢丝尼龙弦的效果最好。");
+                instrument.setContent("\t\t\t\t月琴起源于汉代，早在汉武帝时(公元前140年—前87年)，我国汉族已经创造发明了阮，但当时这种以“弹”和“挑”为主要演奏手法的乐器，都笼统地称为琵琶。月琴是从阮演变而来的乐器。当时月琴的形制与阮相近，后来逐渐变化。自晋代起就在民间流行，约从唐代起有月琴之名，取其形圆似月、声如琴。");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%9B%9B%E5%AD%A3%E6%98%A5%20-%20%E8%91%A3%E6%B7%BB%E6%9C%A8;%E8%91%A3%E5%BB%B6%E5%BA%AD%28%E6%9C%88%E7%90%B4%29.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%A4%9C%E6%B7%B1%E6%B2%89%20-%20%E9%9B%B7%E7%BE%A4%E5%AE%89.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%98%A5%E4%B9%8B%E5%BD%92%20-%20%E9%9B%B7%E7%BE%A4%E5%AE%89.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《四季春》");
-                instrument.setMusic_name2("《夜深沉 - 雷群安》");
-                instrument.setMusic_name3("《春之归 - 雷群安》");
+                instrument.setMusic_name1("四季春");
+                instrument.setMusic_name2("夜深沉 - 雷群安");
+                instrument.setMusic_name3("春之归 - 雷群安");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t月琴的音色悦耳、动听，高音清脆、中音明亮、低音丰满。音量较小，音色清脆柔和，适合抒情性的说唱，可以烘托故事的气氛。亦是少数民族劳动之余、夜晚自娱、讴歌心声的乐器。云南少数民族叫做“弦子”，是成年男子必备之物。月琴既是兄弟民族叠脚跳歌时不可缺少的伴奏乐器，又是小伙子抒发自己情思的特殊工具。由于它音色清脆悦耳，节奏鲜明，轻轻弹动，有如丝丝细雨；急促拨弄，犹如万马奔腾。小伙子们常常用优美的琴声，引来自己心爱的人。 ");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/34Yuqin.mp4");
@@ -476,21 +471,21 @@ public class InstrumentsInfo {
                 instrument.setName("古琴");
                 instrument.setPic_spe(R.drawable.guqin);
                 instrument.setPic_struct(R.drawable.struct_guqin);
-                instrument.setBrief1("\t\t古琴，民族拨弦乐器，中国最古老的弹拨乐器之一。又称瑶琴、玉琴、丝桐和七弦琴，有三千年以上历史，属于八音中的丝。");
-                instrument.setContent("\t\t古琴，自古“琴”为其特指，19世纪20年代起为了与钢琴区别而改称古琴。初为5弦，汉朝起定制为7弦，且有标志音律的13个徽，亦为礼器和乐律法器。古琴是汉文化中地位最崇高的乐器，位列中国传统文化四艺“琴棋书画”之首，被文人视为高雅的代表，亦为文人吟唱时的伴奏乐器，自古以来一直是许多文人必备的知识和必修的科目。伯牙、钟子期以“高山流水”而成知音的故事流传至今；琴台被视为友谊的象征，大量诗词文赋中有琴的身影。2003年11月7日，古琴艺术被联合国教科文组织列入世界第2批人类非物质文化遗产代表作名录。2006年5月20日，中华人民共和国国务院将古琴列入第1批国家级非物质文化遗产名录，划分在“民间音乐”类，编号Ⅱ—34。\n ");
-                instrument.setPic_position(R.drawable.position_xiao);
+                instrument.setBrief1("\t\t\t\t古琴，民族拨弦乐器，中国最古老的弹拨乐器之一。又称瑶琴、玉琴、丝桐和七弦琴，有三千年以上历史，属于八音中的丝。");
+                instrument.setContent("\t\t\t\t古琴，自古“琴”为其特指，19世纪20年代起为了与钢琴区别而改称古琴。初为5弦，汉朝起定制为7弦，且有标志音律的13个徽，亦为礼器和乐律法器。古琴是汉文化中地位最崇高的乐器，位列中国传统文化四艺“琴棋书画”之首，被文人视为高雅的代表，亦为文人吟唱时的伴奏乐器，自古以来一直是许多文人必备的知识和必修的科目。伯牙、钟子期以“高山流水”而成知音的故事流传至今；琴台被视为友谊的象征，大量诗词文赋中有琴的身影。2003年11月7日，古琴艺术被联合国教科文组织列入世界第2批人类非物质文化遗产代表作名录。2006年5月20日，中华人民共和国国务院将古琴列入第1批国家级非物质文化遗产名录，划分在“民间音乐”类，编号Ⅱ—34。\n ");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%8F%A4%E7%90%B4%20%E9%AB%98%E5%B1%B1%E6%B5%81%E6%B0%B4.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%BB%84%E8%8E%BA%E5%90%9F%20%E5%8F%A4%E7%90%B4%20%E7%AE%AB%E4%B8%8E%E7%90%B5%E7%90%B6.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%BE%9A%E4%B8%80%20-%20%E5%B9%B3%E6%B2%99%E8%90%BD%E9%9B%81%20-%20%E5%8F%A4%E7%90%B4%20%E8%90%A7%20%E7%BD%97%E5%AE%88%E8%AF%9A.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《高山流水》");
-                instrument.setMusic_name2("《平沙落雁》");
-                instrument.setMusic_name3("《黄莺吟》");
+                instrument.setMusic_name1("高山流水");
+                instrument.setMusic_name2("平沙落雁");
+                instrument.setMusic_name3("黄莺吟");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t古琴的声音非常独特，听时能感到古琴的安静悠远。\n" +
                         "    古琴有三种音，散音、泛音、按音，都非常安静。散音松沉而旷远，令人起远古之思 ；其泛音则如天籁，有清冷入仙之感；按音则变化丰富，时如人语，细微悠长，时如人心之绪，缥缈多变。泛音似天，按音如人，散音则同大地，称为天地人三籁。因此古琴一器具三籁，既可状人情之思，也可达天地宇宙之理。 \n");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/13Guqin.mp4");
-                instrument.setSkill("\t\t\t\t演奏技巧：。 \n");
+                instrument.setSkill("\t\t\t\t");
                 break;
             case "柳琴":
                 instrument.setGuide2(">民族乐器");
@@ -499,11 +494,11 @@ public class InstrumentsInfo {
                 instrument.setName("柳琴");
                 instrument.setPic_spe(R.drawable.liuqin);
                 instrument.setPic_struct(R.drawable.struct_liuqin);
-                instrument.setBrief1("\t\t柳琴是汉族传统弹拨乐器，又称柳叶琴、金刚腿或土琵琶。原流行于苏，鲁，皖等省，现流行于全国各地，以山东临沂及苏北一带为主。 属唐代以来在民间流传的梨形音箱弹弦乐器之一，其外形、构造、奏法均与阮相似。最早的柳琴，构造非常简单，由于柳琴的外形非常民间化，中国老百姓亲切地称它“土琵琶”。");
-                instrument.setBrief0("\t\t从结构来看:\n" +
+                instrument.setBrief1("\t\t\t\t柳琴是汉族传统弹拨乐器，又称柳叶琴、金刚腿或土琵琶。原流行于苏，鲁，皖等省，现流行于全国各地，以山东临沂及苏北一带为主。 属唐代以来在民间流传的梨形音箱弹弦乐器之一，其外形、构造、奏法均与阮相似。最早的柳琴，构造非常简单，由于柳琴的外形非常民间化，中国老百姓亲切地称它“土琵琶”。");
+                instrument.setBrief0("\t\t\t\t从结构来看:\n" +
                         "1、琵琶音位由品和相组成，而柳琴只由品组成。\n" +
                         "2、其他的结构基本一样,但是柳琴都小很多。\n");
-                instrument.setContent("\t\t柳琴原是用作柳琴戏，泗州戏等地方戏曲的伴奏及弹奏简单歌曲，发音响亮宏大，音色高亢刚劲，富有浓郁的乡土气息。经过长时间的发展，现已发展为独奏乐器，并常用于民族乐队中的高音乐器。\n" +
+                instrument.setContent("\t\t\t\t柳琴原是用作柳琴戏，泗州戏等地方戏曲的伴奏及弹奏简单歌曲，发音响亮宏大，音色高亢刚劲，富有浓郁的乡土气息。经过长时间的发展，现已发展为独奏乐器，并常用于民族乐队中的高音乐器。\n" +
                         "最早的柳琴，构造较简单，只有两条丝弦，7个用高粱秆做成的品位，音域很窄，仅有一个半八度，还不便转调。1958年底，第一代新型柳琴－－三弦柳琴诞生了。三弦柳琴由原来的两根弦变成了三根弦，音柱也由7个增加到24个。\n" +
                         "70年代，出现了第二代新型柳琴－－四弦高音柳琴。第二代新型柳琴除了在琴弦和音柱的数量上又有所增加外，最主要的变化是用竹子代替了高粱秆，用钢丝代替了丝弦。这些改革大大改善了柳琴各方面的性能，丰富了表现力。从而使柳琴结束了200余年来仅仅作为伴奏乐器的历史，走上了独奏乐器的发展道路。\n ");
                 instrument.setPic_position(R.drawable.position_liuqin);
@@ -511,9 +506,9 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%93%B6%E6%B9%96%E9%87%91%E6%B3%A2%20-%20%E7%8E%8B%E7%BA%A2%E8%89%BA.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%B9%BD%E7%87%95%E6%98%A5%E6%97%A9%20-%20%E5%BC%A0%E5%A4%A7%E6%A3%AE.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《剑器》");
-                instrument.setMusic_name2("《银湖金波》");
-                instrument.setMusic_name3(" 《幽燕春早》");
+                instrument.setMusic_name1("剑器");
+                instrument.setMusic_name2("银湖金波");
+                instrument.setMusic_name3(" 幽燕春早");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t在民乐队中，柳琴是弹拨乐器的高音乐器，其音响效果独特，不易被其它乐器所掩盖，常用来演奏高音区的主旋律，有时也演奏华丽、技巧性高的华彩乐段。它既适于演奏欢快、对比强烈、节奏鲜明、富有弹性和活泼的曲调，也适于演奏优美、抒情的旋律，在乐队中能与琵琶、阮、筝和二胡等乐器和谐默契地合作。柳琴还具有西洋乐器曼陀林的音响效果，它与西洋乐队合作时更别有风味，在音色上也能水乳交融、相得益彰。在民间乐队——常州丝弦中，柳琴能与主奏的笛子密切配合，起到陪衬、增强对比和装饰作用。在器乐合奏中，有时它还处于领奏地位，能很好地调节音色变化。");
                 instrument.setVideo_url("");
@@ -526,17 +521,17 @@ public class InstrumentsInfo {
                 instrument.setName("古筝");
                 instrument.setPic_spe(R.drawable.guzheng);
                 instrument.setPic_struct(R.drawable.struct_guzheng);
-                instrument.setBrief1("\t\t古筝，民族弹拨弦乐，又名“秦筝”。有十六弦、十八弦、二十一弦等。");
-                instrument.setBrief0("\t\t琴一般长约三尺六寸五（约120—125公分），象征一年三百六十五天（一说象周天365度）；一般宽约六寸（20公分左右）；厚约二寸（6公分左右）。琴体下部扁平，上部呈弧形凸起，分别象征天地，与古时的天圆地方之说相应，整体形状依凤身形而制成，其全身与凤身相应。");
-                instrument.setContent("\t\t古筝是一件古老的民族乐器。唐宋时有弦十三根，后最多增至二十五弦。目前最常用的规格为21弦。通常古筝的型号用S163-21，S代表S形岳山，是筝父徐振高发明。163代表古筝长度为163厘米，21代表古筝弦数21根。自秦、汉以来，古筝从我国西北地区流传到全国各地，在不同地域逐渐形成了各具浓郁地方特色的九个流派，分别为：山东筝、河南筝、潮州筝、客家筝、浙江筝、福建筝、内蒙筝（即雅托葛）、朝鲜族的伽揶琴（即延边筝）和被称为真秦之声的陕西筝。\n ");
+                instrument.setBrief1("\t\t\t\t古筝，民族弹拨弦乐，又名“秦筝”。有十六弦、十八弦、二十一弦等。");
+                instrument.setBrief0("\t\t\t\t琴一般长约三尺六寸五（约120—125公分），象征一年三百六十五天（一说象周天365度）；一般宽约六寸（20公分左右）；厚约二寸（6公分左右）。琴体下部扁平，上部呈弧形凸起，分别象征天地，与古时的天圆地方之说相应，整体形状依凤身形而制成，其全身与凤身相应。");
+                instrument.setContent("\t\t\t\t古筝是一件古老的民族乐器。唐宋时有弦十三根，后最多增至二十五弦。目前最常用的规格为21弦。通常古筝的型号用S163-21，S代表S形岳山，是筝父徐振高发明。163代表古筝长度为163厘米，21代表古筝弦数21根。自秦、汉以来，古筝从我国西北地区流传到全国各地，在不同地域逐渐形成了各具浓郁地方特色的九个流派，分别为：山东筝、河南筝、潮州筝、客家筝、浙江筝、福建筝、内蒙筝（即雅托葛）、朝鲜族的伽揶琴（即延边筝）和被称为真秦之声的陕西筝。\n ");
                 instrument.setPic_position(R.drawable.position_guzheng);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%B8%94%E8%88%9F%E5%94%B1%E6%99%9A%20%E5%8F%A4%E7%AD%9D.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%98%A5%E6%B1%9F%E8%8A%B1%E6%9C%88%E5%A4%9C%20-%20%E7%BE%A4%E6%98%9F.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%81%AF%E6%9C%88%E4%BA%A4%E8%BE%89%20-%20%E7%BE%A4%E6%98%9F.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《平沙落雁》");
-                instrument.setMusic_name2("《春江花月夜 - 群星》");
-                instrument.setMusic_name3("《灯月交辉 - 群星》");
+                instrument.setMusic_name1("平沙落雁");
+                instrument.setMusic_name2("春江花月夜 - 群星");
+                instrument.setMusic_name3("灯月交辉 - 群星");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t古筝是一种极富表现力的乐器，其音色委婉动听并富有神韵。它可以细致微妙地表达人们的内在情感，无论是如泣如诉、还是高歌吟唱它都可以表现得淋漓尽致。  ");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%8F%A4%E5%8A%8D%E5%A5%87%E8%AD%9A%20%E5%A4%A9%E6%B7%A8%E6%B2%99%20%E5%8F%A4%E7%AE%8F.mp4");
@@ -549,10 +544,10 @@ public class InstrumentsInfo {
                 instrument.setName("锣");
                 instrument.setPic_spe(R.drawable.luo);
                 instrument.setPic_struct(R.drawable.struct_luo);
-                instrument.setBrief1("\t\t锣是中国传统的打击乐器，在中国的民族乐队中占有非常重要的地位，而且应用范围也很广泛，它不仅在民族乐队、民间器乐合奏、各种戏曲、曲艺以及歌舞伴奏中使用，而且也是庆祝集会中不可缺少的乐器。");
-                instrument.setBrief0("\t\t锣结构简单，由锣体、锣架(锣绳)、锣棰三部分组成。锣体铜制，因用“响铜”制成，故也有“响器”之称。锣体呈一圆盘形，四周以本身边框固定，用锣棰敲击中央部分振 动发音。");
-                instrument.setContent("\t\t最早使用铜锣的是居住在中国西南地区的少数民族，云南是中国古代铜鼓的发祥地。到了公元前二世纪左右，铜锣在战争中应用比较广泛，中国古代的军事术语“鸣金收兵”中的“金”就是古代铜锣的别称。到了宋代，锣在民间音乐形式“ 鼓板”中被应用。到了元代，除民间的迎赛神社常常鸣锣外，锣还是杂剧的主要伴奏乐器。近百年来，锣在地方戏曲、民间音乐、民间娱乐和节庆活动中被广泛应用。\n ");
-                instrument.setPic_position(R.drawable.position_luo);
+                instrument.setBrief1("\t\t\t\t锣是中国传统的打击乐器，在中国的民族乐队中占有非常重要的地位，而且应用范围也很广泛，它不仅在民族乐队、民间器乐合奏、各种戏曲、曲艺以及歌舞伴奏中使用，而且也是庆祝集会中不可缺少的乐器。");
+                instrument.setBrief0("\t\t\t\t锣结构简单，由锣体、锣架(锣绳)、锣棰三部分组成。锣体铜制，因用“响铜”制成，故也有“响器”之称。锣体呈一圆盘形，四周以本身边框固定，用锣棰敲击中央部分振 动发音。");
+                instrument.setContent("\t\t\t\t最早使用铜锣的是居住在中国西南地区的少数民族，云南是中国古代铜鼓的发祥地。到了公元前二世纪左右，铜锣在战争中应用比较广泛，中国古代的军事术语“鸣金收兵”中的“金”就是古代铜锣的别称。到了宋代，锣在民间音乐形式“ 鼓板”中被应用。到了元代，除民间的迎赛神社常常鸣锣外，锣还是杂剧的主要伴奏乐器。近百年来，锣在地方戏曲、民间音乐、民间娱乐和节庆活动中被广泛应用。\n ");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
                 instrument.setMusic_url3("");
@@ -572,17 +567,17 @@ public class InstrumentsInfo {
                 instrument.setName("钹");
                 instrument.setPic_spe(R.drawable.bo);
                 instrument.setPic_struct(R.drawable.struct_xiao);
-                instrument.setBrief1("\t\t钹，互击体鸣乐器，古称铜钹、铜盘，民间称镲。打击乐器。碰奏体鸣乐器的一种。中国、外国乐队中都使用。中国古代把铜钹、铜铙或铜盘等，统称为铙钹。");
-                instrument.setBrief0("\t\t钹的构造简单，钹体为一圆形金属板，用“响铜”制成，中部隆起的半球形部分称“碗”或“帽”，碗根与钹边之间叫作“堂”，碗是钹的固定点，顶部钻有小孔，用绸或布拴系，叫“钹巾”，演奏者须取站姿，用双手通过钹巾持住钹身，相击后振动发音。也可以悬挂在支架上，用鼓槌滚奏，表现力很丰富。\n" +
-                        "钹属于金属体鸣乐器，无固定音高。其音响洪亮而强烈，穿透力很强，善于烘托气氛，是各种管弦乐队和地方吹打乐队中必不可少的色彩性打击乐器，在吹打乐等地方乐种中在用于强奏时，极富气势，通常表现一种激情；用于弱奏时，其作用类似大鼓，属于节拍乐器。\n");
-                instrument.setContent("\t\t钹源于西亚，最早在埃及、叙利亚，以后在波斯、罗马等古国都有流传；在东方，先见于印度，后而中亚，据《北帝书.神武记》记载，钹大约是在公元350年随《天竺乐》传入我国中原。南北朝时有钹，6世纪初期，铜钹在北魏民间已很流行，并很早就在梵乐中使用。明清后成为戏曲的重要伴奏乐器。\n ");
-                instrument.setPic_position(R.drawable.position_bo);
+                instrument.setBrief1("\t\t\t\t钹，互击体鸣乐器，古称铜钹、铜盘，民间称镲。打击乐器。碰奏体鸣乐器的一种。中国、外国乐队中都使用。中国古代把铜钹、铜铙或铜盘等，统称为铙钹。");
+                instrument.setBrief0("\t\t\t\t钹的构造简单，钹体为一圆形金属板，用“响铜”制成，中部隆起的半球形部分称“碗”或“帽”，碗根与钹边之间叫作“堂”，碗是钹的固定点，顶部钻有小孔，用绸或布拴系，叫“钹巾”，演奏者须取站姿，用双手通过钹巾持住钹身，相击后振动发音。也可以悬挂在支架上，用鼓槌滚奏，表现力很丰富。\n" +
+                        "\t\t\t\t钹属于金属体鸣乐器，无固定音高。其音响洪亮而强烈，穿透力很强，善于烘托气氛，是各种管弦乐队和地方吹打乐队中必不可少的色彩性打击乐器，在吹打乐等地方乐种中在用于强奏时，极富气势，通常表现一种激情；用于弱奏时，其作用类似大鼓，属于节拍乐器。\n");
+                instrument.setContent("\t\t\t\t钹源于西亚，最早在埃及、叙利亚，以后在波斯、罗马等古国都有流传；在东方，先见于印度，后而中亚，据《北帝书.神武记》记载，钹大约是在公元350年随《天竺乐》传入我国中原。南北朝时有钹，6世纪初期，铜钹在北魏民间已很流行，并很早就在梵乐中使用。明清后成为戏曲的重要伴奏乐器。\n ");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("独奏");
-                instrument.setMusic_name2("1、铁龙山（京剧）");
+                instrument.setMusic_name2("铁龙山（京剧）");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t钹属于金属体鸣乐器，无固定音高。（有些音色柔软而优雅，而有些尖锐响亮。）其音响洪亮而强烈，穿透力很强，善于烘托气氛，是各种管弦乐队和地方吹打乐队中必不可少的色彩性打击乐器，在吹打乐等地方乐种中在用于强奏时，极富气势，通常表现一种激情；用于弱奏时，其作用类似大鼓，属于节拍乐器。");
@@ -596,17 +591,17 @@ public class InstrumentsInfo {
                 instrument.setName("排鼓");
                 instrument.setPic_spe(R.drawable.paigu);
                 instrument.setPic_struct(R.drawable.struct_paigu);
-                instrument.setBrief1("\t\t排鼓，鼓类乐器的新品种，属于打击乐器。");
-                instrument.setBrief0("\t\t排鼓由鼓皮、鼓胆、鼓架、鼓棒组成。排鼓由五个大小不同、发音有别的鼓组成一套。鼓身高29至33.3厘米，上口面直径16.7至37厘米，下口面直径11.7至37厘米。吉林省歌舞剧院于延河与苏州民族乐器三厂合作，研制成由十三面鼓组成的排鼓，鼓身用玻璃钢制作，鼓和架为插口式结合，结构新颖，已用于舞台演出。");
-                instrument.setContent("\t\t1959年中央广播民族乐团根据浙江吹打乐中鼓的组合特点，在堂鼓基础上研製而成的一种“套鼓”，鼓框二端厚度不等，有效振动面积大小不一，发音高度相差一个小三度，把鼓框固定於“U”型鼓架上，可以随意升高或降低，亦可改变敲击角度。排鼓一套四个，各鼓大小不一，称一号鼓、二号鼓、三号鼓、四号鼓，或中堂鼓、次中堂鼓、小堂鼓和高音堂鼓，由低音到高音依次排列。1963年又增加了一个花盆鼓。以后再经改进，扩大了音域，每鼓均能在四至六度以内的调定音。\n ");
+                instrument.setBrief1("\t\t\t\t排鼓，鼓类乐器的新品种，属于打击乐器。");
+                instrument.setBrief0("\t\t\t\t排鼓由鼓皮、鼓胆、鼓架、鼓棒组成。排鼓由五个大小不同、发音有别的鼓组成一套。鼓身高29至33.3厘米，上口面直径16.7至37厘米，下口面直径11.7至37厘米。吉林省歌舞剧院于延河与苏州民族乐器三厂合作，研制成由十三面鼓组成的排鼓，鼓身用玻璃钢制作，鼓和架为插口式结合，结构新颖，已用于舞台演出。");
+                instrument.setContent("\t\t\t\t1959年中央广播民族乐团根据浙江吹打乐中鼓的组合特点，在堂鼓基础上研製而成的一种“套鼓”，鼓框二端厚度不等，有效振动面积大小不一，发音高度相差一个小三度，把鼓框固定於“U”型鼓架上，可以随意升高或降低，亦可改变敲击角度。排鼓一套四个，各鼓大小不一，称一号鼓、二号鼓、三号鼓、四号鼓，或中堂鼓、次中堂鼓、小堂鼓和高音堂鼓，由低音到高音依次排列。1963年又增加了一个花盆鼓。以后再经改进，扩大了音域，每鼓均能在四至六度以内的调定音。\n ");
                 instrument.setPic_position(R.drawable.position_paigu);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%90%88%E5%A5%8F%20%E7%8B%AE%E5%AD%90%E6%88%8F%E9%93%83.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%90%88%E5%A5%8F%20%E6%8E%92%E5%B1%B1%E5%80%92%E6%B5%B7.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("独奏");
-                instrument.setMusic_name2(" 《狮子戏铃》");
-                instrument.setMusic_name3("《排山倒海》");
+                instrument.setMusic_name2("狮子戏铃");
+                instrument.setMusic_name3("排山倒海");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t每个鼓的两面鼓框外径相同而内径不一，可发出音高不同的两个音来，故五个鼓有十个音。每个鼓的两面都装有调音设备，调音幅度可达四或五度，可根据实际需要定音。排鼓发音激烈、跳荡，高音坚实有力，中、低音宽厚宏亮，尤擅于表现热烈欢腾的情绪。");
                 instrument.setVideo_url("");
@@ -619,9 +614,9 @@ public class InstrumentsInfo {
                 instrument.setName("大鼓");
                 instrument.setPic_spe(R.drawable.dagu);
                 instrument.setPic_struct(R.drawable.struct_dagu);
-                instrument.setBrief1("\t\t大鼓是民族打击乐器，属于双面膜鸣乐器。");
-                instrument.setBrief0("\t\t由鼓身、鼓皮、鼓圈、鼓卡和 鼓棰等部分组成。使用材质：鼓身：原来木质或轻金属材料，现改用较轻的合成纤维材料制造；鼓皮：原来用动物皮革制作，近年已全改用塑胶或纤维鼓面；鼓圈和鼓卡：目前多用铝合金制成。鼓棰：短而粗的木棰，一端包以皮条、布料或绒毡，呈球状。");
-                instrument.setContent("\t\t现代大鼓起源于古代土耳其，因此又称大军鼓，中世纪时传入欧洲。是军乐队、管弦乐队和交响乐队中最重要的打击乐器，几乎不作独奏，而是参与合奏或衬托乐队和声的伴奏乐器。此外大鼓的地位非常重要，它不仅使乐队的低音声部更加充实、丰满，而且可以为整个乐队带来一种气势。\n ");
+                instrument.setBrief1("\t\t\t\t大鼓是民族打击乐器，属于双面膜鸣乐器。");
+                instrument.setBrief0("\t\t\t\t由鼓身、鼓皮、鼓圈、鼓卡和 鼓棰等部分组成。使用材质：鼓身：原来木质或轻金属材料，现改用较轻的合成纤维材料制造；鼓皮：原来用动物皮革制作，近年已全改用塑胶或纤维鼓面；鼓圈和鼓卡：目前多用铝合金制成。鼓棰：短而粗的木棰，一端包以皮条、布料或绒毡，呈球状。");
+                instrument.setContent("\t\t\t\t现代大鼓起源于古代土耳其，因此又称大军鼓，中世纪时传入欧洲。是军乐队、管弦乐队和交响乐队中最重要的打击乐器，几乎不作独奏，而是参与合奏或衬托乐队和声的伴奏乐器。此外大鼓的地位非常重要，它不仅使乐队的低音声部更加充实、丰满，而且可以为整个乐队带来一种气势。\n ");
                 instrument.setPic_position(R.drawable.position_dagu);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
@@ -631,10 +626,10 @@ public class InstrumentsInfo {
                 instrument.setMusic_name2("合奏");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
-                instrument.setMusic_content("\t\t\t\t大鼓属于双面膜鸣乐器，无固定音高，但可控制发音的强弱变化。用鼓锤敲击发音，通过用力的变化来表现出不同的音乐情绪。轻滚奏时会营造深沉或不安的感觉；重击则制造惊吓、恐俱、愤怒或激动的内心情感，或是表达炮火、雷电的景象；至于在进行曲中大鼓可以营造出威武、整齐的感觉。 ");
+                instrument.setMusic_content("\t\t\t\t大鼓属于双面膜鸣乐器，无固定音高，但可控制发音的强弱变化。用鼓锤敲击发音，通过用力的变化来表现出不同的音乐情绪。轻滚奏时会营造深沉或不安的感觉；重击则制造惊吓、恐俱、愤怒或激动的内心情感，或是表达炮火、雷电的景象；至于在进行曲中大鼓可以营造出威武、整齐的感觉。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/dagu.mp4");
                 instrument.setSkill("\t\t\t\t演奏技巧：右手执槌（桴）打鼓，左手执槌敲吊钟，敲打的时候，必须注意“节拍、板眼”，不可错乱。\n" +
-                        "“手鼓”的拿法和敲法是：不敲时，两手捧持；椎横摆在鼓的外面，用两食指与两中指托住，两大指挟在鼓内，其余四指（两无名指与两小指）环摆着。敲击时左手持鼓，右手执槌。持鼓是以左手大指和食指，中指托之。执槌是以右手大指、食指和中指合持，向内敲之。另有一种如团扇形有柄的单面“手鼓”，则用左手握持其柄便可。\n \n");
+                        "\t\t\t\t“手鼓”的拿法和敲法是：不敲时，两手捧持；椎横摆在鼓的外面，用两食指与两中指托住，两大指挟在鼓内，其余四指（两无名指与两小指）环摆着。敲击时左手持鼓，右手执槌。持鼓是以左手大指和食指，中指托之。执槌是以右手大指、食指和中指合持，向内敲之。另有一种如团扇形有柄的单面“手鼓”，则用左手握持其柄便可。\n");
                 break;
             case "木鱼":
                 instrument.setGuide2(">民族乐器");
@@ -643,9 +638,9 @@ public class InstrumentsInfo {
                 instrument.setName("木鱼");
                 instrument.setPic_spe(R.drawable.muyu);
                 instrument.setPic_struct(R.drawable.struct_muyu);
-                instrument.setBrief1("\t\t木鱼，打击乐器,原为佛教“龚吹”（宗教歌曲）的民族乐器。木鱼之名称由来，盖取“鱼日夜不合目”，故刻木象鱼，击之，用以诫昼夜思道。");
-                instrument.setBrief0("\t\t木鱼由樟树制成，呈团鱼形，腹部中空，头部正中开口，尾部盘绕，其状昂首缩尾，背部（敲击部位）呈斜坡形，两侧三角形，底部椭圆；木制棰，棰头橄榄形。寺庙中使用的木鱼，大致分为两种：一种为圆形，另一种是长条形的。一般来说，圆形木鱼的规格多种多样（直径范围在5-58cm），而长条形的木鱼大多在一米左右。木鱼本身的材料发声，不需要弦或者拉伸的表面。");
-                instrument.setContent("\t\t根据历代崇道记的记载 ，木鱼是出自唐代，明皇帝时期，是道教召集教众，讲经设斋用得法器，源于道教。现今台北金山乐园中，安有一高七尺半、宽六尺的巨型木鱼，并撘配一支长八尺四寸，重六十公斤的大木槌，全部由樟木雕造而成，堪称一绝。木鱼用于保持佛教诵经的节奏，另外也被运用到爵士乐。小号的木鱼可以拿在手里进行演奏，大号的则是放在毯子上的。\n ");
+                instrument.setBrief1("\t\t\t\t木鱼，打击乐器,原为佛教“龚吹”（宗教歌曲）的民族乐器。木鱼之名称由来，盖取“鱼日夜不合目”，故刻木象鱼，击之，用以诫昼夜思道。");
+                instrument.setBrief0("\t\t\t\t木鱼由樟树制成，呈团鱼形，腹部中空，头部正中开口，尾部盘绕，其状昂首缩尾，背部（敲击部位）呈斜坡形，两侧三角形，底部椭圆；木制棰，棰头橄榄形。寺庙中使用的木鱼，大致分为两种：一种为圆形，另一种是长条形的。一般来说，圆形木鱼的规格多种多样（直径范围在5-58cm），而长条形的木鱼大多在一米左右。木鱼本身的材料发声，不需要弦或者拉伸的表面。");
+                instrument.setContent("\t\t\t\t根据历代崇道记的记载 ，木鱼是出自唐代，明皇帝时期，是道教召集教众，讲经设斋用得法器，源于道教。现今台北金山乐园中，安有一高七尺半、宽六尺的巨型木鱼，并撘配一支长八尺四寸，重六十公斤的大木槌，全部由樟木雕造而成，堪称一绝。木鱼用于保持佛教诵经的节奏，另外也被运用到爵士乐。小号的木鱼可以拿在手里进行演奏，大号的则是放在毯子上的。\n ");
                 instrument.setPic_position(R.drawable.position_muyu);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
@@ -666,9 +661,9 @@ public class InstrumentsInfo {
                 instrument.setName("扬琴");
                 instrument.setPic_spe(R.drawable.yangqin);
                 instrument.setPic_struct(R.drawable.struct_yangqin);
-                instrument.setBrief1("\t\t扬琴，民族击弦乐器，又称洋琴、打琴、铜丝琴、扇面琴、蝙蝠琴、蝴蝶琴，是中国民族音乐中，一种兼具打击乐器及弦乐器特点的乐器，是中国民族乐队中必不可少的乐器，与钢琴同宗。");
-                instrument.setBrief0("\t\t扬琴由共鸣箱、山口、弦钉、弦轴、马子、琴弦和琴竹等构成。传统扬琴框架用色木、桦木或榆木制，上蒙白松或桐木面板，下蒙胶合板，音箱呈蝴蝶形或扁梯形。扬琴在演奏时，演奏者双手使用两支琴笕（也叫作“琴竹”）弹击琴弦，琴弦因弹击振动而发音后，通过琴码传导，引起面板和梯形共鸣箱内的空气共振，而产生音响共鸣发声。");
-                instrument.setContent("\t\t扬琴是明朝末期由波斯传入，最初是为曲艺伴奏，并形成多种流派。据史书记载，中世纪以前，亚叙、波斯等古代中东国家，流行着一种弦击乐器，名叫萨泰里琴。明朝（1368~1644年），随着中国和西亚、东亚间日趋密切的友好往来，萨泰里琴由波斯经海路传入我国，最初只流行在广东一带，后来逐渐扩散到中国各地。后来经过中国民间艺人的改造，萨泰里琴渐渐演化成为中国的民族乐器──扬琴。清末民初，许多民间器乐演奏形式，作为独立的乐种兴起，扬琴又成为广东音乐、江南丝竹和山东琴曲等乐种的主要乐器之一。扬琴在我国经过近400年的流传和演进。\n ");
+                instrument.setBrief1("\t\t\t\t扬琴，民族击弦乐器，又称洋琴、打琴、铜丝琴、扇面琴、蝙蝠琴、蝴蝶琴，是中国民族音乐中，一种兼具打击乐器及弦乐器特点的乐器，是中国民族乐队中必不可少的乐器，与钢琴同宗。");
+                instrument.setBrief0("\t\t\t\t扬琴由共鸣箱、山口、弦钉、弦轴、马子、琴弦和琴竹等构成。传统扬琴框架用色木、桦木或榆木制，上蒙白松或桐木面板，下蒙胶合板，音箱呈蝴蝶形或扁梯形。扬琴在演奏时，演奏者双手使用两支琴笕（也叫作“琴竹”）弹击琴弦，琴弦因弹击振动而发音后，通过琴码传导，引起面板和梯形共鸣箱内的空气共振，而产生音响共鸣发声。");
+                instrument.setContent("\t\t\t\t扬琴是明朝末期由波斯传入，最初是为曲艺伴奏，并形成多种流派。据史书记载，中世纪以前，亚叙、波斯等古代中东国家，流行着一种弦击乐器，名叫萨泰里琴。明朝（1368~1644年），随着中国和西亚、东亚间日趋密切的友好往来，萨泰里琴由波斯经海路传入我国，最初只流行在广东一带，后来逐渐扩散到中国各地。后来经过中国民间艺人的改造，萨泰里琴渐渐演化成为中国的民族乐器──扬琴。清末民初，许多民间器乐演奏形式，作为独立的乐种兴起，扬琴又成为广东音乐、江南丝竹和山东琴曲等乐种的主要乐器之一。扬琴在我国经过近400年的流传和演进。\n ");
                 instrument.setPic_position(R.drawable.position_yangqin);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/duzou_xiao.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/hezou_xiao.mp3");
@@ -689,21 +684,21 @@ public class InstrumentsInfo {
                 instrument.setName("小号");
                 instrument.setPic_spe(R.drawable.xiaohao);
                 instrument.setPic_struct(R.drawable.struct_xiaohao);
-                instrument.setBrief1("\t\t\t小号，俗称小喇叭，属铜管乐器，常负责演奏旋律部分或高亢节奏部分，是铜管乐器家族中音域最高的乐器。");
-                instrument.setBrief0("\t\t\t小号由号嘴，管体和机械三部分组成，管长1.355米，通常由带一个或两个弯的长圆筒形金属管构成,其终端呈喇叭形。机械部分由活塞和活塞套组成，通过按下活塞接通旁路管以达到延长号管的目的。活塞分为直升式和回旋式两种。");
-                instrument.setContent("\t\t\t小号是种古老的乐器，它的首次记载是在公元前15世纪的古埃及人和日尔曼部落的图画中被提及。中世纪出现了大量新形式的小号。像基督教使用的乐器，专门用来使敌人受到惊恐。文艺复兴提高了小号在皇家宫廷的地位，这种乐器更多的被用来作为“音乐的”来演奏。 巴洛克时期，18世纪中叶活塞和按键的增加，使其在管弦乐作品中被频繁使用。1827年德国出现了活塞式小号。直到18世纪末，才逐步形成现在这种带有三个活塞，能演奏半音阶的小号和短号。 \n ");
+                instrument.setBrief1("\t\t\t\t小号，俗称小喇叭，属铜管乐器，常负责演奏旋律部分或高亢节奏部分，是铜管乐器家族中音域最高的乐器。");
+                instrument.setBrief0("\t\t\t\t小号由号嘴，管体和机械三部分组成，管长1.355米，通常由带一个或两个弯的长圆筒形金属管构成,其终端呈喇叭形。机械部分由活塞和活塞套组成，通过按下活塞接通旁路管以达到延长号管的目的。活塞分为直升式和回旋式两种。");
+                instrument.setContent("\t\t\t\t小号是种古老的乐器，它的首次记载是在公元前15世纪的古埃及人和日尔曼部落的图画中被提及。中世纪出现了大量新形式的小号。像基督教使用的乐器，专门用来使敌人受到惊恐。文艺复兴提高了小号在皇家宫廷的地位，这种乐器更多的被用来作为“音乐的”来演奏。 巴洛克时期，18世纪中叶活塞和按键的增加，使其在管弦乐作品中被频繁使用。1827年德国出现了活塞式小号。直到18世纪末，才逐步形成现在这种带有三个活塞，能演奏半音阶的小号和短号。 \n ");
                 instrument.setPic_position(R.drawable.position_xiaohao);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/Flag%20%28trumpet%20solo%29.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/%E8%AF%95%E9%9F%B3%E7%A2%9F%20-%20%E5%B0%8F%E5%8F%B7%20-%20%E5%8D%A1%E9%97%A8%E5%BA%8F%E6%9B%B2.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%B0%8F%E5%8F%B7%20%E8%A5%BF%E7%8F%AD%E7%89%99%E6%96%97%E7%89%9B%E5%A3%AB%E8%BF%9B%E8%A1%8C%E6%9B%B2.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Flag (trumpet solo)》");
-                instrument.setMusic_name2("《试音碟 - 小号 - 卡门序曲》");
-                instrument.setMusic_name3("《西班牙斗牛士进行曲》");
+                instrument.setMusic_name1("Flag (trumpet solo)");
+                instrument.setMusic_name2("试音碟 - 小号 - 卡门序曲");
+                instrument.setMusic_name3("西班牙斗牛士进行曲");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t小号音色强烈、锐利、极富辉煌感，声音嘹亮、清脆、高亢，具有高度的演奏技巧和丰富的表现力，是铜管族中的高音乐器。小号作为独奏或重奏乐器，可以演奏辉煌的号召性的音调，也可以演奏宽广的、抒情的或技巧难度大的华彩性乐段。小号的音色能较好地同其他乐器的音色融合在一起。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/video_xiaohao.mp4");
-                instrument.setSkill("\t\t\t\t\t\t\t\t演奏技巧：演奏者可以通过控制嘴唇间的空隙、呼气量及震动的力度来改变音调、音量及音饰。小号可自如地吹奏八度内各种音程的跳动，可以自如地演奏音阶、半音阶以及分解和弦。快速演奏时，上行的连音比下行的连音自如。舌奏有三种方法：单吐法，双吐法，三吐法。 \n");
+                instrument.setSkill("\t\t\t\t演奏技巧：演奏者可以通过控制嘴唇间的空隙、呼气量及震动的力度来改变音调、音量及音饰。小号可自如地吹奏八度内各种音程的跳动，可以自如地演奏音阶、半音阶以及分解和弦。快速演奏时，上行的连音比下行的连音自如。舌奏有三种方法：单吐法，双吐法，三吐法。 \n");
 
                 break;
             case "短笛":
@@ -713,15 +708,15 @@ public class InstrumentsInfo {
                 instrument.setName("短笛");
                 instrument.setPic_spe(R.drawable.duandi);
                 instrument.setPic_struct(R.drawable.struct_duandi);
-                instrument.setBrief1("\t\t\t短笛长约33cm，直径13mm，长度是普通长笛的一半。其发音原理是依靠管内空气振动发声。短笛可以是由木、金属、塑胶或化合物构成。");
-                instrument.setBrief0("\t\t\t短笛，吹奏气鸣木管乐器。短笛是长笛家族的一种变种乐器，名称来源自于意大利 “flauto piccolo”（缩小的长笛），是音域最高的木管乐器，也是交响乐队中音域最高的乐器之一。");
-                instrument.setContent("\t\t\t早期的短笛是没有按键的，这亦是短笛常与另一种同样是横吹的鼓笛（fife）混淆的原因。短笛最初常被用作伴奏乐器，作为“装饰”乐曲之用。但是，在巴洛克时期，已经出现了很多为短笛而写的协奏曲及独奏曲，其中最早将短笛运用于管弦乐团的作品是贝多芬的《第5号交响曲》。现在，短笛已成为交响乐团中的常规木管乐器，自浪漫乐派后期起，更常出现有短笛的独立声部。");
-                instrument.setPic_position(R.drawable.position_duandi);
+                instrument.setBrief1("\t\t\t\t短笛长约33cm，直径13mm，长度是普通长笛的一半。其发音原理是依靠管内空气振动发声。短笛可以是由木、金属、塑胶或化合物构成。");
+                instrument.setBrief0("\t\t\t\t短笛，吹奏气鸣木管乐器。短笛是长笛家族的一种变种乐器，名称来源自于意大利 “flauto piccolo”（缩小的长笛），是音域最高的木管乐器，也是交响乐队中音域最高的乐器之一。");
+                instrument.setContent("\t\t\t\t早期的短笛是没有按键的，这亦是短笛常与另一种同样是横吹的鼓笛（fife）混淆的原因。短笛最初常被用作伴奏乐器，作为“装饰”乐曲之用。但是，在巴洛克时期，已经出现了很多为短笛而写的协奏曲及独奏曲，其中最早将短笛运用于管弦乐团的作品是贝多芬的《第5号交响曲》。现在，短笛已成为交响乐团中的常规木管乐器，自浪漫乐派后期起，更常出现有短笛的独立声部。");
+                instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/Bach%20and%20Rossini.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Michael%20Copley%20-%20Vivaldi_%20Flautino%20Concerto%20in%20A%20minor,%20R.445%20-%202.%20Larghetto.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Dorothee%20Oberlinger%20-%20Concerto%20In%20E%20Minor%20Per%20Flautino,%20Rv%20445%20Iii.%20Allegro.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Bach and Rossini》");
+                instrument.setMusic_name1("Bach and Rossini");
                 instrument.setMusic_name2("Vivaldi_ Flautino Concerto in A minor, R.445 - 2. Larghetto");
                 instrument.setMusic_name3("（Dorothee Oberlinger - Concerto In E Minor Per Flautino, Rv 445 Iii. Allegro）");
                 instrument.setMusic_name4("");
@@ -739,15 +734,15 @@ public class InstrumentsInfo {
                 instrument.setPic_spe(R.drawable.changdi);
                 instrument.setPic_struct(R.drawable.struct_changdi);
                 instrument.setBrief1("\t\t\t\t长笛，气鸣吹奏木管乐器，是现代管弦乐和室乐中主要的高音旋律乐器，也是重要的独奏乐器。奏法繁多，表现力丰富，与弦乐、木管、铜管乐器亲和力强。");
-                instrument.setBrief0("\t\t\t\t长笛由笛头、笛尾和管身三部分组成。全长62厘米，笛头闭塞，塞头距管端约5厘米，笛尾开放。为便于携带与调音，由2或3段插接组成。笛身为圆柱体，内径1.9厘米，从与笛身插接处起，其内径至塞头渐缩细为1.71厘米。椭圆吹孔，上覆吹孔盖，盖面与孔壁形成锐角，吹奏时气流即冲击边棱，激棱发音，管壁开指键孔若干，用指尖控制音键启闭，以变换开管长度，产生不同音高。                                                                                                                                                         \n" +
-                        "         早期的长笛是乌木或者椰木制，现代多使用金属的材质，比如普通的镍银合金到专业型的银合金，9K和14K金等。\n");
+                instrument.setBrief0("\t\t\t\t长笛由笛头、笛尾和管身三部分组成。全长62厘米，笛头闭塞，塞头距管端约5厘米，笛尾开放。为便于携带与调音，由2或3段插接组成。笛身为圆柱体，内径1.9厘米，从与笛身插接处起，其内径至塞头渐缩细为1.71厘米。椭圆吹孔，上覆吹孔盖，盖面与孔壁形成锐角，吹奏时气流即冲击边棱，激棱发音，管壁开指键孔若干，用指尖控制音键启闭，以变换开管长度，产生不同音高。\n" +
+                        "\t\t\t\t早期的长笛是乌木或者椰木制，现代多使用金属的材质，比如普通的镍银合金到专业型的银合金，9K和14K金等。\n");
                 instrument.setContent("\t\t\t\t据记载，长笛起源于欧洲，初名横笛。最初是以竹子制造的，和我国的笛子相似，后来改为以木质制作。到了18世纪末、19世纪初，随着工业的不断发展，金属材料的长笛开始问世。19世纪初，随着特奥巴尔德·波姆发明的按键装置，使长笛成为十二平均律乐器，在音准、音色、音量及音域等方面，都比老式长笛有了革命性发展，极大地丰富了长笛的演奏技能。在海顿时期（1732-1809），长笛已成为交响乐队中的固定乐器。\n");
                 instrument.setPic_position(R.drawable.position_changdi);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%82%B9%E9%9B%AA%E6%A2%85%20-%20%E5%A8%81%E5%B0%BC%E6%96%AF%E7%8B%82%E6%AC%A2%E8%8A%82%28Genin%29.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Le%20Cygne%20%28Saint-Saens%29.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Various%20Artists%20-%20Quartet,%20K.%20285%20D%20Major,%20Allegro.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Syrinx For Solo Flute》");
+                instrument.setMusic_name1("Syrinx For Solo Flute");
                 instrument.setMusic_name2("Various Artists - Quartet, K. 285 D Major, Allegro");
                 instrument.setMusic_name3("Rotterdam Philharmonic Orchestra - Menuet from L'Arlesienne");
                 instrument.setMusic_name4("");
@@ -772,8 +767,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("赫伯特L.克拉克的回旋随想曲（Rondo Caprice（唱片版）（1903）Herbert L. Clarke From The Shores of The Mighty Specific; Rondo Caprice (LP Version) (1903)）");
                 instrument.setMusic_name2("Matthew Locke Music for His Majesty's Cornetts and Sackbuts - Air. Courante. Allemande. Courante. Allemande. Sarabande");
-                instrument.setMusic_name3("《苏格兰御林军皇家礼赞》\n" +
-                        "        演奏 苏格兰御林军皇家乐队\n");
+                instrument.setMusic_name3("苏格兰御林军皇家礼赞  演奏 苏格兰御林军皇家乐队");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t短号音色柔和，优美，富有歌唱性，但不够辉煌；一些抒情动听的旋律往往由它来演奏，像俄罗斯作曲家柴柯夫斯基的著名舞剧“天鹅湖”中一些独奏段落就是用短号演奏的。短号在管乐队里用得比较多，这是因为管乐队硬音乐器比较多，用短号可以调节乐队的音色，有的乐队铜管高音声部全部用短号，使乐队音响效果更柔和动听。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/In%20the%20Gloaming%20-%20featuring%20James%20McCabe%20on%20Bb%20Cornet.mp4");
@@ -795,9 +789,9 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Arthur%20Pryor-%20Polka-Exposition%20Echoes%20%28Ca.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E9%95%BF%E5%8F%B7%E5%92%8C%E5%A4%A7%E5%8F%B7%E6%BC%94%E5%A5%8F%E7%9A%84%20%E9%A9%AC%E5%88%80%E8%88%9E%E6%9B%B2.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《嘎达梅林》");
-                instrument.setMusic_name2("《马刀舞曲》");
-                instrument.setMusic_name3("《波尔卡博览会的回声》");
+                instrument.setMusic_name1("嘎达梅林");
+                instrument.setMusic_name2("马刀舞曲");
+                instrument.setMusic_name3("波尔卡博览会的回声");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t发声原理：管内空气振动发声。音色高亢，辉煌，庄严壮丽而饱满，声音嘹亮而富有威力，弱奏时又温柔委婉。其音色鲜明统一，在乐队中很少能被同化，甚至可以与整个乐队抗衡。能演奏半音音阶和独特的滑音，常演奏雄壮乐曲的中低音声部。军乐队中是用来演奏威武的中低音旋律的主要乐器。");
                 instrument.setVideo_url("");
@@ -818,9 +812,9 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Wolfgang%20Amadeus%20Mozart%20Clarinet%20Concerto%20In%20A,%20K.622%20-%202.%20AdagioA%E5%A4%A7%E8%B0%83%E5%8D%95%E7%B0%A7%E7%AE%A1%E5%8D%8F%E5%A5%8F%E6%9B%B2%EF%BC%8C%E4%BD%9C%E5%93%81K.622.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Wolfgang%20Amadeus%20Mozart%20Clarinet%20Concerto%20In%20A,%20K.622%20-%203.%20Rondo%20%28Allegro%29A%E5%A4%A7%E8%B0%83%E5%8D%95%E7%B0%A7%E7%AE%A1%E5%8D%8F%E5%A5%8F%E6%9B%B2%EF%BC%8C%E4%BD%9C%E5%93%81K.622.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《波尔卡博览会的回声》");
-                instrument.setMusic_name2("《降E大调4号圆号协奏曲K.495 华彩乐段：彼得•丹姆 快板(庄重)》");
-                instrument.setMusic_name3("《降E大调4号圆号协奏曲K.495 华彩乐段：彼得•丹姆 浪漫曲(行板）》");
+                instrument.setMusic_name1("波尔卡博览会的回声");
+                instrument.setMusic_name2("降E大调4号圆号协奏曲K.495 华彩乐段：彼得•丹姆 快板(庄重)");
+                instrument.setMusic_name3("降E大调4号圆号协奏曲K.495 华彩乐段：彼得•丹姆 浪漫曲(行板）");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t圆号的音色富于诗意的，表现力很丰富，强奏时饱满有力，其中高音区具有洪亮、辉煌的气质。圆号的音色还能与弦乐组乐器很好地融合。在圆号上还有几种常用的特殊音色，它们是随着演奏手法的不同而产生变化的 。");
                 instrument.setVideo_url("");
@@ -835,21 +829,21 @@ public class InstrumentsInfo {
                 instrument.setPic_struct(R.drawable.struct_dahao);
                 instrument.setBrief1("\t\t\t\t大号是一种管乐，管弦乐队中音域最低的铜管乐器。大号在乐队中主要担任低音部和声或节奏，很少用于独奏。 ");
                 instrument.setBrief0("\t\t\t\t大号是铜管乐器中号管最粗、最长的乐器，长度为270厘米至590厘米不等，由喇叭口、吹管、吹嘴、活塞及排水口等部件组成。发声原理为管内空气振动发声。 \n" +
-                        "大号的外形大都是椭圆形（苏萨号除外），号管的圆柱形部分与圆椎形部分界限比较明显，吹奏时，号管细的部分是空气柱振动分段的地方，号管粗的部分则是共鸣体。大号使用杯形号嘴，内膛较深，不同型号的号嘴内壁的弯充不一样，因此，发出的声音效果有区别。内壁弯度大的号嘴发音敏感，声音明亮；内壁弯度小的号嘴发音柔和，声音稍暗、宽厚一些。");
+                        "\t\t\t\t大号的外形大都是椭圆形（苏萨号除外），号管的圆柱形部分与圆椎形部分界限比较明显，吹奏时，号管细的部分是空气柱振动分段的地方，号管粗的部分则是共鸣体。大号使用杯形号嘴，内膛较深，不同型号的号嘴内壁的弯充不一样，因此，发出的声音效果有区别。内壁弯度大的号嘴发音敏感，声音明亮；内壁弯度小的号嘴发音柔和，声音稍暗、宽厚一些。");
                 instrument.setContent("\t\t\t\t大号从古老的奥非克莱德号演变而来，奥非克莱德的前身是16世纪末意大利所创制的蛇形大号。\n" +
-                        "近代定型的第一个大号，19世纪30年代出现于德国。柏辽兹是第一个在作品中使用大号的作曲家，伏昂．威廉斯曾为大号谱写了一首协奏曲，里姆斯基——科萨科夫、柴科夫斯基、理查．斯特劳斯等作曲家在他们的作品中都很有特色地运用了大号。1945年以后，出现了一个重新起用和发展大号性能的时期，爵士乐师、先锋派和流行音乐作曲家使大号有了新的特点。 \n");
+                        "\t\t\t\t近代定型的第一个大号，19世纪30年代出现于德国。柏辽兹是第一个在作品中使用大号的作曲家，伏昂．威廉斯曾为大号谱写了一首协奏曲，里姆斯基——科萨科夫、柴科夫斯基、理查．斯特劳斯等作曲家在他们的作品中都很有特色地运用了大号。1945年以后，出现了一个重新起用和发展大号性能的时期，爵士乐师、先锋派和流行音乐作曲家使大号有了新的特点。 \n");
                 instrument.setPic_position(R.drawable.position_dahao);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/Capriccio%20for%20solo%20tuba.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Paganini%20Three%20Duets%20For%20Violin%20And%20Bassoon%20M.S.130%E5%B8%95%E6%A0%BC%E5%B0%BC%E5%B0%BC%EF%BC%9A%E7%AC%AC%E4%B8%89%E5%8F%B7%E5%B0%8F%E6%8F%90%E7%90%B4%E4%B8%8E%E5%B7%B4%E6%9D%BE%E7%AE%A1%E4%BA%8C%E9%87%8D%E5%A5%8F%20%E4%BD%9C%E5%93%81130.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Antonio%20Vivaldi%20-%20Concerto%20For%20Violin%20And%20Strings%20In%20E,op.8,no.1,r.269la%20Primavera%20-%201.%20Allegro%20-%20%E7%BA%AF%E9%9F%B3%E4%B9%90%E7%89%882.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《大号独奏随想曲》Capriccio for solo tuba");
-                instrument.setMusic_name2("《大号波尔卡》");
-                instrument.setMusic_name3("《查尔达斯舞曲》");
+                instrument.setMusic_name1("大号独奏随想曲 Capriccio for solo tuba");
+                instrument.setMusic_name2("大号波尔卡");
+                instrument.setMusic_name3("查尔达斯舞曲");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t大号音色低沉、浑厚、饱满，既有辉煌的一面，又有非常柔和、优美的效果。\n" +
-                        "大号使用杯形号嘴，内膛较深，不同型号的号嘴内壁的弯充不一样，因此，发出的声音效果有区别。内壁弯度大的号嘴发音敏感，声音明亮；内壁弯度小的号嘴发音柔和，声音稍暗、宽厚一些。\n" +
-                        "在世界范围内，降B调大号的使用最广泛，其次是降E调，C调大号等。中国主要用降B调大号。\n");
+                        "\t\t\t\t大号使用杯形号嘴，内膛较深，不同型号的号嘴内壁的弯充不一样，因此，发出的声音效果有区别。内壁弯度大的号嘴发音敏感，声音明亮；内壁弯度小的号嘴发音柔和，声音稍暗、宽厚一些。\n" +
+                        "\t\t\t\t在世界范围内，降B调大号的使用最广泛，其次是降E调，C调大号等。中国主要用降B调大号。\n");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/Penderecki%20-%20Capriccio%20for%20Tuba%20Solo.mp4");
                 instrument.setSkill("\t\t\t\t演奏技巧：正确的呼吸方法和最佳的嘴唇振动相配合，就能发出饱满动听的声音。要达到最佳的嘴唇振动就要做出正确的口型。 吹奏大号的基本口型：嘴在自然状态的基础上稍有微笑状，唇尖微张开形成一个枣核形的风孔，下颚稍向前，让上下牙在一条竖线上，唇尖肌肉保持自然放松。");
                 break;
@@ -869,12 +863,8 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Wolfgang%20Amadeus%20Mozart%20Clarinet%20Concerto%20In%20A,%20K.622%20-%202.%20AdagioA%E5%A4%A7%E8%B0%83%E5%8D%95%E7%B0%A7%E7%AE%A1%E5%8D%8F%E5%A5%8F%E6%9B%B2%EF%BC%8C%E4%BD%9C%E5%93%81K.622.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("  1、Anton Stadler 3 Caprices for Solo Clarinet No. 2 Mark Buckingham From the Album Solo Classical Clarinet");
-                instrument.setMusic_name2("A小调三重奏，作品Op.114（Trio in A minor,Op.114）\n" +
-                        "作曲 勃拉姆斯（Brahms）\t\n" +
-                        "演奏 理查德•斯托诺兹曼（Richard Stoltzman）\n");
-                instrument.setMusic_name3("A大调单簧管协奏曲，作品K.622（Clarinet Concerto In A, K.622 - 3. Rondo (Allegro）\t\n" +
-                        "作曲 莫扎特（Mozart）\n" +
-                        "演奏 普林茨（Alfred Prinz）\n");
+                instrument.setMusic_name2("A小调三重奏，作品Op.114（Trio in A minor,Op.114） 作曲 勃拉姆斯（Brahms） 演奏 理查德•斯托诺兹曼（Richard Stoltzman）");
+                instrument.setMusic_name3("A大调单簧管协奏曲，作品K.622（Clarinet Concerto In A, K.622 - 3. Rondo (Allegro） 作曲 莫扎特（Mozart） 演奏 普林茨（Alfred Prinz）");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t适合表现各种音乐性格，无论在乐队演奏或独奏中都极富表现力。高音区嘹亮明朗；中音区浑厚、富于表情，音色纯净，清澈优美；低音区低沉，浑厚而丰满，是木管乐曲家族中应用最广泛的乐器之一。");
                 instrument.setVideo_url("");
@@ -896,8 +886,8 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Il%20Giardino%20Armonico%20-%20Oboe%20Concerto%20In%20D%20Minor%20%20Ii%20Adagio.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("影视原声 - Dr．dolittle(Oboe)");
-                instrument.setMusic_name2("《C、wolfgang Amadeus Mozart - 大调双簧管协奏曲》");
-                instrument.setMusic_name3("《Giardino Armonico - Oboe Concerto In D Minor  Ii Adagio》");
+                instrument.setMusic_name2("C、wolfgang Amadeus Mozart - 大调双簧管协奏曲");
+                instrument.setMusic_name3("Giardino Armonico - Oboe Concerto In D Minor  Ii Adagio");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t双簧管的音色明晰、清新、响亮，在乐队中总是那么引人注意。双簧管音色带有鼻音似的芦片声，善于演奏徐缓如歌的曲调，被誉为“抒情女高音”。双簧管难度高，是吉尼斯世界纪录大全中最难的乐器，由于音色甜美，被称为“公主”。柴科夫斯基的《天鹅湖》中的忧郁而优美的白天鹅主题就是由双簧管吹奏的。其富于直率和美妙的音色特点，也许没有一种乐器能够与它媲美。");
                 instrument.setVideo_url("");
@@ -918,9 +908,9 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/English%20Horn%20%28theme%20from%20On%20the%20Steppes%20of%20Central%20Asia,%20Borodin%29.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Piece%20for%20English%20Horn.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1(" 《Soliloquy for Solo English Horn》");
-                instrument.setMusic_name2("《在中亚细亚草原》");
-                instrument.setMusic_name3("《Piece for English Horn》");
+                instrument.setMusic_name1("Soliloquy for Solo English Horn");
+                instrument.setMusic_name2("在中亚细亚草原");
+                instrument.setMusic_name3("Piece for English Horn");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t英国管音色近似双簧管，有忧郁、梦幻的情调。音质柔和、圆润，比双簧管更幽暗并带有鼻音，音色比双簧管低沉、含蓄，鼻音较重，缺少双簧管欢愉、甜美的人格化音色，却有着田园、回忆、梦幻的色彩。  ");
                 instrument.setVideo_url("");
@@ -941,18 +931,18 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Branford%20Marsalis%E3%80%81orpheus%20Chamber%20Orchestra%20-%20Concertino%20Da%20Camera%20For%20Alto%20Saxophone%20And%20Orchestra%20Iii.%20Animato%20Molto.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Eugene%20Rousseau%20-%20Concerto%20In%20E%20Flat%20Op.109%20For%20Alto%20Saxophone%20A.%20String%20Orchestra.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Misty (Saxophone Solo Version) (Nikolay Kasakov) From the Album Jazz Bar》");
-                instrument.setMusic_name2("《E大调协奏曲,作品109》");
-                instrument.setMusic_name3("《Branford Marsalis、orpheus Chamber Orchestra - Concertino Da Camera For Alto Saxophone And Orchestra Iii. Animato Molto》");
+                instrument.setMusic_name1("Misty (Saxophone Solo Version) (Nikolay Kasakov) From the Album Jazz Bar");
+                instrument.setMusic_name2("E大调协奏曲,作品109");
+                instrument.setMusic_name3("Branford Marsalis、orpheus Chamber Orchestra - Concertino Da Camera For Alto Saxophone And Orchestra Iii. Animato Molto");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t音色丰富，高音区介于单簧管和圆号间，中音区犹如人声和大提琴音色，低音区像大号和低音提琴。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/Baker%20Street%20-%20Saxophone%20Music%20by%20Johnny%20Ferreira.mp4");
                 instrument.setSkill("\t\t\t\t演奏技巧：气声吹法其实在大口风笛头上比较容易表现出来，不过难度也比小口风笛头要稍微大一点，需要更多更足的气。\n" +
-                        "首先气声吹法最大的要领就是要求含少一些笛头，我们平常吹萨的时候，采用实声吹法的话，一般是含在笛头斜面差不多1/3到1/2左右的地方，而气声吹法则是差不多1/4、1/5左右，甚至更少，会有气声吹法好像是稍微只含了一点点的笛头和哨片的感觉。\n" +
-                        "其次气声吹法要求口型必须是正确口型，有一些学习者可能虽然也是有着好几年学萨的功力，嘴型虽然不一，不过在实声吹法上出来的音色好像也还过得去，但是，如果你的嘴型没有绝对的松弛下来，而采用的依然是“咬”笛头的绷紧的嘴型去尝试吹气声的话，你会发现憋得非常难受甚至几乎吹不出音来。\n" +
-                        "第三气声吹法的发声是几乎完全通过气来驱动的，而且气声吹法发声时几乎是听不到有音头的，似乎不经意的声音就发出来了，非常忌讳实声吹法中口腔和舌头辅助发声带来的音头感，一定要感觉好这种用气息驱动发声的感觉，这也要求使用气声吹法的时候一定要给足足够的气。\n" +
-                        "\t最后气声吹法发出来的声音充满了大量的气声，而且音量比实声吹法出来的音差不多可以小一半，但是一定不要认为自己咬死了笛头，小小心心憋出来的声音就是气吹，这种“死音”在低音区域可能还不是很糟糕，但是上高音是一定上不去的。\n" +
-                        "不过实际上气声吹法在上高音的时候也是会越来越难，出来的音也会感觉越来越“脏”以至于影响了其婉约沙哑的音色，也因为如此，使用气声吹法的大师在上到高音部分的时候往往还是会出来几个实音，使得音色听起来不至于太过难受。\n");
+                        "\t\t\t\t首先气声吹法最大的要领就是要求含少一些笛头，我们平常吹萨的时候，采用实声吹法的话，一般是含在笛头斜面差不多1/3到1/2左右的地方，而气声吹法则是差不多1/4、1/5左右，甚至更少，会有气声吹法好像是稍微只含了一点点的笛头和哨片的感觉。\n" +
+                        "\t\t\t\t其次气声吹法要求口型必须是正确口型，有一些学习者可能虽然也是有着好几年学萨的功力，嘴型虽然不一，不过在实声吹法上出来的音色好像也还过得去，但是，如果你的嘴型没有绝对的松弛下来，而采用的依然是“咬”笛头的绷紧的嘴型去尝试吹气声的话，你会发现憋得非常难受甚至几乎吹不出音来。\n" +
+                        "\t\t\t\t第三气声吹法的发声是几乎完全通过气来驱动的，而且气声吹法发声时几乎是听不到有音头的，似乎不经意的声音就发出来了，非常忌讳实声吹法中口腔和舌头辅助发声带来的音头感，一定要感觉好这种用气息驱动发声的感觉，这也要求使用气声吹法的时候一定要给足足够的气。\n" +
+                        "\t\t\t\t最后气声吹法发出来的声音充满了大量的气声，而且音量比实声吹法出来的音差不多可以小一半，但是一定不要认为自己咬死了笛头，小小心心憋出来的声音就是气吹，这种“死音”在低音区域可能还不是很糟糕，但是上高音是一定上不去的。\n" +
+                        "\t\t\t\t不过实际上气声吹法在上高音的时候也是会越来越难，出来的音也会感觉越来越“脏”以至于影响了其婉约沙哑的音色，也因为如此，使用气声吹法的大师在上到高音部分的时候往往还是会出来几个实音，使得音色听起来不至于太过难受。\n");
                 break;
             case "次中音号":
                 instrument.setGuide2(">西洋乐器");
@@ -970,8 +960,8 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Sonata%20in%20E-flat%20for%20Alto%20Horn%20and%20Piano%20%281943%29-%20IV.%20Lebhaft.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("独奏");
-                instrument.setMusic_name2("《降E大调中音喇叭和钢琴奏鸣曲》");
-                instrument.setMusic_name3("《低音喇叭和降E大调钢琴奏鸣曲》");
+                instrument.setMusic_name2("降E大调中音喇叭和钢琴奏鸣曲");
+                instrument.setMusic_name3("低音喇叭和降E大调钢琴奏鸣曲");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t低音区的发音稍暗，强奏时尚好。最低的两个音音质不好，声音发虚；中音区：明亮、圆润、优美；高音区，当弱奏时优美，强奏时杂音很多。最高的两个音发音纤细，不能强奏，少用。圆形的号孔使次中音号音色圆润，醇和的音色特点使其适合独奏。 ");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/cizhongyinhao.flv");
@@ -992,11 +982,11 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Ludwig%20Van%20Beethoven%20-%20Sonata%20For%20Violin%20And%20Piano%20No.%205%20In%20F%20Major,%20Op.24%20-%20%E7%BA%AF%E9%9F%B3%E4%B9%90%E7%89%88.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Salvatore Accardo - Paganini 24 Caprices For Violin, Op.1 - No. 24 In A Minor 》");
+                instrument.setMusic_name1("Salvatore Accardo - Paganini 24 Caprices For Violin, Op.1 - No. 24 In A Minor");
                 instrument.setMusic_name2("Antonio Vivaldi - Concerto For Violin And Strings In E,op.8,no.1,r.269la Primavera - 1. Allegro - 纯音乐版2");
-                instrument.setMusic_name3("《春天》");
+                instrument.setMusic_name3("春天");
                 instrument.setMusic_name4("");
-                instrument.setMusic_content("\t\t\t\t小提琴音色优美，接近人声，音域宽广，表现力强。小提琴的音色风格可以分为三大类：其一，阳刚之美——浓郁豪放、浑厚深沉、明亮圆润、大气浩然；其二，阴柔之美——含蓄典雅、细腻集中、甘纯华丽、忧郁神秘；其三，中庸之美——宽松温暖、厚亮衡度、刚柔相济、庸蕴诙谐。 具体到每一根弦上则表现为：E弦清晰、明亮，A弦柔美如歌，D弦优雅，G弦浑厚深沉。 ");
+                instrument.setMusic_content("\t\t\t\t小提琴音色优美，接近人声，音域宽广，表现力强。小提琴的音色风格可以分为三大类：其一，阳刚之美——浓郁豪放、浑厚深沉、明亮圆润、大气浩然；其二，阴柔之美——含蓄典雅、细腻集中、甘纯华丽、忧郁神秘；其三，中庸之美——宽松温暖、厚亮衡度、刚柔相济、庸蕴诙谐。 具体到每一根弦上则表现为：E弦清晰、明亮，A弦柔美如歌，D弦优雅，G弦浑厚深沉。   ");
                 instrument.setVideo_url("");
                 instrument.setSkill("\t\t\t\t演奏技巧：小提琴演奏技巧灵活，表现力十分丰富，可演奏缓慢、宽广、抒情的旋律，亦可演奏技巧性很高的华彩乐段。左手技巧有：手指按弦动作、换弦、换把、移指、滑指、颤指、拨弦等；右手技巧有：持弓、运弓、换弓、换弦、弓段的分配、弓压、弓与弦的接触点的运用，以及各种长、短弓法和跳弓的运用等，技巧比较复杂艰难。小提琴可奏出两种泛音：自然泛音与人工泛音。\n");
                 break;
@@ -1015,7 +1005,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Amsterdam%20Baroque%20Orchestra%E3%80%81ton%20Koopman%E3%80%81yo-Yo%20Ma%20-%20Concerto%20For%20Viola%20D%27amore,%20Lute%20And%20Orchestra,%20Rv%20540%20I.%20Allegro.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Il%20Giardino%20Armonico%20-%20Concerto%20For%202%20Violins%20&%20Viola%20In%20G%20Minor%20%20Ii%20Presto.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《中提琴协奏曲 No. 4, Op.31》");
+                instrument.setMusic_name1("中提琴协奏曲 No. 4, Op.31");
                 instrument.setMusic_name2("Amsterdam Baroque Orchestra、ton Koopman、yo-Yo Ma - Concerto For Viola D'amore, Lute And Orchestra, Rv 540 I. Allegro");
                 instrument.setMusic_name3("Il Giardino Armonico - Concerto For 2 Violins & Viola In G Minor  Ii Presto");
                 instrument.setMusic_name4("");
@@ -1038,7 +1028,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Anssi%20Karttunen%20%28Cello%29%20And%20Tuija%20Hakkila%20%28Fortepiano%29%20-%20Sonata%20In%20A%20Major,%20Op.%2069%20-%20I%20Allegro%20Ma%20Non%20Tanto.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Arto%20Noras%20%28Cello%29%20And%20Finnish%20Radio%20Symphony%20Orchestra%20And%20Jukka-Pekka%20Saraste%20%28Conductor%29%20-%20Rhapsody%20No.%201%20-%20Friss.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Yo-Yo Ma-Unaccompanied Cello Suite No.1 in G Major》");
+                instrument.setMusic_name1("Yo-Yo Ma-Unaccompanied Cello Suite No.1 in G Major");
                 instrument.setMusic_name2("Anssi Karttunen (Cello) And Tuija Hakkila (Fortepiano) - Sonata In A Major, Op. 69 - I Allegro Ma Non Tanto");
                 instrument.setMusic_name3("Arto Noras (Cello) And Finnish Radio Symphony Orchestra And Jukka-Pekka Saraste (Conductor) - Rhapsody No. 1 - Friss");
                 instrument.setMusic_name4("");
@@ -1061,7 +1051,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Four%20Pieces%20For%20Contrabass%20&%20Piano%20Intermezzo,%20Op.%209%20-%20No.%201%20-%20Joel%20Quarrington.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Four%20Pieces%20For%20Contrabass%20&%20Piano%20Scherzo,%20Op.32%20-%20No.%202%20-%20Joel%20Quarrington.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Sonata For Solo Contrabass Op.108(1971) VI.Allegro Molto-Joel Quarrington》");
+                instrument.setMusic_name1("Sonata For Solo Contrabass Op.108(1971) VI.Allegro Molto-Joel Quarrington");
                 instrument.setMusic_name2("Four Pieces For Contrabass & Piano Intermezzo, Op. 9 - No. 1 - Joel Quarrington");
                 instrument.setMusic_name3("Four Pieces For Contrabass & Piano Scherzo, Op.32 - No. 2 - Joel Quarrington");
                 instrument.setMusic_name4("");
@@ -1090,7 +1080,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t钢琴的音域宽广，音色宏亮、清脆，富于变化，表现力很强。独奏时，可演奏各种气势磅礡、宽广、抒情的音乐，亦可演奏欢快、灵巧、技巧性很高的华彩乐段；钢琴在乐队中，可发挥巨大的作用。它还经常作为伴奏乐器使用。");
                 instrument.setVideo_url("");
-                instrument.setSkill("\t\t\t\t    钢琴的演奏技巧十分丰富，可以自如地弹奏各种音阶、半音音阶，各种音程的跳动，各种双音、和弦以及各种复杂的乐曲。钢琴发音是靠人体及其上肢各部位肌肉关节的整体运动和击发动作，因此钢琴演奏是个名副其实的“从头到脚的全身运动”，是全身各部位的高度配合、协调与统一。");
+                instrument.setSkill("\t\t\t\t演奏技巧：钢琴的演奏技巧十分丰富，可以自如地弹奏各种音阶、半音音阶，各种音程的跳动，各种双音、和弦以及各种复杂的乐曲。钢琴发音是靠人体及其上肢各部位肌肉关节的整体运动和击发动作，因此钢琴演奏是个名副其实的“从头到脚的全身运动”，是全身各部位的高度配合、协调与统一。");
                 break;
             case "竖琴":
                 instrument.setGuide2(">西洋乐器");
@@ -1101,13 +1091,13 @@ public class InstrumentsInfo {
                 instrument.setPic_struct(R.drawable.struct_shuqin);
                 instrument.setBrief1("\t\t\t\t竖琴，世界上最古老的拨弦乐器之一，交响乐队以及歌舞剧中特殊的色彩性乐器。主要担任的是和声伴奏和滑奏式的装饰句，每每奏出画龙点睛之笔，令听众难以忘怀。在室内乐中，竖琴也是重要的独奏乐器。独奏时能奏出柔和优美的抒情段或华彩乐段，极具感染力。");
                 instrument.setBrief0("\t\t\t\t现代竖琴都是落地式的，琴身为木制结构，主要由垂直的前柱、斜立的长条形音箱和位于上方的弯曲的琴颈，形成一个三角形琴架，琴弦与前柱平行，自上而下地绷于琴颈与音箱上。 结构组成有琴身（包括琴柱、挂弦板、共鸣箱和底座），琴弦系统（包括琴弦、弦轴、变音传动机件装置和踏板）。");
-                instrument.setContent("竖琴用左右手的一至四指演奏，不用小指。乐谱中的高音声部由右手演奏，低音声部由左手演奏。单手可奏单音、双音、和弦，每只手最多奏四个音，最宽不能超出十度。两手交换演奏，可奏出像钢琴一样的单音式的分解和弦。双手还可以如钢琴般在相同音区奏出交错的音符。泛音、煞音、滑奏也是竖琴的特色奏法。");
+                instrument.setContent("\t\t\t\t竖琴用左右手的一至四指演奏，不用小指。乐谱中的高音声部由右手演奏，低音声部由左手演奏。单手可奏单音、双音、和弦，每只手最多奏四个音，最宽不能超出十度。两手交换演奏，可奏出像钢琴一样的单音式的分解和弦。双手还可以如钢琴般在相同音区奏出交错的音符。泛音、煞音、滑奏也是竖琴的特色奏法。");
                 instrument.setPic_position(R.drawable.position_shuqin);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/Mark%20Isham%20-%20Variation%20On%20A%20Popular%20Theme%20%28%233%29%20For%20Solo%20Harp.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Helga%E3%80%81klaus%20Storck%20-%20Sonata%20For%20Cello%20&%20Harp%20In%20G%20Major%20Op.115%20%20Iii%20Rondo.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Sir%20Colin%20Davis%20-%20Berlioz%20L%27enfance%20Du%20Christ,%20Op.25%20%20Partie%203%20L%27arriv%C3%A9e%20%C3%A0%20Sais%20-%20Trio%20For%20Two%20Flutes%20&%20Harp.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Mark Isham - Variation On A Popular Theme (#3) For Solo Harp》");
+                instrument.setMusic_name1("Mark Isham - Variation On A Popular Theme (#3) For Solo Harp");
                 instrument.setMusic_name2("Helga、klaus Storck - Sonata For Cello & Harp In G Major Op.115  Iii Rondo");
                 instrument.setMusic_name3("Sir Colin Davis - Berlioz L'enfance Du Christ, Op.25  Partie 3 L'arrivée à Sais - Trio For Two Flutes & Harp");
                 instrument.setMusic_name4("");
@@ -1131,13 +1121,13 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%80%AC%E5%B7%9D%E8%8B%B1%E5%8F%B2%20-%20Divorce%20Impossible%20Clarinet%20&%20Accordion%20Duet.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("C'est magnifique - Various Artists");
-                instrument.setMusic_name2("《离婚不可能-单簧管与手风琴重奏》");
-                instrument.setMusic_name3("《不，我一点都不后悔》");
+                instrument.setMusic_name2("离婚不可能-单簧管与手风琴重奏");
+                instrument.setMusic_name3("不，我一点都不后悔");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t手风琴声音宏大，音色变化丰富，手指与风箱的巧妙结合，能够演奏出多种不同风格的乐曲，这是许多乐器无法比拟的；除了独立演奏外，也可参加重奏、合奏，可以说一架手风琴就是一个小型乐队。\n" +
-                        "俄罗斯巴扬手风琴体积庞大，重量大，音域广，音色深重。\n" +
-                        "中西欧钢琴式手风琴体积适中，质量较轻，音域不大，音色高昂。\n" +
-                        "爱尔兰巴扬手风琴体积很小，音域较广，音色轻快。\n");
+                        "\t\t\t\t俄罗斯巴扬手风琴体积庞大，重量大，音域广，音色深重。\n" +
+                        "\t\t\t\t中西欧钢琴式手风琴体积适中，质量较轻，音域不大，音色高昂。\n" +
+                        "\t\t\t\t爱尔兰巴扬手风琴体积很小，音域较广，音色轻快。\n");
                 instrument.setVideo_url("");
                 instrument.setSkill("\t\t\t\t演奏技巧：手风琴的演奏技巧主要分为右手、左手和风箱控制三部分。手指触键的力度不宜过大，手指也不必抬得过高，触键的基本原则是“省力，有效”，左手的触键方法是肩膀放松，小臂自然从风箱皮带中伸出，将手指自然弯曲并垂直地放在低音及和弦的键钮上。\n");
                 break;
@@ -1158,7 +1148,7 @@ public class InstrumentsInfo {
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("管风琴独奏曲 D 小调托卡塔与赋格");
                 instrument.setMusic_name2(" C大调小号和管风琴奏鸣曲");
-                instrument.setMusic_name3("《管风琴》c小调第三交响曲");
+                instrument.setMusic_name3("管风琴 c小调第三交响曲");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t管风琴音域最为宽广，有雄伟磅礴的气势，肃穆庄严的气氛，其丰富的和声绝不逊色于一支管弦乐队，是最能激发人类对音乐产生敬畏之情的乐器，也是最具宗教色彩的乐器。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/14Guanfengqin-BWV%20582%20Bach%20-%20Passacaglia%20and%20Fugue%28with%20music%20guide%29.mp4");
@@ -1174,16 +1164,15 @@ public class InstrumentsInfo {
                 instrument.setPic_struct(R.drawable.struct_dianjita);
                 instrument.setBrief1("\t\t\t\t电吉他是一种拨弦乐器，琴体使用新硬木制成。配有音量、音调调音器以及颤音结构等装置。电吉他有很强的表现力，在现代音乐中有很重要的位置。");
                 instrument.setBrief0("\t\t\t\t电吉他的发声原理与传统吉他不同，不是以箱体的的振动发声，而是运用了电磁学原理，它的琴身是实体的木头而非空的音箱，在琴身上装有线圈，它们被称做拾音器。当吉他弦振动时，切割拾音器的磁感线，从而使琴身中的导线中产生不同频率的电流，当这些电流通过电子音箱还原时，就成了电吉他的声音。");
-                instrument.setContent("\t\t\t\t在二十世纪二十年代的美国，因为现场演奏扩声的需要，很多人开始尝试将电声转换装置安装到吉他上。很多人认为由美国鞋匠艾维尔•吉布森（Orville Gibson）所创建的Gibson公司于1935年推出的ES-150为世界上第一把真正意义上的空心电吉他，之后为了解决反馈问题开发出半空心电吉他ES-335。在这之后的二十世纪四十年代，莱斯•保罗（Les Paul）和里奥•芬达（Leo Fender）分别发明了两种实心电吉他Les Paul和Telecaster\n" +
-                        "，后来Telecaster又演变出经典的Stratocaster。至此，电吉他世界的格局基本奠定。在大半个世纪后的今天，大部分的电吉他也都是基于这几种形式设计制造的。\n");
+                instrument.setContent("\t\t\t\t在二十世纪二十年代的美国，因为现场演奏扩声的需要，很多人开始尝试将电声转换装置安装到吉他上。很多人认为由美国鞋匠艾维尔•吉布森（Orville Gibson）所创建的Gibson公司于1935年推出的ES-150为世界上第一把真正意义上的空心电吉他，之后为了解决反馈问题开发出半空心电吉他ES-335。在这之后的二十世纪四十年代，莱斯•保罗（Les Paul）和里奥•芬达（Leo Fender）分别发明了两种实心电吉他Les Paul和Telecaster，后来Telecaster又演变出经典的Stratocaster。至此，电吉他世界的格局基本奠定。在大半个世纪后的今天，大部分的电吉他也都是基于这几种形式设计制造的。\n");
                 instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/Ilan%20Guetta%20-%20Sonata%20No.%203%20In%20C%20Major%20For%20Solo%20Electric%20Guitar_%20Allegro%20Assai.mp3");
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/The%20Eagles%20-%20Hotel%20California%20-%20%E7%94%B5%E5%90%89%E4%BB%96%20Solo.mp3");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("Llan Guetta-Sonata No.3 in C Major For Solo Electric Guitar-Allegro Assai");
-                instrument.setMusic_name2("《Joe Satriani - Revelation - 电吉他》");
-                instrument.setMusic_name3("《加州旅馆》");
+                instrument.setMusic_name2("Joe Satriani - Revelation - 电吉他");
+                instrument.setMusic_name3("加州旅馆");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t电吉他音量可大可小，音值可长可短，比起普通木质吉他，在演奏方面回旋余地更大，在表现滑音、颤音和倚音方面更是游刃有余。而且电吉他的音色可由各种效果器来改变、修饰，达到不同的效果，以演奏各种不同风格的乐曲。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/Hotel%20California%20Solo%20-%20Jason%20Hobbs.mp4");
@@ -1198,7 +1187,7 @@ public class InstrumentsInfo {
                 instrument.setPic_struct(R.drawable.struct_dianbeisi);
                 instrument.setBrief1("\t\t\t\t电贝司，又称为贝斯吉他、低音吉他，现代摇滚乐团组合的主要乐器。它是从低音提琴演变出来的电声乐器。");
                 instrument.setBrief0("\t\t\t\t电贝司由琴头、指板、拾音器、音量开关等部分组成。类似电吉他，从外形上看也同电吉他差不多，但只有四根弦，以电吉他的后四根弦低八度定音。\n" +
-                        "电贝司已经不仅只有基本的4弦，也有5弦和6弦之别，而5弦的电贝司，从第一弦到第五弦（由细到粗）的空弦音分别为：G、D、A、E、B，也有的空弦音分别为：C、G、D、A、E，依各大厂商自订；至于6弦的电贝斯，从第一弦到第六弦的空弦音分别为：C、G、D、A、E、B。");
+                        "\t\t\t\t电贝司已经不仅只有基本的4弦，也有5弦和6弦之别，而5弦的电贝司，从第一弦到第五弦（由细到粗）的空弦音分别为：G、D、A、E、B，也有的空弦音分别为：C、G、D、A、E，依各大厂商自订；至于6弦的电贝斯，从第一弦到第六弦的空弦音分别为：C、G、D、A、E、B。");
                 instrument.setContent("\t\t\t\t贝司源于倍低音提琴，起初的倍低音提琴高度超过八尺以上，琴颈有格子，弹奏时必须用琴弓来拉奏；30年代，出现过一种电气化的贝司，这种贝司是没有共鸣箱的，靠一个简单的拾音器来得到声音；1951年福德公司发明了“真正的”电贝司，在体积上比倍低音贝司小了许多，在外型上简直就是四弦的吉他，而且琴颈上的琴格，可使弹奏者弹出准确的音准，因此，这款贝司就叫做精准贝司，1960年，福德又推出新一款的电贝司，指板较窄、有两个拾音器、两个音量控制钮及一个音色调整钮，叫做福德贝司。");
                 instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/N.I.B.%20-%20Black%20Sabbath.mp3");
@@ -1206,10 +1195,10 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/The%20Fish%20%28Live%29%20-%20Yes.mp3");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("黑色安息日（N.I.B. - Black Sabbath）");
-                instrument.setMusic_name2("《吸引力》（Attraction）\n" +
+                instrument.setMusic_name2("吸引力（Attraction）\n" +
                         "作曲家 小泽正澄\n" +
                         "演奏家 小泽正澄\n");
-                instrument.setMusic_name3("《The Fish》 ");
+                instrument.setMusic_name3("The Fish");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t电贝司属电声乐器，音量变化可以调节。中低音区发音厚实响亮， 高音区则较明亮。同吉它一样可以运用多种技巧，演奏出特色旋律来，因此电贝司在合奏中是不仅仅作为低音伴奏乐器而出现的，它往往奏出令人难忘的乐句，音色优美，旋律流畅。\n" +
                         "电贝司几乎只用于现代电声乐队中，作为整个乐队的低音声部。常使用分解和弦伴奏，在乐曲的经过句中，电贝司常奏出过渡性旋律，能大大丰富乐队的音色。\n");
@@ -1231,21 +1220,21 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Just%20a%20Survivor%20%20-%20%E4%BD%90%E8%97%A4%E7%9B%B4%E7%B4%80.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/O%20BRIEN%20EDWARD;GREENWOOD%20JONATHAN;GREENWOOD%20COLIN%20-%20High%20And%20Dry%20originally%20perfomed%20by%20radiohead.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《High And Dry originally perfomed by radiohead》");
-                instrument.setMusic_name2("《Paranoid Android originally perfomed》");
-                instrument.setMusic_name3("《Just a Survivor  - 佐藤直紀》");
+                instrument.setMusic_name1("High And Dry originally perfomed by radiohead");
+                instrument.setMusic_name2("Paranoid Android originally perfomed");
+                instrument.setMusic_name3("Just a Survivor  - 佐藤直紀");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t发声原理是将键盘作为通断开关，一旦按下琴键，内部的晶振开始工作，产生一定频率的波形，接着经过分频器的放大，送入扬声器发声。整个发声过程依靠简单的分频模拟电路，所以键盘没有力度和击弦的感觉，声音也较为机械单调。 一台优秀的电钢琴的音色最大程度上接近了最完美的真钢。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/%E5%B8%95%E6%B5%B7%E8%B2%9D%E7%88%BE%E3%80%8A%E5%8D%A1%E8%BE%B2%E3%80%8B-%E5%AD%9F%E5%84%92%E8%80%81%E5%B8%AB%E9%8B%BC%E7%90%B4%E6%BC%94%E5%A5%8F%E7%89%88%20%E7%9B%B8%E4%BF%A1%E9%9F%B3%E6%A8%82%E6%95%99%E5%AE%A4.mp4");
-                instrument.setSkill("\t\t\t\t演奏技巧：" +
-                        "1、找准音阶\n" +
-                        "2、通过琶音练习手指之间的扩张和伸缩能力　　\n" +
-                        "3、八度有两种手腕技巧和手臂、手腕一起来完成的技巧。　　\n" +
-                        "4、轮指，常用的轮指有3个指 有4个指的　　\n" +
-                        "5、和弦，不管是几个音的和弦弹下去都要整齐，忌有前有后。P的和弦演奏要非常轻巧 干净利索； F的和弦要有种金属般的声音，弹音要沉下去不发飘。　　\n" +
-                        "6、大跳，是很机械的动作，慢练让肌肉记住位置。　　\n" +
-                        "7、手指独立练习。　　\n" +
-                        "8、三六度音阶，重要是指法、手指柔韧性。\n");
+                instrument.setSkill("演奏技巧：\n" +
+                        "\t\t\t\t1、找准音阶\n" +
+                        "\t\t\t\t2、通过琶音练习手指之间的扩张和伸缩能力　　\n" +
+                        "\t\t\t\t3、八度有两种手腕技巧和手臂、手腕一起来完成的技巧。　　\n" +
+                        "\t\t\t\t4、轮指，常用的轮指有3个指 有4个指的　　\n" +
+                        "\t\t\t\t5、和弦，不管是几个音的和弦弹下去都要整齐，忌有前有后。P的和弦演奏要非常轻巧 干净利索； F的和弦要有种金属般的声音，弹音要沉下去不发飘。　　\n" +
+                        "\t\t\t\t6、大跳，是很机械的动作，慢练让肌肉记住位置。　　\n" +
+                        "\t\t\t\t7、手指独立练习。　　\n" +
+                        "\t\t\t\t8、三六度音阶，重要是指法、手指柔韧性。\n");
                 break;
             case "合成器":
                 instrument.setGuide2(">西洋乐器");
@@ -1266,9 +1255,9 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Easley%20Blackwood%20Microtonal%20Etudes,%20Op.%2028%20-%20VII.%2017%20notes%20Con%20moto%20-%20Easley%20Blackwood.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/%E7%A9%BA%E8%B0%B7%E9%9A%8F%E6%83%B3.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《O BRIEN EDWARD - Paranoid Android originally perfomed by  radiohead》");
+                instrument.setMusic_name1("O BRIEN EDWARD - Paranoid Android originally perfomed by  radiohead");
                 instrument.setMusic_name2("Easley Blackwood Microtonal Etudes, Op. 28 - VII. 17 notes Con moto - Easley Blackwood");
-                instrument.setMusic_name3("《空谷随想》");
+                instrument.setMusic_name3("空谷随想");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t电子音乐合成器的音色合成分三大类： \n" +
                         "    (1)乐音类。这是模拟各种乐器的发声。又分木管、铜管、弦乐(拉奏或弹奏)、人声、敲击乐器(钟琴、钢琴、木琴、鼓、镲等)、宇宙声、口哨声等。 \n" +
@@ -1292,15 +1281,16 @@ public class InstrumentsInfo {
                 instrument.setMusic_url2("http://7xkqzu.com1.z0.glb.clouddn.com/Zildjian%20Sound%20Lab%20-%20Cymbal%20Comparison%20Video%20-%20Full%20Version.mp3");
                 instrument.setMusic_url3("http://7xkqzu.com1.z0.glb.clouddn.com/Zildjian%20Sound%20Lab%20-%20Cymbal%20Comparison%20Video%20-%20Full%20Version.mp3");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《镲》");
-                instrument.setMusic_name2("《Zildjian Sound Lab 》");
-                instrument.setMusic_name3("《D大调卡农》");
+                instrument.setMusic_name1("镲");
+                instrument.setMusic_name2("Zildjian Sound Lab");
+                instrument.setMusic_name3("D大调卡农");
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t发音响亮、谐音丰富，属于节拍乐器。");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/Zildjian%20Sound%20Lab%20-%20Cymbal%20Comparison%20Video%20-%20Full%20Version.mp4");
-                instrument.setSkill("\t\t\t\t演奏技巧：1、双手举起左右各竖持一片镲，在一片向上一片向下的运动中猛然相互擦碰，这是常用的发单声击法；将一对镲快速反复互碰，即为“双片滚奏”。\n" +
-                        "2、将一片镲水平固定，用另一片由上而下扣击，如：（1）在行进乐队中，常在背于胸前的大鼓圈上水平固定一片镲，鼓手持另一片镲由上向下扣击，同时用另一手执槌击鼓。（2）在交谊舞、爵士等乐队中，常用一种踩镲，下面一片固定于镲架上，当踩下踏板，上面一片镲即向下扣击另一片镲。（3）有些民族镲，如印尼的嗪嗪小镲chengcheng和林奇克镲rinchik，系各将一片镲固定于一个小墩子上，双手各持另一片钹向下扣击。    \n" +
-                        "3、用槌击奏。一手握住手带将一片镲提起，或将一片镲装在一个支架上，用一根小鼓槌、大鼓或定音鼓软头槌、橡皮头槌敲镲产生不同效果的单音；或用一对鼓槌快速轮替敲镲，即产生滚奏效果。\n");
+                instrument.setSkill("演奏技巧：\n" +
+                        "\t\t\t\t1、双手举起左右各竖持一片镲，在一片向上一片向下的运动中猛然相互擦碰，这是常用的发单声击法；将一对镲快速反复互碰，即为“双片滚奏”。\n" +
+                        "\t\t\t\t2、将一片镲水平固定，用另一片由上而下扣击，如：（1）在行进乐队中，常在背于胸前的大鼓圈上水平固定一片镲，鼓手持另一片镲由上向下扣击，同时用另一手执槌击鼓。（2）在交谊舞、爵士等乐队中，常用一种踩镲，下面一片固定于镲架上，当踩下踏板，上面一片镲即向下扣击另一片镲。（3）有些民族镲，如印尼的嗪嗪小镲chengcheng和林奇克镲rinchik，系各将一片镲固定于一个小墩子上，双手各持另一片钹向下扣击。    \n" +
+                        "\t\t\t\t3、用槌击奏。一手握住手带将一片镲提起，或将一片镲装在一个支架上，用一根小鼓槌、大鼓或定音鼓软头槌、橡皮头槌敲镲产生不同效果的单音；或用一对鼓槌快速轮替敲镲，即产生滚奏效果。\n");
                 break;
             case "木琴":
                 instrument.setGuide2(">西洋乐器");
@@ -1341,14 +1331,13 @@ public class InstrumentsInfo {
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
                 instrument.setMusic_name1("");
-                instrument.setMusic_name2("《降E大调第103号交响曲》");
+                instrument.setMusic_name2("降E大调第103号交响曲");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
-                instrument.setMusic_content("\t\t\t\t发声原理：被拉伸表面振动发声 \n" +
-                        "定音鼓可发出固定频率 （即音高）的声音，并能够在五度音程范围内改变音高。 音色柔和、丰满，音量可控制，不同的力度可表现 不同的音乐内容，有时甚至可以直接演奏出旋律。\n");
+                instrument.setMusic_content("\t\t\t\t发声原理：被拉伸表面振动发声。定音鼓可发出固定频率 （即音高）的声音，并能够在五度音程范围内改变音高。 音色柔和、丰满，音量可控制，不同的力度可表现 不同的音乐内容，有时甚至可以直接演奏出旋律。\n");
                 instrument.setVideo_url("http://7xkqzu.com1.z0.glb.clouddn.com/%E6%B2%99%E7%B1%B3%E6%89%93%E5%87%BB%E4%B9%90%EF%BC%9A01%20%E5%AE%9A%E9%9F%B3%E9%BC%93%E7%BB%84%E6%9B%B2.flv");
                 instrument.setSkill("\t\t\t\t演奏技巧：演奏方法分为单奏和滚奏两种，单奏多用于节拍性伴奏，滚奏则可以模仿雷声，且效果逼真。定音鼓作为色彩性打击乐器，其丰富的表现力远非普通打击乐器所能比拟。  \n" +
-                        "要想把鼓打的好，在表演中很快的转换音高，需要非常娴熟的技术。敲击时左手持鼓，右手执槌。持鼓是以左手大指和食指，中指托之。执槌是以右手大指、食指和中指合持，向内敲之。\n");
+                        "\t\t\t\t要想把鼓打的好，在表演中很快的转换音高，需要非常娴熟的技术。敲击时左手持鼓，右手执槌。持鼓是以左手大指和食指，中指托之。执槌是以右手大指、食指和中指合持，向内敲之。\n");
                 break;
             case "三角铁":
                 instrument.setGuide2(">西洋乐器");
@@ -1371,9 +1360,10 @@ public class InstrumentsInfo {
                 instrument.setMusic_name4("");
                 instrument.setMusic_content("\t\t\t\t三角铁声音清脆而有穿透力，要奏出不同音量的声音，须敲在三角铁的合适的部位敲击三角铁不同部位。底边音最低，等腰上段的音较高，奏震音则反复快速敲击角隅的两边，或在三角内划圆圈轮击三边，才能取得良好的效果。");
                 instrument.setVideo_url("");
-                instrument.setSkill("\t\t\t\t演奏技巧：（1）演奏姿势﹕左手手掌弯曲举至胸前，把三角铁上的绳环挂在食指上，再以拇指辅助握持，右手持击槌。\n" +
-                        "（2）演奏方法﹕右手持击槌轻敲三角铁缺口的对边中心点（此点为三角铁全器之中心点，声响最匀称优美），或敲击底边的中心点（敲击此点比较简单，适合一、二年级或初学的学生，三角铁最稳定，不会晃动）。演奏颤音时，则是来回敲击三角铁缺口的对角两边。\n" +
-                        "（3）消音法﹕三角铁是金属乐器，敲击一个声音以后，它会持续发出共鸣声，所以要用左手五指指尖握持三角铁，以消除馀音。\n");
+                instrument.setSkill("演奏技巧：\n" +
+                        "\t\t\t\t（1）演奏姿势﹕左手手掌弯曲举至胸前，把三角铁上的绳环挂在食指上，再以拇指辅助握持，右手持击槌。\n" +
+                        "\t\t\t\t（2）演奏方法﹕右手持击槌轻敲三角铁缺口的对边中心点（此点为三角铁全器之中心点，声响最匀称优美），或敲击底边的中心点（敲击此点比较简单，适合一、二年级或初学的学生，三角铁最稳定，不会晃动）。演奏颤音时，则是来回敲击三角铁缺口的对角两边。\n" +
+                        "\t\t\t\t（3）消音法﹕三角铁是金属乐器，敲击一个声音以后，它会持续发出共鸣声，所以要用左手五指指尖握持三角铁，以消除馀音。\n");
                 break;
             case "钢片琴":
                 instrument.setGuide2(">西洋乐器");
@@ -1384,14 +1374,13 @@ public class InstrumentsInfo {
                 instrument.setPic_struct(R.drawable.struct_gangpianqin);
                 instrument.setBrief1("\t\t\t\t钢片琴，击奏体鸣乐器。用于管弦乐队和管乐队的打击乐器。形如小型钢琴的键盘乐器。");
                 instrument.setBrief0("\t\t\t\t钢片琴由音条、琴架、木质共鸣板和硬质琴槌组成。其外表看起来类似一架直立式的小钢琴,也有点像小型的簧风琴,是型如小型钢琴的键盘乐器,踏板有一个至两个。踏板的功能与钢琴的延音踏板一样。和键盘形铁琴不同的地方：(1)键盘形铁琴使用硬质琴槌敲奏，钢片琴是使用和钢琴一样的琴槌。(2)键盘形铁琴没有共鸣板，钢片琴有木制共鸣板。(3)钢片琴的音板两头有另和皆有钢块，铁琴则没有。");
-                instrument.setContent("\t\t\t\t钢片琴原名是 celesta mustel （ cle. ），celesta的意思是天上之音，钢片琴为法国巴黎mustel . victer发明。最初的发音体用一系列音叉，亦称钢叉琴。 1886年正式命名为钢片琴，实际现在的钢片琴音条和共鸣管均以铝制作。 现在开始有了音域扩增了低一度的乐器。\n" +
-                        "柴可夫斯基是第一位使用钢片琴的作曲家。\n");
+                instrument.setContent("\t\t\t\t钢片琴原名是 celesta mustel （ cle. ），celesta的意思是天上之音，钢片琴为法国巴黎mustel . victer发明。最初的发音体用一系列音叉，亦称钢叉琴。 1886年正式命名为钢片琴，实际现在的钢片琴音条和共鸣管均以铝制作。 现在开始有了音域扩增了低一度的乐器。柴可夫斯基是第一位使用钢片琴的作曲家。\n");
                 instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("http://7xkqzu.com1.z0.glb.clouddn.com/Goblin%20-%20School%20At%20Night%20%28Lullaby%20-%20Celesta%20Version%29.mp3");
                 instrument.setMusic_url2("");
                 instrument.setMusic_url3("");
                 instrument.setMusic_url4("");
-                instrument.setMusic_name1("《Goblin - School At Night (Lullaby - Celesta Version)》");
+                instrument.setMusic_name1("Goblin - School At Night (Lullaby - Celesta Version)");
                 instrument.setMusic_name2("");
                 instrument.setMusic_name3("");
                 instrument.setMusic_name4("");
@@ -1432,7 +1421,7 @@ public class InstrumentsInfo {
                 instrument.setBrief1("\t\t\t\t架子鼓：一套以鼓为主的组合性打击乐器。");
                 instrument.setBrief0("\t\t\t\t架子鼓由低音大鼓、踩镲、小军鼓、桶子鼓（3-7个）、吊镲（2-4面）高音镲所组成。 ");
                 instrument.setContent("\t\t\t\t架子鼓形成于20世纪40年代，它包含着各种不同类型、不同音色的手击乐器和脚击乐器。手击乐器有小鼓、嗵鼓、吊钗等，脚击乐器有大鼓、踩钗。\n" +
-                        "架子鼓是用以演奏摇滚、扭摆及爵士音乐的打击乐器，在长期的演奏过程中，形成一套固定的节奏类型，如迪斯高、伦巴、探戈、桑巴、恰恰、波莱罗等节奏。这些节奏型气纷强烈、节奏鲜明，各自具有独特的风格。  \n");
+                        "\t\t\t\t架子鼓是用以演奏摇滚、扭摆及爵士音乐的打击乐器，在长期的演奏过程中，形成一套固定的节奏类型，如迪斯高、伦巴、探戈、桑巴、恰恰、波莱罗等节奏。这些节奏型气纷强烈、节奏鲜明，各自具有独特的风格。  \n");
                 instrument.setPic_position(R.drawable.position_white);
                 instrument.setMusic_url1("");
                 instrument.setMusic_url2("");
@@ -1445,27 +1434,27 @@ public class InstrumentsInfo {
                 instrument.setMusic_content("\t\t\t\t架子鼓的音色所因遭的环境气纷强烈、节奏鲜明。 ");
                 instrument.setVideo_url("");
                 instrument.setSkill("\t\t\t\t演奏技巧：低音大鼓 (Bass drum)用右脚自然平放在踏板上，敲击时脚腕和脚掌松弛自然，脚随踏板上下运动，脚掌不要抬得过高，除连续演奏重音外，脚跟不要离开踏板。\n" +
-                        "踩镲 (Hi-hat)用左脚，预备演奏时提起左脚跟，开始演奏时脚跟下、脚掌上，脚掌下、脚跟上，脚跟、脚掌的运动必须自然跟随踏不板，不可抬得过高或动作缓慢。\n" +
-                        "小鼓 (Snare drum)一般左右手都可以直扣腕式（手心向下）进行演奏。\n" +
-                        "手镲用左手，在踩镲上采用直扣式敲击各种节奏。\n" +
-                        "吊镲用右手，是代替手镲演奏各种节奏，采用直腕式或直扣式，一般有槌头敲镲面，在演奏重音渲染强烈气氛时，用槌杆敲击镲的边沿处。大鼓（BD）小鼓（SD）低嗵鼓（FT）耳鼓（TT）踩钗（HH）大中立钗（CC）。\n" +
+                        "\t\t\t\t踩镲 (Hi-hat)用左脚，预备演奏时提起左脚跟，开始演奏时脚跟下、脚掌上，脚掌下、脚跟上，脚跟、脚掌的运动必须自然跟随踏不板，不可抬得过高或动作缓慢。\n" +
+                        "\t\t\t\t小鼓 (Snare drum)一般左右手都可以直扣腕式（手心向下）进行演奏。\n" +
+                        "\t\t\t\t手镲用左手，在踩镲上采用直扣式敲击各种节奏。\n" +
+                        "\t\t\t\t吊镲用右手，是代替手镲演奏各种节奏，采用直腕式或直扣式，一般有槌头敲镲面，在演奏重音渲染强烈气氛时，用槌杆敲击镲的边沿处。大鼓（BD）小鼓（SD）低嗵鼓（FT）耳鼓（TT）踩钗（HH）大中立钗（CC）。\n" +
                         "⑴小鼓击奏法：\n" +
-                        "小鼓也称军鼓，是西洋无调打击乐器中最主要的一件乐器，是架子鼓中的一件。小鼓的演奏姿势，也是架子鼓的演奏姿势。在架子鼓演奏中，因脚需同时踩大鼓和踩钗，所以采用坐姿演奏。演奏时要姿势端正，胸、肩、大臂等上身肢体自然放松。击奏时，双臂向上自然弯曲置于鼓面上，双手握槌，右手拇指第二关节和食指二三关节握鼓槌柄部，拇指与食指第三关节自然并拢，中指、无名指、小指掌心弯曲，与槌柄保持一定的间隙以控制鼓槌。左手掌心向内侧，拇指食指虎口处夹持鼓槌柄部，用无名指第三关节托住鼓槌底部。其它手指向掌心方向自然变曲成握球状。\n" +
-                        "掌握了正确的持槌姿势，还要有正确的击奏方法。在训练中一定切记击奏二字，也就是说要弹击。鼓槌击打在鼓面后，须立即恢复击鼓时的预备动作。击鼓动作要完成于瞬间，而且有弹性和充分的共振，要奏得明亮、集中、结实、有力度，奏出丰满的音响效果。初学者练习击奏时还应注意击奏位置，应击在小鼓的中心点三至五厘米处。此外，还有边击法、制音边击法、交替击奏法、滚奏等等。在练习时可先单手练，然后双手练，也可双手交替练习。\n" +
+                        "\t\t\t\t小鼓也称军鼓，是西洋无调打击乐器中最主要的一件乐器，是架子鼓中的一件。小鼓的演奏姿势，也是架子鼓的演奏姿势。在架子鼓演奏中，因脚需同时踩大鼓和踩钗，所以采用坐姿演奏。演奏时要姿势端正，胸、肩、大臂等上身肢体自然放松。击奏时，双臂向上自然弯曲置于鼓面上，双手握槌，右手拇指第二关节和食指二三关节握鼓槌柄部，拇指与食指第三关节自然并拢，中指、无名指、小指掌心弯曲，与槌柄保持一定的间隙以控制鼓槌。左手掌心向内侧，拇指食指虎口处夹持鼓槌柄部，用无名指第三关节托住鼓槌底部。其它手指向掌心方向自然变曲成握球状。\n" +
+                        "\t\t\t\t掌握了正确的持槌姿势，还要有正确的击奏方法。在训练中一定切记击奏二字，也就是说要弹击。鼓槌击打在鼓面后，须立即恢复击鼓时的预备动作。击鼓动作要完成于瞬间，而且有弹性和充分的共振，要奏得明亮、集中、结实、有力度，奏出丰满的音响效果。初学者练习击奏时还应注意击奏位置，应击在小鼓的中心点三至五厘米处。此外，还有边击法、制音边击法、交替击奏法、滚奏等等。在练习时可先单手练，然后双手练，也可双手交替练习。\n" +
                         "⑵低音大鼓踏奏法：\n" +
-                        "　　低音大鼓用右脚踏击，在通常情况下，脚跟踩在踏板的后端，以踝关节为轴，用前脚掌踏击踏板而带动鼓槌击打鼓面。踏击时，大腿、小腿、脚部肌肉相应放松，槌头击鼓面后要立即返回，形成循环的踏击动作。在极强击奏时，可将脚悬起后用脚尖踏击踏板，使右腿全部重量落在一个点上，从而加强踏击的力度，得到预想的效果。\n" +
+                        "\t\t\t\t低音大鼓用右脚踏击，在通常情况下，脚跟踩在踏板的后端，以踝关节为轴，用前脚掌踏击踏板而带动鼓槌击打鼓面。踏击时，大腿、小腿、脚部肌肉相应放松，槌头击鼓面后要立即返回，形成循环的踏击动作。在极强击奏时，可将脚悬起后用脚尖踏击踏板，使右腿全部重量落在一个点上，从而加强踏击的力度，得到预想的效果。\n" +
                         "⑶踩钗踏奏法：\n" +
-                        "　　踩钗用左脚踏击，它的击奏要领是将脚跟踩在踏板的后端，以踝关节为轴，由脚前掌踏击踏板，当脚前掌击下后，不需要立即返回而需控制延音，造成封闭的音响效果，这也是与右脚大鼓不同之处。　 \n" +
+                        "\t\t\t\t踩钗用左脚踏击，它的击奏要领是将脚跟踩在踏板的后端，以踝关节为轴，由脚前掌踏击踏板，当脚前掌击下后，不需要立即返回而需控制延音，造成封闭的音响效果，这也是与右脚大鼓不同之处。　 \n" +
                         "⑷嗵鼓击奏法：\n" +
-                        "嗵鼓击奏要领同小鼓，在换鼓击奏时，需用手腕带动小臂和大臂，自然地运动到其它各鼓的部位，形成自然协调的动作。\n" +
+                        "\t\t\t\t嗵鼓击奏要领同小鼓，在换鼓击奏时，需用手腕带动小臂和大臂，自然地运动到其它各鼓的部位，形成自然协调的动作。\n" +
                         "持棒方法在控制方面：主要是持棒的三种方式。\n" +
-                        "　　1、直腕式：左右手持棒一样，以大拇指、食指、中指捏在鼓棒三分之一的地方，无名 指与小拇指自然并拢轻贴在后面，不要影响棒的运动，两手手心相对，注意双手的对称与平衡，鼓棒敲击点要相对集中。定音鼓、梯形木琴等基本都用此种腕法演奏。\n" +
-                        "　　2、标准式：右手如直腕式，左手虎口夹住距离鼓棒棒尾端约三分之一的地方，并搁在无名指与小拇指半握后的关节上，食指与中指自然弯曲，整个手形呈半握拳状。掌心向内。以虎口拇指持棒，并以无名指与小拇指将棒托住，两鼓棒呈九十度左右。左手以翻转力量打击。此种腕法主要用于演奏小军鼓，以及爵士鼓奏法。\n" +
-                        "　　3、扣腕式：持棒与直腕式大致相同，但双手要向内翻一下，使手心朝下，两鼓棒集中于敲击点上，两棒呈九十度左右的角度。玛琳巴琴、钢片琴、爵士鼓以及室内演奏小军鼓等均用此腕法。\n" +
-                        "不论何种方式控制鼓棒，均须灵活运用手臂、手腕及手指，尤其是手腕及手指，使双手与鼓棒成为一体，自然地运动鼓棒，轻松自如。\n" +
+                        "\t\t\t\t1、直腕式：左右手持棒一样，以大拇指、食指、中指捏在鼓棒三分之一的地方，无名 指与小拇指自然并拢轻贴在后面，不要影响棒的运动，两手手心相对，注意双手的对称与平衡，鼓棒敲击点要相对集中。定音鼓、梯形木琴等基本都用此种腕法演奏。\n" +
+                        "\t\t\t\t2、标准式：右手如直腕式，左手虎口夹住距离鼓棒棒尾端约三分之一的地方，并搁在无名指与小拇指半握后的关节上，食指与中指自然弯曲，整个手形呈半握拳状。掌心向内。以虎口拇指持棒，并以无名指与小拇指将棒托住，两鼓棒呈九十度左右。左手以翻转力量打击。此种腕法主要用于演奏小军鼓，以及爵士鼓奏法。\n" +
+                        "\t\t\t\t3、扣腕式：持棒与直腕式大致相同，但双手要向内翻一下，使手心朝下，两鼓棒集中于敲击点上，两棒呈九十度左右的角度。玛琳巴琴、钢片琴、爵士鼓以及室内演奏小军鼓等均用此腕法。\n" +
+                        "\t\t\t\t不论何种方式控制鼓棒，均须灵活运用手臂、手腕及手指，尤其是手腕及手指，使双手与鼓棒成为一体，自然地运动鼓棒，轻松自如。\n" +
                         "架子鼓 - 滚奏和压奏\n" +
-                        "　　滚奏：方法通过控制鼓追均匀密集的击奏形成一定的速度才称之为滚奏。（滚奏的概念在国外一些教材上对滚奏的解释是单击和复击通称滚奏，但要求了单击的速度和复击的速度，有些则分开论述，但到最后还是一个速度问题。）加强单击和复击练习是滚奏得以实现基础。滚奏并不是完全的腕子，有时手指也能起到很大辅助作用，甚至有时手指的功劳更多。\n" +
-                        "压奏：这种演奏方法是靠手腕的控制及鼓皮的反弹相结合的方法。这种技巧是表面上看很简单其实很难练习的，开始先用你的鼓锤在鼓皮上反复弹跳，然后要做到均匀，且在不同的演奏中还有很多连音的技巧，可不是想来的这么简单。练习方法正确速度要慢，要求每一下要让鼓锤充分的在鼓面上弹击并控制好鼓追的弹跳高度直至停止，再换另一只手进行相同的练习（这里说的是对称式，标准式道理相同），寻找鼓槌在鼓面弹击的感觉。练习到多次连续敲击时要有腕子控制的配合。 \n");
+                        "\t\t\t\t滚奏：方法通过控制鼓追均匀密集的击奏形成一定的速度才称之为滚奏。（滚奏的概念在国外一些教材上对滚奏的解释是单击和复击通称滚奏，但要求了单击的速度和复击的速度，有些则分开论述，但到最后还是一个速度问题。）加强单击和复击练习是滚奏得以实现基础。滚奏并不是完全的腕子，有时手指也能起到很大辅助作用，甚至有时手指的功劳更多。\n" +
+                        "\t\t\t\t压奏：这种演奏方法是靠手腕的控制及鼓皮的反弹相结合的方法。这种技巧是表面上看很简单其实很难练习的，开始先用你的鼓锤在鼓皮上反复弹跳，然后要做到均匀，且在不同的演奏中还有很多连音的技巧，可不是想来的这么简单。练习方法正确速度要慢，要求每一下要让鼓锤充分的在鼓面上弹击并控制好鼓追的弹跳高度直至停止，再换另一只手进行相同的练习（这里说的是对称式，标准式道理相同），寻找鼓槌在鼓面弹击的感觉。练习到多次连续敲击时要有腕子控制的配合。 \n");
                 break;
         }
         return instrument;
