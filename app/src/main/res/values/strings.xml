@@ -1,6 +1,6 @@
 <resources>
-    <string name="server_version_url">http://ddeny4app.applinzi.com/BUU/version.xml</string>
-    <string name="server_apk_url">http://7xkqzu.com1.z0.glb.clouddn.com/MusicalInstrument.apk</string>
+    <string name="server_version_url">http://ddenry.tunnel.echomod.cn/BUU/version.xml</string>
+    <string name="server_apk_url">http://ddenry.tunnel.echomod.cn/BUU/Musical_Instrument.apk</string>
     <string name="app_name">乐器百科</string>
     <string name="title_activity_activity__indicator">Activity_Indicator</string>
     <string name="action_settings">Settings</string>

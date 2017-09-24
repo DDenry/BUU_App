@@ -22,6 +22,7 @@ import android.widget.Toast;
 
 import com.dr.rui.sotired.DataBase.DBHelper;
 import com.dr.rui.sotired.Entity.UpdateInfo;
+import com.dr.rui.sotired.Fragment.Fragment_Main_Discovery;
 import com.dr.rui.sotired.Fragment.Fragment_Main_Knowledge;
 import com.dr.rui.sotired.Fragment.Fragment_Main_Knowledge_Instrument;
 import com.dr.rui.sotired.Fragment.Fragment_Main_Me;
@@ -48,6 +49,7 @@ public class Activity_Main extends Activity implements Fragment_Main_Knowledge_I
     private FragmentManager fragmentManager;
     private Fragment_Main_Knowledge fragment_main_knowledge;
     private Fragment_Main_SelfCheck fragment_main_selfCheck;
+    private Fragment_Main_Discovery fragment_main_discovery;
     private Fragment_Main_Me fragment_main_me;
     private CallbackFromActivity callbackFromActivity;
     private DBHelper dbHelper;
@@ -136,7 +138,7 @@ public class Activity_Main extends Activity implements Fragment_Main_Knowledge_I
     //
     private void HideAllFragment() {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.hide(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_me).commit();
+        fragmentTransaction.hide(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_discovery).hide(fragment_main_me).commit();
     }
 
     //
@@ -204,18 +206,19 @@ public class Activity_Main extends Activity implements Fragment_Main_Knowledge_I
             //将首页模块全部以Fragment加载进来
             fragment_main_knowledge = Fragment_Main_Knowledge.newInstance();
             fragment_main_selfCheck = Fragment_Main_SelfCheck.newInstance();
+            fragment_main_discovery = Fragment_Main_Discovery.newInstance();
             fragment_main_me = Fragment_Main_Me.newInstance();
 
             fragmentTransaction.add(R.id.frameLayout_activity_main, fragment_main_knowledge);
             fragmentTransaction.add(R.id.frameLayout_activity_main, fragment_main_selfCheck);
-
+            fragmentTransaction.add(R.id.frameLayout_activity_main, fragment_main_discovery);
             fragmentTransaction.add(R.id.frameLayout_activity_main, fragment_main_me);
             //
             if (haveLogin)
-                fragmentTransaction.hide(fragment_main_knowledge).hide(fragment_main_selfCheck).show(fragment_main_me).commit();
+                fragmentTransaction.hide(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_discovery).show(fragment_main_me).commit();
             else
                 //默认首次加载显示第一页
-                fragmentTransaction.show(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_me).commit();
+                fragmentTransaction.show(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_discovery).hide(fragment_main_me).commit();
             //添加监听事件
             addListener();
             return true;
@@ -259,8 +262,15 @@ public class Activity_Main extends Activity implements Fragment_Main_Knowledge_I
                     }
                     break;
                 case R.id.imageView_moniyanzou:
-                    intent = new Intent(Activity_Main.this, MainActivity.class);
-                    startActivity(intent);
+                    /*intent = new Intent(Activity_Main.this, MainActivity.class);
+                    startActivity(intent);*/
+                    if (fragment_main_discovery.isHidden()) {
+                        HideAllFragment();
+                        fragmentTransaction.show(fragment_main_discovery).commit();
+                        //
+                        setImageBackground();
+                        imageView_moniyanzou.setBackgroundColor(Color.GRAY);
+                    }
                     break;
                 case R.id.imageView_guanyuwomen:
                     if (fragment_main_me.isHidden()) {

@@ -45,6 +45,7 @@ public class Activity_First_Page extends Activity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 0:
+                    //检查更新
                     UpdateVersion();
                     break;
                 case 1:

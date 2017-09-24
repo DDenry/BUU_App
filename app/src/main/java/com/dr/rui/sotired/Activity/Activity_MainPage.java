@@ -39,13 +39,13 @@ public class Activity_MainPage extends Activity {
 
     private void init() {
         imageButton_encyclopeadia = (ImageButton) findViewById(R.id.imageButton_encyclopeadia);
-        imageButton_encyclopeadia.setImageBitmap(Image.readBitMap(Activity_MainPage.this,R.drawable.encyclopaedia));
-        imageButton_test= (ImageButton) findViewById(R.id.imageButton_test);
-        imageButton_test.setImageBitmap(Image.readBitMap(Activity_MainPage.this,R.drawable.test));
-        imageButton_perform= (ImageButton) findViewById(R.id.imageButton_perform);
-        imageButton_perform.setImageBitmap(Image.readBitMap(Activity_MainPage.this,R.drawable.perform));
-        imageButton_about= (ImageButton) findViewById(R.id.imageButton_about);
-        imageButton_about.setImageBitmap(Image.readBitMap(Activity_MainPage.this,R.drawable.about));
+        imageButton_encyclopeadia.setImageBitmap(Image.readBitMap(Activity_MainPage.this, R.drawable.encyclopaedia));
+        imageButton_test = (ImageButton) findViewById(R.id.imageButton_test);
+        imageButton_test.setImageBitmap(Image.readBitMap(Activity_MainPage.this, R.drawable.test));
+        imageButton_perform = (ImageButton) findViewById(R.id.imageButton_perform);
+        imageButton_perform.setImageBitmap(Image.readBitMap(Activity_MainPage.this, R.drawable.perform));
+        imageButton_about = (ImageButton) findViewById(R.id.imageButton_about);
+        imageButton_about.setImageBitmap(Image.readBitMap(Activity_MainPage.this, R.drawable.about));
     }
 
 
