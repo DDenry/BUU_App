@@ -49,7 +49,7 @@ public class Fragment_Main_Knowledge extends Fragment implements Activity_Main.C
         fragmentTransaction.add(R.id.frameLayout_main_knowledge, fragment_main_knowledge_nation);
         fragmentTransaction.add(R.id.frameLayout_main_knowledge, fragment_main_knowledge_occident);
 
-        fragmentTransaction.show(fragment_main_knowledge_nation).hide(fragment_main_knowledge_occident).commit();
+        fragmentTransaction.show(fragment_main_knowledge_nation).hide(fragment_main_knowledge_occident).commitAllowingStateLoss();
         // Inflate the layout for this fragment
         return view;
     }

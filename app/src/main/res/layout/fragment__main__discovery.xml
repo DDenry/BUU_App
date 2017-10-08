@@ -109,7 +109,7 @@
                                 android:layout_weight="1"
                                 android:padding="3dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/luntan3" />
+                                android:src="@drawable/info_2" />
                         </TableRow>
 
                         <TableRow>
@@ -199,7 +199,7 @@
                                 android:layout_weight="1"
                                 android:padding="3dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/luntan1" />
+                                android:src="@drawable/luntan3" />
 
                             <ImageView
                                 android:layout_width="0dp"
@@ -207,7 +207,7 @@
                                 android:layout_weight="1"
                                 android:padding="3dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/luntan3" />
+                                android:src="@drawable/luntan4" />
                         </TableRow>
 
                         <TableRow>

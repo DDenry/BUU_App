@@ -218,7 +218,7 @@ public class Activity_Main extends Activity implements Fragment_Main_Knowledge_I
                 fragmentTransaction.hide(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_discovery).show(fragment_main_me).commit();
             else
                 //默认首次加载显示第一页
-                fragmentTransaction.show(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_discovery).hide(fragment_main_me).commit();
+                fragmentTransaction.show(fragment_main_knowledge).hide(fragment_main_selfCheck).hide(fragment_main_discovery).hide(fragment_main_me).commitAllowingStateLoss();
             //添加监听事件
             addListener();
             return true;

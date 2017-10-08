@@ -37,7 +37,7 @@ public class Fragment_Main_Knowledge_Nation extends Fragment implements Fragment
         fragmentTransaction.add(R.id.frameLayout_main_knowledge_nation_tan, fragment_main_knowledge_nation_tan);
         fragmentTransaction.add(R.id.frameLayout_main_knowledge_nation_da, fragment_main_knowledge_nation_da);
 
-        fragmentTransaction.show(fragment_main_knowledge_nation_blow).show(fragment_main_knowledge_nation_la).show(fragment_main_knowledge_nation_tan).show(fragment_main_knowledge_nation_da).commit();
+        fragmentTransaction.show(fragment_main_knowledge_nation_blow).show(fragment_main_knowledge_nation_la).show(fragment_main_knowledge_nation_tan).show(fragment_main_knowledge_nation_da).commitAllowingStateLoss();
         return view;
     }
 

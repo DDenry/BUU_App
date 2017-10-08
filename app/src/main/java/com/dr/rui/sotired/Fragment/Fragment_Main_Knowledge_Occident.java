@@ -40,7 +40,7 @@ public class Fragment_Main_Knowledge_Occident extends Fragment implements Fragme
         fragmentTransaction.add(R.id.frameLayout_main_knowledge_occident_tan, fragment_main_knowledge_occident_tan);
         fragmentTransaction.add(R.id.frameLayout_main_knowledge_occident_da, fragment_main_knowledge_occident_da);
 
-        fragmentTransaction.show(fragment_main_knowledge_occident_blow).show(fragment_main_knowledge_occident_la).show(fragment_main_knowledge_occident_tan).show(fragment_main_knowledge_occident_da).commit();
+        fragmentTransaction.show(fragment_main_knowledge_occident_blow).show(fragment_main_knowledge_occident_la).show(fragment_main_knowledge_occident_tan).show(fragment_main_knowledge_occident_da).commitAllowingStateLoss();
         return view;
     }
 

@@ -82,7 +82,7 @@ public class Fragment_Main_Knowledge_Nation_Blow extends Fragment implements Fra
                 break;
         }
 
-        fragmentTransaction.show(fragment_main_knowledge_play_ways).hide(fragment_main_knowledge_instrument).commit();
+        fragmentTransaction.show(fragment_main_knowledge_play_ways).hide(fragment_main_knowledge_instrument).commitAllowingStateLoss();
         //
         button_test.setOnClickListener(new View.OnClickListener() {
             @Override
