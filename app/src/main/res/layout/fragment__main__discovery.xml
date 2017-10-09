@@ -45,7 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="15dp"
+                android:padding="5dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/yinyuehui" />
 
@@ -53,7 +53,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="15dp"
+                android:padding="5dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/baoyang" />
 
@@ -61,7 +61,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="15dp"
+                android:padding="5dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/goumai" />
 
@@ -69,7 +69,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="15dp"
+                android:padding="5dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/peixun" />
 
@@ -222,7 +222,7 @@
                                     android:layout_width="0dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:src="@drawable/gray" />
+                                    android:src="@drawable/nan1" />
 
                                 <LinearLayout
                                     android:layout_width="0dp"
@@ -259,7 +259,7 @@
                                     android:layout_width="0dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
-                                    android:src="@drawable/gray" />
+                                    android:src="@drawable/nan2" />
 
                                 <LinearLayout
                                     android:layout_width="0dp"

@@ -26,8 +26,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:padding="5dp"
-            android:src="@drawable/zhizhenguangpan" />
+            android:padding="5dp" />
     </FrameLayout>
 
     <TextView
@@ -49,7 +48,8 @@
         android:paddingRight="10dp"
         android:paddingTop="3dp"
         android:text="歌曲介绍"
-        android:textSize="17dp" />
+        android:textSize="17dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"

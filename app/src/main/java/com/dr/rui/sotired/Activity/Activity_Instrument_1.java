@@ -1216,7 +1216,7 @@ public class Activity_Instrument_1 extends Activity {
         imageView_music_backward = (ImageView) music.findViewById(R.id.imageView_music_backward);
         imageView_music_backward.setOnClickListener(new onClickListener());
         imageView_music_pic = (ImageView) music.findViewById(R.id.imageView_music_pic_guangpan);
-
+        imageView_music_pic.setImageBitmap(Image.readBitMap(Activity_Instrument_1.this, R.drawable.zhizhenguangpan));
         //设置音乐播放界面图片
         //imageView_music_pic.setImageBitmap(Image.readBitMap(Activity_Instrument_1.this, R.drawable.earphone));
         //skill
