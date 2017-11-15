@@ -171,7 +171,8 @@ public class Fragment_Music_Solo extends Fragment {
         @Override
         public void onClick(View v) {
             //
-            initTextColor();
+            if (v.getId() != R.id.imageView_test_single_music)
+                initTextColor();
             switch (v.getId()) {
                 case R.id.textView_test_music_choice_A:
                     chosen_answer = 0;
@@ -203,7 +204,6 @@ public class Fragment_Music_Solo extends Fragment {
                         new playMusic().execute();
                     else {
                         imageView_test_single_music.clearAnimation();
-
                         mediaPlayer.stop();
                         mediaPlayer.release();
                         mediaPlayer = null;
@@ -254,6 +254,16 @@ public class Fragment_Music_Solo extends Fragment {
                 e.printStackTrace();
             }
             return true;
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+            mediaPlayer = null;
         }
     }
 }

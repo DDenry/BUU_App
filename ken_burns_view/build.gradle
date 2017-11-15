@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven'
 apply plugin: 'signing'
 android {
-    buildToolsVersion '25.0.0'
+    buildToolsVersion '26.0.2'
     compileSdkVersion 21
 }
 android.libraryVariants.all { variant ->
