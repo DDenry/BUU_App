@@ -13,19 +13,12 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <ImageView
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager_discovery"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="fitXY"
-                android:src="@drawable/guanggao1"></ImageView>
+                android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|bottom"
-                android:layout_marginBottom="5dp"
-                android:src="@android:drawable/btn_radio" />
+            </android.support.v4.view.ViewPager>
         </FrameLayout>
     </LinearLayout>
 

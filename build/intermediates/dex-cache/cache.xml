@@ -2,40 +2,24 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\a9edf63b3990f72874493764e1d05e3a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="25.0.0"
-        sha1="8f20e4ef8b30f8b3a8934de337b648f042fbfd3a">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_67edd198752b3acd8ec9bc0e3905d14fd159688a\classes.dex" />
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\15.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\My Code\Android\SoTired\muco_test\build\intermediates\bundles\default\classes.jar"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.1.0.aar\261741d5bb19ed42568439cbb75080ff\jars\classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="25.0.0"
-        sha1="e2287557a54a561663ea9535edc4bcf2864200fb">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_bd921f8e6cb279e33114c5cda7480d7af2ce87ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\My Code\Android\SoTired\tab_page_indicator\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="97acf607145a6da61a019955bdd9fe9d724afab6">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_713ebef7da296d35b75db7b179d75b0a06e1e7a6.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\libs\universal-image-loader-1.9.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.3_a01777f996dad04aa2981868dd24e4250816092c\classes.dex" />
+        revision="26.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\10.jar" />
     </item>
     <item
         is-multidex="true"
@@ -48,84 +32,41 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.8.3_2ac80b96d1b63ce227597ae65c883095b4c762d0.jar" />
+        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.8.3_51d14dd3a45b4b565391df8a2cb9464e78c2364c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\My Code\Android\SoTired\ken_burns_view\build\intermediates\bundles\default\classes.jar"
+        jar="D:\My Code\Android\SoTired\app\libs\universal-image-loader-1.9.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_a01777f996dad04aa2981868dd24e4250816092c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\75f0a5f6b840fdb50d58db4abf0063da\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\ken_burns_view\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
         sha1="1fa180148e422c0e7410219fc1f2a772f94abdc4">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_01886593ed89fbd789c6d421d1f04726b949cc35.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Core-2.8.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.8.3_b23ccb58f44fbba64ed26c268be42a720c0f1506\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-SinaWeibo-2.8.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="23b18b312360535b71c0702b842da81fbadcdba3">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.8.3_228b74f297670e2678a5ac72d3e37138efd061ef\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\My Code\Android\SoTired\circle_menu\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="28977198e825d4bb48c3adeb990b76e8f7cadd5a">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_948d6aafb50ef8938218f7f19502d11a079173e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-QQ-2.8.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.8.3_83e52a0623108e38ecd47b8bf075bd5527f72a2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\My Code\Android\SoTired\app\libs\MobCommons-2017.0412.1554.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0412.1554_124310fafa7f2cc0daaaf66d8520a56da32cb4fc.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-QQ-2.8.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.8.3_83e52a0623108e38ecd47b8bf075bd5527f72a2c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\libs\MobTools-2017.0412.1554.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0412.1554_e183f576cbcce50c77bd24688c58c695e7f4b757\classes.dex" />
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\21.jar" />
     </item>
     <item
         is-multidex="false"
@@ -137,22 +78,14 @@
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.8.3_b23ccb58f44fbba64ed26c268be42a720c0f1506.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\libs\MobCommons-2017.0412.1554.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-SinaWeibo-2.8.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="25.0.0"
-        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0412.1554_124310fafa7f2cc0daaaf66d8520a56da32cb4fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\My Code\Android\SoTired\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_33eb52309977e27ee2d1eaa80e3ea4fa07240862\classes.dex" />
+        revision="26.0.2"
+        sha1="23b18b312360535b71c0702b842da81fbadcdba3">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -164,22 +97,23 @@
         <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.8.3_228b74f297670e2678a5ac72d3e37138efd061ef.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="D:\My Code\Android\SoTired\app\libs\MobTools-2017.0412.1554.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\MobTools-2017.0412.1554_e183f576cbcce50c77bd24688c58c695e7f4b757.jar" />
+        sha1="8f20e4ef8b30f8b3a8934de337b648f042fbfd3a">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_67edd198752b3acd8ec9bc0e3905d14fd159688a\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="25.0.0"
-        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.8.3_51d14dd3a45b4b565391df8a2cb9464e78c2364c.jar" />
+        revision="26.0.2"
+        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\6.jar" />
     </item>
     <item
         is-multidex="true"
@@ -192,12 +126,308 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\My Code\Android\SoTired\app\libs\universal-image-loader-1.9.3.jar"
+        jar="D:\My Code\Android\SoTired\tab_page_indicator\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="97acf607145a6da61a019955bdd9fe9d724afab6">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\ken_burns_view\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
+        sha1="1fa180148e422c0e7410219fc1f2a772f94abdc4">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_01886593ed89fbd789c6d421d1f04726b949cc35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.8.3_83e52a0623108e38ecd47b8bf075bd5527f72a2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\circle_menu\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="28977198e825d4bb48c3adeb990b76e8f7cadd5a">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_33eb52309977e27ee2d1eaa80e3ea4fa07240862\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b07a1f8b9c1fc5caa25c830ebe0c01bf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
         sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_a01777f996dad04aa2981868dd24e4250816092c.jar" />
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Core-2.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d3d26aac0c67984e4612539017f7a5f4bd6507">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.8.3_2ac80b96d1b63ce227597ae65c883095b4c762d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\MobCommons-2017.0412.1554_124310fafa7f2cc0daaaf66d8520a56da32cb4fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e6d37758e70b3579aa20228f5d985397\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.8.3_b23ccb58f44fbba64ed26c268be42a720c0f1506\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Wechat-Moments-2.8.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="415c1cb912f11e414e6beaf1e59090c154f6da8d">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-SinaWeibo-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23b18b312360535b71c0702b842da81fbadcdba3">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.8.3_228b74f297670e2678a5ac72d3e37138efd061ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\MobTools-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2017.0412.1554_e183f576cbcce50c77bd24688c58c695e7f4b757\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\circle_menu\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="28977198e825d4bb48c3adeb990b76e8f7cadd5a">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_948d6aafb50ef8938218f7f19502d11a079173e9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.8.3_83e52a0623108e38ecd47b8bf075bd5527f72a2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-QQ-2.8.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="56808c93d53310bb7e5d79a1a5709dfd2c11d532">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\MobCommons-2017.0412.1554.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f93319b520c12b41265a55d1ccacde97b9f18a9c">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2017.0412.1554_124310fafa7f2cc0daaaf66d8520a56da32cb4fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\b9ada8e47bb8716a9bbdeb1c87030baf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\MobTools-2017.0412.1554.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\My Code\Android\SoTired\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.3_a01777f996dad04aa2981868dd24e4250816092c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\tab_page_indicator\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="97acf607145a6da61a019955bdd9fe9d724afab6">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_713ebef7da296d35b75db7b179d75b0a06e1e7a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\muco_test\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2287557a54a561663ea9535edc4bcf2864200fb">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\classes_bd921f8e6cb279e33114c5cda7480d7af2ce87ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\muco_test\build\intermediates\intermediate-jars\release\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="61f9e7779526ba2d798d74be418d5b307717d65c">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\6395469089985e89d9b3754e5b76250b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\ShareSDK-Core-2.8.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da4b0def0be4d4be0d3460638e087d01f60347c0">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\adt-bundle-windows-x86_64-20140702\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a3c600ff4408101866a9642bb42cfc7e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\My Code\Android\SoTired\app\libs\MobTools-2017.0412.1554.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ff1c0540ed5607fa34269a7adc63679e4fcfb714">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\pre-dexed\debug\MobTools-2017.0412.1554_e183f576cbcce50c77bd24688c58c695e7f4b757.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rui\.gradle\caches\transforms-1\files-1.1\library-1.4.6.aar\e2ad76465893492cba40060a785eb023\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4f92bd1d1b0bafa88251fcda541517d3616d2e5">
+        <dex dex="D:\My Code\Android\SoTired\app\build\intermediates\transforms\preDex\release\9.jar" />
     </item>
 
 </items>
